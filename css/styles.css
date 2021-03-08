@@ -10251,12 +10251,12 @@ body {
   }
 }
 
-.my_black_background {
-  margin: auto;
+.my_projects {
   background: #000000;
+  margin: auto;
 }
 
-.my_projects {
+.my_projects2 {
   margin: 0;
   position: absolute;
   top: 50%;
