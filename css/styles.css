@@ -10252,6 +10252,7 @@ body {
 
 .my_projects {
   margin: auto;
+  margin-left: 5px;
 }
 
 .my_bb {
