@@ -10201,12 +10201,6 @@ body {
   border: 0;
 }
 
-my_projects {
-  float: left;
-  padding: 20px;
-  background: #000000;
-}
-
 .masthead {
   position: relative;
   width: 100%;
@@ -10256,6 +10250,11 @@ my_projects {
   }
 }
 
+.my_projects {
+  float: left;
+  /*padding: 20px;*/
+  background: #000000;
+}
 
 .myhead {
   position: relative;
