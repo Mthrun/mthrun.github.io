@@ -10251,10 +10251,14 @@ body {
 }
 
 .my_black_background {
+  margin: auto;
   background: #000000;
 }
 
 .my_projects {
+  margin: 0;
+  position: absolute;
+  top: 50%;
   position: relative;
   margin: auto;
   width: 100%;
