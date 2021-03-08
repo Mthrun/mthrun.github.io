@@ -10253,10 +10253,11 @@ body {
 .my_projects {
   position: relative;
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  /*padding-right: 0.75rem;*/
+  /*padding-left: 0.75rem;*/
   flex: 0 0 50%;
   max-width: 50%;
+  background: #000000;
   /*background: #000000;*/
 }
 
