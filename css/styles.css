@@ -10251,8 +10251,11 @@ body {
 }
 
 .my_projects {
-  background-color: #000000;
   margin: auto;
+}
+
+.my_bb {
+  background-color: #000000;
 }
 
 .my_projects2 {
