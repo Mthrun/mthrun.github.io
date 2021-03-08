@@ -10250,6 +10250,10 @@ body {
   }
 }
 
+.my_black_background {
+  background: #000000;
+}
+
 .my_projects {
   position: relative;
   width: 100%;
