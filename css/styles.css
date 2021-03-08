@@ -10276,6 +10276,7 @@ body {
   }
 
 .my_proj_text {
+  width: 100%;
   display: inline-block;
   font-size: 40px;
   background-color:#000000;
