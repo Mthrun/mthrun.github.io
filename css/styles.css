@@ -10279,13 +10279,14 @@ body {
   width: 100%;
   display: inline-block;
   font-size: 40px;
-  background-color:#000000;
+  background-color:#ffffff;
+  /*background-color:#000000;*/
   /*new:*/
   /*font-family: 'Times New Roman';*/
-  line-height: 34px;
+  line-height: 50px;
   height: 35px;
   /*margin-bottom:-5px;*/
-  margin-top:5px;
+  /*margin-top:5px;*/
 }
 
 .my_projects2 {
