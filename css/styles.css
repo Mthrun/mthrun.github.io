@@ -10276,10 +10276,10 @@ body {
   }
 
 .my_proj_text {
-  color:#ffffff;
+  color:#000000;
   display: inline-block;
   font-size: 40px;
-  background-color:#000000;
+  background-color:#ffffff;
   /*new:*/
   font-family: 'Times New Roman';
   line-height: 34px;
