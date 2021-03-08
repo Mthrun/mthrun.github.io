@@ -10259,6 +10259,22 @@ body {
   background-color: #000000;
 }
 
+.my_mt {
+    margin-top: 5px;
+  }
+
+.my_mr {
+    margin-right: 5px;
+  }
+
+.my_mb {
+    margin-bottom: 5px;
+  }
+
+.my_ml {
+    margin-left: 5px;
+  }
+
 .my_projects2 {
   margin: 0;
   position: absolute;
