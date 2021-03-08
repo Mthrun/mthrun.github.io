@@ -10251,8 +10251,8 @@ body {
 }
 
 .my_projects {
-  float: left;
-  /*padding: 20px;*/
+  flex: 0 0 50%;
+  max-width: 50%;
   background: #000000;
 }
 
