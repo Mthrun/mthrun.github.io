@@ -10275,6 +10275,17 @@ body {
     margin-left: 2%;
   }
 
+.my_proj_text {
+  color:#ffffff;
+  display: inline-block;
+  font-size: 40px;
+  background-color:#000000;
+  /*new:*/
+  font-family: 'Times New Roman';
+  line-height: 34px;
+  height: 35px;
+}
+
 .my_projects2 {
   margin: 0;
   position: absolute;
