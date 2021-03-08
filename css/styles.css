@@ -1300,7 +1300,8 @@ pre code {
 
   .col-lg-6 {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 48%;
+    /*max-width: 50%;*/
   }
 
   .col-lg-7 {
@@ -10252,7 +10253,6 @@ body {
 
 .my_projects {
   margin: auto;
-  margin-left: 5px;
 }
 
 .my_bb {
