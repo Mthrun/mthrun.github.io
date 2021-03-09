@@ -1,2 +1,3 @@
+url: "https://deepbionics.org"
 markdown: CommonMarkGhPages
-plugins: - jekyll-sitemap
+plugin: - jekyll-sitemap
