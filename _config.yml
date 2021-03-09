@@ -1,3 +1,4 @@
+url: https://github.com/Mthrun/mthrun.github.io
 markdown: CommonMarkGhPages
 plugins:
   - jekyll-sitemap
