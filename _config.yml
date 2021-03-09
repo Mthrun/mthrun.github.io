@@ -1,1 +1,2 @@
 markdown: CommonMarkGhPages
+plugins: - jekyll-sitemap
