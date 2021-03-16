@@ -4,28 +4,10 @@
         <loc>http://www.deepbionics.org</loc>
     </url>
     <url>
-        <loc>http://www.deepbionics.org/Book.html</loc>
-    </url>
-    <url>
         <loc>http://www.deepbionics.org/ContactMe.html</loc>
     </url>
     <url>
         <loc>http://www.deepbionics.org/Lectures.html</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Projects/ApproachesBigData.html</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Projects/ClusteringAlgorithms.html</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Projects/DataVisualizations.html</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Projects/ProjectionMethods.html</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Projects/SpatioTemporalClusterAnalysis.html</loc>
     </url>
     <url>
         <loc>http://www.deepbionics.org/Publications.html</loc>
@@ -35,29 +17,5 @@
     </url>
     <url>
         <loc>http://www.deepbionics.org/index.html</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/01IntroductionIntoSwarm.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/09DataBionicSwarmDBSV2.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/3DdruckConferencePresentation.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/53NeRV.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/61HochdimDatenMT.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/64QualityAssesmentOfProjectionV2.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/CompoundModelinHydrology.pdf</loc>
-    </url>
-    <url>
-        <loc>http://www.deepbionics.org/Lectures/knowledgediscovery.pdf</loc>
     </url>
 </urlset>
