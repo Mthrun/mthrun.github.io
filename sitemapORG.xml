@@ -4,16 +4,22 @@
         <loc>http://www.deepbionics.org</loc>
     </url>
     <url>
-        <loc>http://www.deepbionics.org/ContactMe.html</loc>
+        <loc>http://www.deepbionics.org/impressum.html</loc>
     </url>
     <url>
-        <loc>http://www.deepbionics.org/Lectures.html</loc>
+        <loc>http://www.deepbionics.org/contactme.html</loc>
     </url>
     <url>
-        <loc>http://www.deepbionics.org/Publications.html</loc>
+        <loc>http://www.deepbionics.org/lectures.html</loc>
     </url>
     <url>
-        <loc>http://www.deepbionics.org/Rpackages.html</loc>
+        <loc>http://www.deepbionics.org/projects.html</loc>
+    </url>
+    <url>
+        <loc>http://www.deepbionics.org/publications.html</loc>
+    </url>
+    <url>
+        <loc>http://www.deepbionics.org/rpackages.html</loc>
     </url>
     <url>
         <loc>http://www.deepbionics.org/index.html</loc>
