@@ -1,1 +1,4 @@
+User-Agent: Googlebot
+Disallow:
+
 Sitemap: https://github.com/Mthrun/mthrun.github.io/blob/master/sitemapORG.xml
