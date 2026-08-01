@@ -1,0 +1,40 @@
+# Deepbionics
+
+> Academic profile and research website of Prof. Dr. Michael C. Thrun, focused on decision support systems, explainable artificial intelligence, machine learning, knowledge discovery and interdisciplinary data science.
+
+Canonical site: https://www.deepbionics.de/
+Primary language: English
+Last updated: 2026-08-01
+
+## Core pages
+
+- [Profile and overview](https://www.deepbionics.de/): Research profile, academic role, applied research and technology transfer.
+- [Research and projects](https://www.deepbionics.de/projects.html): Decision support systems, explainable AI, knowledge discovery, forecasting, clustering and interdisciplinary applications.
+- [Open-source software](https://www.deepbionics.de/rpackages.html): R packages for visualization, clustering, classification, forecasting, distribution analysis and reproducible data science.
+- [Teaching](https://www.deepbionics.de/lectures.html): University teaching and course materials in artificial intelligence, machine learning, knowledge discovery and temporal data mining.
+- [Publications](https://www.deepbionics.de/publications.html): Complete chronological publication list with DOI links where available.
+- [Contact](https://www.deepbionics.de/contactme.html): Academic collaborations, talks, teaching, software and applied-research enquiries.
+
+## Research themes
+
+- Decision support systems in medicine, science, business and industry.
+- Explainable and human-in-the-loop artificial intelligence.
+- Machine learning, classification, clustering and high-dimensional data analysis.
+- Knowledge discovery, visualization and self-organizing swarm intelligence.
+- Time-series forecasting and decision-oriented evaluation.
+- Interdisciplinary research in medicine, life sciences, environmental science, archaeology, economics and industrial analytics.
+
+## Authoritative identity links
+
+- [University profile](https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/)
+- [ORCID](https://orcid.org/0000-0001-9542-5543)
+- [Google Scholar](https://scholar.google.de/citations?hl=en&user=LyA4BVEAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/)
+- [GitHub](https://github.com/Mthrun)
+- [ResearchGate](https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503)
+- [DBLP](https://dblp.org/pid/205/4239)
+- [Xing](https://www.xing.com/profile/Michael_Thrun)
+
+## Citation guidance
+
+Use DOI links on the publication and project pages as the authoritative source for individual scholarly works. Medical AI projects are decision-support systems and do not replace integrated expert diagnosis. Commercial project descriptions may be limited by confidentiality agreements.

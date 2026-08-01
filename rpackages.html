@@ -1,215 +1,1045 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." />
-        <meta name="author" content="Michael C. Thrun" />
-        <title>Open-Source Software | Michael C. Thrun</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version) -->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap) -->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="projects">Research &amp; Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="rpackages">Software</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="lectures">Teaching</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications">Publications</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contactme">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead -->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Open-Source Software</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">R packages for knowledge discovery, machine learning, visualization, clustering, classification and time-series analysis.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#aboutRPackages">View Software</a>
-                </div>
-            </div>
-        </header>
 
-        <section class="projects-section bg-light" id="aboutRPackages">
-            <section class="my-plain-text-section">
-                <h1>Research Software on CRAN and GitHub</h1>
-                <p>These open-source packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub.</p>
-                <p>For reproducible use, please consult the package documentation and cite both the software and the associated methodological publication where applicable.</p>
-                <div class="table-responsive">
-                    <table class="table table-light table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col">Package and Purpose</th>
-                                <th scope="col">License</th>
-                                <th scope="col">Repository</th>
-                                <th scope="col">Authors / Maintainers</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                <tr class="table-secondary"><th colspan="4" scope="colgroup">Visualization and Distribution Analysis</th></tr>
-                                <tr>
-                                    <td>DataVisualizations: Pareto Density Estimation and MD Plot</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=DataVisualizations" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Felix Pape, Onno Hansen-Goos, Quirin Stier, Hamza Tayyab, Luca Brinkmann, Dirk Eddelbuettel, Winston Chan, Craig Varrichio, Alfred Ultsch</td>
-                                </tr>
-                                <tr>
-                                    <td>AdaptGauss: Gaussian Mixture Models</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=AdaptGauss" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Onno Hansen-Goos, Rabea Griese, Catharina Lippmann, Florian Lerch, Jörn Lötsch, Alfred Ultsch</td>
-                                </tr>
-                                <tr>
-                                    <td>AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/AdaptGauss2D" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Quirin Stier, Michael Thrun</td>
-                                </tr>
-                                <tr class="table-secondary"><th colspan="4" scope="colgroup">Structure Discovery, Clustering and Dimensionality Reduction</th></tr>
-                                <tr>
-                                    <td>DatabionicSwarm</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=DatabionicSwarm" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun</td>
-                                </tr>
-                                <tr>
-                                    <td>ProjectionBasedClustering</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=ProjectionBasedClustering" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Florian Lerch, Felix Pape, Kristian Nybo, Jarkko Venna</td>
-                                </tr>
-                                <tr>
-                                    <td>GeneralizedUmatrix</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=GeneralizedUmatrix" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Alfred Ultsch</td>
-                                </tr>
-                                <tr>
-                                    <td>Umatrix</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=Umatrix" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Alfred Ultsch</td>
-                                </tr>
-                                <tr>
-                                    <td>FCPS: Fundamental Clustering Problems Suite</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=FCPS" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Peter Nahrgang, Felix Pape, Vasyl Pihur, Guy Brock, Susmita Datta, Somnath Datta, Luis Winckelmann, Alfred Ultsch, Quirin Stier</td>
-                                </tr>
-                                <tr class="table-secondary"><th colspan="4" scope="colgroup">Classification, Feature Selection and Distances</th></tr>
-                                <tr>
-                                    <td>ABCanalysis</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=ABCanalysis" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Michael Thrun, Florian Lerch, Jörn Lötsch, Alfred Ultsch</td>
-                                </tr>
-                                <tr>
-                                    <td>BIDistances: Bioinformatic Distances</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=BIDistances" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Quirin Stier, Luca Brinkmann, Michael Thrun</td>
-                                </tr>
-                                <tr>
-                                    <td>PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/PDEbayes" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Michael Thrun, Quirin Stier</td>
-                                </tr>
-                                <tr>
-                                    <td>Classifiers</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/Classifiers" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Michael Thrun, Rabea Griese, Alfred Ultsch</td>
-                                </tr>
-                                <tr>
-                                    <td>Distances</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/Distances" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Raphael Paebst, Felix Pape, Michael Thrun</td>
-                                </tr>
-                                <tr class="table-secondary"><th colspan="4" scope="colgroup">Time Series and Computation</th></tr>
-                                <tr>
-                                    <td>Multiresolution Forecasting Using Wavelets (mrf)</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=mrf" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Quirin Stier, Michael Thrun</td>
-                                </tr>
-                                <tr>
-                                    <td>TimeSeries</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/TSAT" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Michael Thrun</td>
-                                </tr>
-                                <tr>
-                                    <td>Hidden Markov Models (RHmm)</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/RHmm" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Ollivier Taramsco, Sebastian Bauer; maintainer: Michael Thrun</td>
-                                </tr>
-                                <tr>
-                                    <td>memshare: Shared-Memory Multithreading</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://CRAN.R-project.org/package=memshare" target="_blank" rel="noopener noreferrer">CRAN</a></td>
-                                    <td>Julian Märte, Michael Thrun</td>
-                                </tr>
-                                <tr class="table-secondary"><th colspan="4" scope="colgroup">Data Handling and Applied Utilities</th></tr>
-                                <tr>
-                                    <td>DataIO</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/dbt.DataIO" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Michael Thrun, Florian Lerch, Catharina Lippmann, Felix Pape, Onno Hansen-Goos, Quirin Stier, Sabine Herda</td>
-                                </tr>
-                                <tr>
-                                    <td>ImageProcessing</td>
-                                    <td><a href="https://cran.r-project.org/web/licenses/GPL-3" target="_blank" rel="noopener noreferrer">GPL-3</a></td>
-                                    <td><a href="https://github.com/Mthrun/ImageProcessing" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                                    <td>Michael Thrun</td>
-                                </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <p>If you use these packages in scientific work, please cite them accordingly. For bug reports, please include a minimal reproducible example, the package version and the output of <code>sessionInfo()</code>.</p>
-            </section>
-        </section>
-        <!-- Contact and profiles -->
-        <section class="contact-section bg-black">
-            <div class="container">
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://github.com/Mthrun" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a class="mx-2" href="https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
-                    <a class="mx-2" href="https://scholar.google.de/citations?hl=en&amp;user=LyA4BVEAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fab fa-google"></i></a>
-                    <a class="mx-2" href="https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="mx-2" href="mailto:info@deepbionics.org" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                    <a class="mx-2" href="https://www.xing.com/profile/Michael_Thrun" target="_blank" rel="noopener noreferrer" aria-label="Xing"><i class="fab fa-xing"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- Footer -->
-        <footer class="footer bg-black small text-center text-white-50">
-            <div class="container">Copyright &copy; Deepbionics 2018&ndash;2026 &middot; <a href="impressum">Impressum</a></div>
-        </footer>
-        <!-- Bootstrap core JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS -->
-        <script src="js/scripts.js"></script>
-    </body>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<meta content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." name="description"/>
+<meta content="Michael C. Thrun" name="author"/>
+<title>
+   Open-Source Software | Michael C. Thrun
+  </title>
+<link href="assets/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<!-- Font Awesome icons (free version) -->
+<script crossorigin="anonymous" src="https://use.fontawesome.com/releases/v5.15.1/js/all.js">
+</script>
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
+<!-- Core theme CSS (includes Bootstrap) -->
+<link href="css/styles.css" rel="stylesheet"/>
+<meta content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" name="robots"/>
+<link href="https://www.deepbionics.de/rpackages.html" rel="canonical"/>
+<link href="https://www.deepbionics.de/llms.txt" rel="alternate" title="LLM-friendly site summary" type="text/plain"/>
+<link href="https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/" rel="author"/>
+<link href="https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/" rel="me"/>
+<link href="https://orcid.org/0000-0001-9542-5543" rel="me"/>
+<link href="https://scholar.google.de/citations?hl=en&amp;user=LyA4BVEAAAAJ" rel="me"/>
+<link href="https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/" rel="me"/>
+<link href="https://github.com/Mthrun" rel="me"/>
+<link href="https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503" rel="me"/>
+<link href="https://dblp.org/pid/205/4239" rel="me"/>
+<link href="https://www.xing.com/profile/Michael_Thrun" rel="me"/>
+<meta content="Deepbionics" property="og:site_name"/>
+<meta content="Open-Source Software | Michael C. Thrun" property="og:title"/>
+<meta content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." property="og:description"/>
+<meta content="https://www.deepbionics.de/rpackages.html" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://www.deepbionics.de/assets/img/bg-masthead.jpg" property="og:image"/>
+<meta content="Topographic visualization of complex structures in data" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Open-Source Software | Michael C. Thrun" name="twitter:title"/>
+<meta content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." name="twitter:description"/>
+<meta content="https://www.deepbionics.de/assets/img/bg-masthead.jpg" name="twitter:image"/>
+<script data-deepbionics="structured-data" type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.deepbionics.de/#website",
+      "url": "https://www.deepbionics.de/",
+      "name": "Deepbionics",
+      "alternateName": "Michael C. Thrun — Research, Software and Teaching",
+      "description": "Academic profile, interdisciplinary research projects, open-source software, teaching and publications by Michael C. Thrun in decision support systems, explainable AI, machine learning, knowledge discovery and data science.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.deepbionics.de/#michael-thrun"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.deepbionics.de/#michael-thrun",
+      "name": "Michael C. Thrun",
+      "alternateName": [
+        "Michael Christoph Thrun",
+        "Prof. Dr. habil. Michael C. Thrun"
+      ],
+      "honorificPrefix": "Prof. Dr. habil.",
+      "url": "https://www.deepbionics.de/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.deepbionics.de/assets/img/bg-masthead.jpg",
+        "caption": "Visualization of complex structures in data"
+      },
+      "jobTitle": [
+        "Honorary Professor of Artificial Intelligence",
+        "Researcher",
+        "University Lecturer",
+        "Managing Director"
+      ],
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Philipps-Universität Marburg",
+        "url": "https://www.uni-marburg.de/"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "IAP-GmbH Intelligent Analytics Projects",
+        "url": "https://www.iap-gmbh.de/"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0001-9542-5543",
+        "url": "https://orcid.org/0000-0001-9542-5543"
+      },
+      "email": "mailto:info@deepbionics.org",
+      "sameAs": [
+        "https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/",
+        "https://orcid.org/0000-0001-9542-5543",
+        "https://scholar.google.de/citations?hl=en&user=LyA4BVEAAAAJ",
+        "https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/",
+        "https://github.com/Mthrun",
+        "https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503",
+        "https://dblp.org/pid/205/4239",
+        "https://www.xing.com/profile/Michael_Thrun"
+      ],
+      "knowsAbout": [
+        "Decision Support Systems",
+        "Explainable Artificial Intelligence",
+        "Machine Learning",
+        "Knowledge Discovery",
+        "Data Science",
+        "Human-in-the-loop AI",
+        "Time Series Forecasting",
+        "Clustering",
+        "Swarm Intelligence",
+        "Interdisciplinary Research"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.deepbionics.de/rpackages.html#webpage",
+      "url": "https://www.deepbionics.de/rpackages.html",
+      "name": "Open-Source Software | Michael C. Thrun",
+      "description": "Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science.",
+      "isPartOf": {
+        "@id": "https://www.deepbionics.de/#website"
+      },
+      "about": {
+        "@id": "https://www.deepbionics.de/#michael-thrun"
+      },
+      "author": {
+        "@id": "https://www.deepbionics.de/#michael-thrun"
+      },
+      "inLanguage": "en",
+      "dateModified": "2026-08-01",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.deepbionics.de/assets/img/bg-masthead.jpg"
+      },
+      "mainEntity": {
+        "@id": "https://www.deepbionics.de/rpackages.html#software"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.deepbionics.de/rpackages.html#software",
+      "name": "Open-source R packages and research software",
+      "numberOfItems": 19,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#datavisualizations-pareto-density-estimation-and-md-plot",
+            "name": "DataVisualizations: Pareto Density Estimation and MD Plot",
+            "url": "https://CRAN.R-project.org/package=DataVisualizations",
+            "codeRepository": "https://CRAN.R-project.org/package=DataVisualizations",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: DataVisualizations: Pareto Density Estimation and MD Plot."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#adaptgauss-gaussian-mixture-models",
+            "name": "AdaptGauss: Gaussian Mixture Models",
+            "url": "https://CRAN.R-project.org/package=AdaptGauss",
+            "codeRepository": "https://CRAN.R-project.org/package=AdaptGauss",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: AdaptGauss: Gaussian Mixture Models."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#adaptgauss2d-interactive-gaussian-mixture-modeling-in-2d",
+            "name": "AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D",
+            "url": "https://github.com/Mthrun/AdaptGauss2D",
+            "codeRepository": "https://github.com/Mthrun/AdaptGauss2D",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#databionicswarm",
+            "name": "DatabionicSwarm",
+            "url": "https://CRAN.R-project.org/package=DatabionicSwarm",
+            "codeRepository": "https://CRAN.R-project.org/package=DatabionicSwarm",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: DatabionicSwarm."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#projectionbasedclustering",
+            "name": "ProjectionBasedClustering",
+            "url": "https://CRAN.R-project.org/package=ProjectionBasedClustering",
+            "codeRepository": "https://CRAN.R-project.org/package=ProjectionBasedClustering",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: ProjectionBasedClustering."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#generalizedumatrix",
+            "name": "GeneralizedUmatrix",
+            "url": "https://CRAN.R-project.org/package=GeneralizedUmatrix",
+            "codeRepository": "https://CRAN.R-project.org/package=GeneralizedUmatrix",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: GeneralizedUmatrix."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#umatrix",
+            "name": "Umatrix",
+            "url": "https://CRAN.R-project.org/package=Umatrix",
+            "codeRepository": "https://CRAN.R-project.org/package=Umatrix",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: Umatrix."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#fcps-fundamental-clustering-problems-suite",
+            "name": "FCPS: Fundamental Clustering Problems Suite",
+            "url": "https://CRAN.R-project.org/package=FCPS",
+            "codeRepository": "https://CRAN.R-project.org/package=FCPS",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: FCPS: Fundamental Clustering Problems Suite."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#abcanalysis",
+            "name": "ABCanalysis",
+            "url": "https://CRAN.R-project.org/package=ABCanalysis",
+            "codeRepository": "https://CRAN.R-project.org/package=ABCanalysis",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: ABCanalysis."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#bidistances-bioinformatic-distances",
+            "name": "BIDistances: Bioinformatic Distances",
+            "url": "https://CRAN.R-project.org/package=BIDistances",
+            "codeRepository": "https://CRAN.R-project.org/package=BIDistances",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: BIDistances: Bioinformatic Distances."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#pdenaivebayes-plausible-na-ve-bayes-classifier-using-pareto-density-estimation",
+            "name": "PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation",
+            "url": "https://github.com/Mthrun/PDEbayes",
+            "codeRepository": "https://github.com/Mthrun/PDEbayes",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#classifiers",
+            "name": "Classifiers",
+            "url": "https://github.com/Mthrun/Classifiers",
+            "codeRepository": "https://github.com/Mthrun/Classifiers",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: Classifiers."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#distances",
+            "name": "Distances",
+            "url": "https://github.com/Mthrun/Distances",
+            "codeRepository": "https://github.com/Mthrun/Distances",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: Distances."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#multiresolution-forecasting-using-wavelets-mrf",
+            "name": "Multiresolution Forecasting Using Wavelets (mrf)",
+            "url": "https://CRAN.R-project.org/package=mrf",
+            "codeRepository": "https://CRAN.R-project.org/package=mrf",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: Multiresolution Forecasting Using Wavelets (mrf)."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#timeseries",
+            "name": "TimeSeries",
+            "url": "https://github.com/Mthrun/TSAT",
+            "codeRepository": "https://github.com/Mthrun/TSAT",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: TimeSeries."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#hidden-markov-models-rhmm",
+            "name": "Hidden Markov Models (RHmm)",
+            "url": "https://github.com/Mthrun/RHmm",
+            "codeRepository": "https://github.com/Mthrun/RHmm",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: Hidden Markov Models (RHmm)."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#memshare-shared-memory-multithreading",
+            "name": "memshare: Shared-Memory Multithreading",
+            "url": "https://CRAN.R-project.org/package=memshare",
+            "codeRepository": "https://CRAN.R-project.org/package=memshare",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: memshare: Shared-Memory Multithreading."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#dataio",
+            "name": "DataIO",
+            "url": "https://github.com/Mthrun/dbt.DataIO",
+            "codeRepository": "https://github.com/Mthrun/dbt.DataIO",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: DataIO."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#imageprocessing",
+            "name": "ImageProcessing",
+            "url": "https://github.com/Mthrun/ImageProcessing",
+            "codeRepository": "https://github.com/Mthrun/ImageProcessing",
+            "programmingLanguage": "R",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "creator": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "Open-source R software package: ImageProcessing."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+</head>
+<body id="page-top">
+<!-- Navigation -->
+<a class="sr-only sr-only-focusable" href="#main-content">
+   Skip to main content
+  </a>
+<nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<div class="container">
+<button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+     Menu
+     <i class="fas fa-bars">
+</i>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/">
+        Home
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/projects.html">
+        Research &amp; Projects
+       </a>
+</li>
+<li class="nav-item">
+<a aria-current="page" class="nav-link js-scroll-trigger" href="/rpackages.html">
+        Software
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/lectures.html">
+        Teaching
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/publications.html">
+        Publications
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/contactme.html">
+        Contact
+       </a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<main id="main-content">
+<!-- Masthead -->
+<header class="masthead">
+<div class="container d-flex h-100 align-items-center">
+<div class="mx-auto text-center">
+<h1 class="mx-auto my-0 text-uppercase">
+       Open-Source Software
+      </h1>
+<h2 class="text-white-50 mx-auto mt-2 mb-5">
+       R packages for knowledge discovery, machine learning, visualization, clustering, classification and time-series analysis.
+      </h2>
+<a class="btn btn-primary js-scroll-trigger" href="#aboutRPackages">
+       View Software
+      </a>
+</div>
+</div>
+</header>
+<section class="projects-section bg-light" id="aboutRPackages">
+<section class="my-plain-text-section">
+<h1>
+      Research Software on CRAN and GitHub
+     </h1>
+<p>
+      These open-source packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub.
+     </p>
+<p>
+      For reproducible use, please consult the package documentation and cite both the software and the associated methodological publication where applicable.
+     </p>
+<div class="table-responsive">
+<table class="table table-light table-bordered">
+<thead>
+<tr>
+<th scope="col">
+          Package and Purpose
+         </th>
+<th scope="col">
+          License
+         </th>
+<th scope="col">
+          Repository
+         </th>
+<th scope="col">
+          Authors / Maintainers
+         </th>
+</tr>
+</thead>
+<tbody>
+<tr class="table-secondary">
+<th colspan="4" scope="colgroup">
+          Visualization and Distribution Analysis
+         </th>
+</tr>
+<tr id="datavisualizations-pareto-density-estimation-and-md-plot">
+<td>
+          DataVisualizations: Pareto Density Estimation and MD Plot
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=DataVisualizations" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Felix Pape, Onno Hansen-Goos, Quirin Stier, Hamza Tayyab, Luca Brinkmann, Dirk Eddelbuettel, Winston Chan, Craig Varrichio, Alfred Ultsch
+         </td>
+</tr>
+<tr id="adaptgauss-gaussian-mixture-models">
+<td>
+          AdaptGauss: Gaussian Mixture Models
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=AdaptGauss" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Onno Hansen-Goos, Rabea Griese, Catharina Lippmann, Florian Lerch, Jörn Lötsch, Alfred Ultsch
+         </td>
+</tr>
+<tr id="adaptgauss2d-interactive-gaussian-mixture-modeling-in-2d">
+<td>
+          AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/AdaptGauss2D" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Quirin Stier, Michael Thrun
+         </td>
+</tr>
+<tr class="table-secondary">
+<th colspan="4" scope="colgroup">
+          Structure Discovery, Clustering and Dimensionality Reduction
+         </th>
+</tr>
+<tr id="databionicswarm">
+<td>
+          DatabionicSwarm
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=DatabionicSwarm" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun
+         </td>
+</tr>
+<tr id="projectionbasedclustering">
+<td>
+          ProjectionBasedClustering
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=ProjectionBasedClustering" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Florian Lerch, Felix Pape, Kristian Nybo, Jarkko Venna
+         </td>
+</tr>
+<tr id="generalizedumatrix">
+<td>
+          GeneralizedUmatrix
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=GeneralizedUmatrix" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Alfred Ultsch
+         </td>
+</tr>
+<tr id="umatrix">
+<td>
+          Umatrix
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=Umatrix" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Alfred Ultsch
+         </td>
+</tr>
+<tr id="fcps-fundamental-clustering-problems-suite">
+<td>
+          FCPS: Fundamental Clustering Problems Suite
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=FCPS" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Peter Nahrgang, Felix Pape, Vasyl Pihur, Guy Brock, Susmita Datta, Somnath Datta, Luis Winckelmann, Alfred Ultsch, Quirin Stier
+         </td>
+</tr>
+<tr class="table-secondary">
+<th colspan="4" scope="colgroup">
+          Classification, Feature Selection and Distances
+         </th>
+</tr>
+<tr id="abcanalysis">
+<td>
+          ABCanalysis
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=ABCanalysis" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Michael Thrun, Florian Lerch, Jörn Lötsch, Alfred Ultsch
+         </td>
+</tr>
+<tr id="bidistances-bioinformatic-distances">
+<td>
+          BIDistances: Bioinformatic Distances
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=BIDistances" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Quirin Stier, Luca Brinkmann, Michael Thrun
+         </td>
+</tr>
+<tr id="pdenaivebayes-plausible-na-ve-bayes-classifier-using-pareto-density-estimation">
+<td>
+          PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/PDEbayes" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Michael Thrun, Quirin Stier
+         </td>
+</tr>
+<tr id="classifiers">
+<td>
+          Classifiers
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/Classifiers" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Michael Thrun, Rabea Griese, Alfred Ultsch
+         </td>
+</tr>
+<tr id="distances">
+<td>
+          Distances
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/Distances" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Raphael Paebst, Felix Pape, Michael Thrun
+         </td>
+</tr>
+<tr class="table-secondary">
+<th colspan="4" scope="colgroup">
+          Time Series and Computation
+         </th>
+</tr>
+<tr id="multiresolution-forecasting-using-wavelets-mrf">
+<td>
+          Multiresolution Forecasting Using Wavelets (mrf)
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=mrf" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Quirin Stier, Michael Thrun
+         </td>
+</tr>
+<tr id="timeseries">
+<td>
+          TimeSeries
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/TSAT" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Michael Thrun
+         </td>
+</tr>
+<tr id="hidden-markov-models-rhmm">
+<td>
+          Hidden Markov Models (RHmm)
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/RHmm" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Ollivier Taramsco, Sebastian Bauer; maintainer: Michael Thrun
+         </td>
+</tr>
+<tr id="memshare-shared-memory-multithreading">
+<td>
+          memshare: Shared-Memory Multithreading
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=memshare" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Julian Märte, Michael Thrun
+         </td>
+</tr>
+<tr class="table-secondary">
+<th colspan="4" scope="colgroup">
+          Data Handling and Applied Utilities
+         </th>
+</tr>
+<tr id="dataio">
+<td>
+          DataIO
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/dbt.DataIO" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Michael Thrun, Florian Lerch, Catharina Lippmann, Felix Pape, Onno Hansen-Goos, Quirin Stier, Sabine Herda
+         </td>
+</tr>
+<tr id="imageprocessing">
+<td>
+          ImageProcessing
+         </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://github.com/Mthrun/ImageProcessing" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Michael Thrun
+         </td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>
+      If you use these packages in scientific work, please cite them accordingly. For bug reports, please include a minimal reproducible example, the package version and the output of
+      <code>
+       sessionInfo()
+      </code>
+      .
+     </p>
+</section>
+</section>
+<!-- Contact and profiles -->
+</main>
+<section class="contact-section bg-black">
+<div class="container">
+<div class="social d-flex justify-content-center">
+<a aria-label="GitHub" class="mx-2" href="https://github.com/Mthrun" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-github">
+</i>
+</a>
+<a aria-label="ResearchGate" class="mx-2" href="https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-researchgate">
+</i>
+</a>
+<a aria-label="Google Scholar" class="mx-2" href="https://scholar.google.de/citations?hl=en&amp;user=LyA4BVEAAAAJ" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-google">
+</i>
+</a>
+<a aria-label="LinkedIn" class="mx-2" href="https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-linkedin-in">
+</i>
+</a>
+<a aria-label="Email" class="mx-2" href="mailto:info@deepbionics.org">
+<i class="fas fa-envelope">
+</i>
+</a>
+<a aria-label="Xing" class="mx-2" href="https://www.xing.com/profile/Michael_Thrun" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-xing">
+</i>
+</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer bg-black small text-center text-white-50">
+<div class="container">
+    Copyright © Deepbionics 2018–2026 ·
+    <a href="/impressum.html">
+     Impressum
+    </a>
+</div>
+</footer>
+<!-- Bootstrap core JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js">
+</script>
+<!-- Third party plugin JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js">
+</script>
+<!-- Core theme JS -->
+<script src="js/scripts.js">
+</script>
+</body>
 </html>

@@ -1,43 +1,1209 @@
 <!DOCTYPE html>
+
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Deepbionics</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>-->
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="rpackages">R Packages</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="lectures">Lectures</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="publications">Publications</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contactme">Contact Me</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Markdown Part-->
-        <!--
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<meta content="Complete chronological publication list of Michael C. Thrun in decision support, explainable AI, machine learning, knowledge discovery and interdisciplinary data science." name="description"/>
+<meta content="Michael C. Thrun" name="author"/>
+<title>
+   Publications | Michael C. Thrun
+  </title>
+<link href="assets/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<!-- Font Awesome icons (free version)-->
+<script crossorigin="anonymous" src="https://use.fontawesome.com/releases/v5.15.1/js/all.js">
+</script>
+<!-- Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="css/styles.css" rel="stylesheet"/>
+<meta content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" name="robots"/>
+<link href="https://www.deepbionics.de/publications.html" rel="canonical"/>
+<link href="https://www.deepbionics.de/llms.txt" rel="alternate" title="LLM-friendly site summary" type="text/plain"/>
+<link href="https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/" rel="author"/>
+<link href="https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/" rel="me"/>
+<link href="https://orcid.org/0000-0001-9542-5543" rel="me"/>
+<link href="https://scholar.google.de/citations?hl=en&amp;user=LyA4BVEAAAAJ" rel="me"/>
+<link href="https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/" rel="me"/>
+<link href="https://github.com/Mthrun" rel="me"/>
+<link href="https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503" rel="me"/>
+<link href="https://dblp.org/pid/205/4239" rel="me"/>
+<link href="https://www.xing.com/profile/Michael_Thrun" rel="me"/>
+<meta content="Deepbionics" property="og:site_name"/>
+<meta content="Publications | Michael C. Thrun" property="og:title"/>
+<meta content="Complete chronological publication list of Michael C. Thrun in decision support, explainable AI, machine learning, knowledge discovery and interdisciplinary data science." property="og:description"/>
+<meta content="https://www.deepbionics.de/publications.html" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://www.deepbionics.de/assets/img/bg-masthead.jpg" property="og:image"/>
+<meta content="Topographic visualization of complex structures in data" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Publications | Michael C. Thrun" name="twitter:title"/>
+<meta content="Complete chronological publication list of Michael C. Thrun in decision support, explainable AI, machine learning, knowledge discovery and interdisciplinary data science." name="twitter:description"/>
+<meta content="https://www.deepbionics.de/assets/img/bg-masthead.jpg" name="twitter:image"/>
+<script data-deepbionics="structured-data" type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.deepbionics.de/#website",
+      "url": "https://www.deepbionics.de/",
+      "name": "Deepbionics",
+      "alternateName": "Michael C. Thrun — Research, Software and Teaching",
+      "description": "Academic profile, interdisciplinary research projects, open-source software, teaching and publications by Michael C. Thrun in decision support systems, explainable AI, machine learning, knowledge discovery and data science.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.deepbionics.de/#michael-thrun"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.deepbionics.de/#michael-thrun",
+      "name": "Michael C. Thrun",
+      "alternateName": [
+        "Michael Christoph Thrun",
+        "Prof. Dr. habil. Michael C. Thrun"
+      ],
+      "honorificPrefix": "Prof. Dr. habil.",
+      "url": "https://www.deepbionics.de/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.deepbionics.de/assets/img/bg-masthead.jpg",
+        "caption": "Visualization of complex structures in data"
+      },
+      "jobTitle": [
+        "Honorary Professor of Artificial Intelligence",
+        "Researcher",
+        "University Lecturer",
+        "Managing Director"
+      ],
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Philipps-Universität Marburg",
+        "url": "https://www.uni-marburg.de/"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "IAP-GmbH Intelligent Analytics Projects",
+        "url": "https://www.iap-gmbh.de/"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0001-9542-5543",
+        "url": "https://orcid.org/0000-0001-9542-5543"
+      },
+      "email": "mailto:info@deepbionics.org",
+      "sameAs": [
+        "https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/",
+        "https://orcid.org/0000-0001-9542-5543",
+        "https://scholar.google.de/citations?hl=en&user=LyA4BVEAAAAJ",
+        "https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/",
+        "https://github.com/Mthrun",
+        "https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503",
+        "https://dblp.org/pid/205/4239",
+        "https://www.xing.com/profile/Michael_Thrun"
+      ],
+      "knowsAbout": [
+        "Decision Support Systems",
+        "Explainable Artificial Intelligence",
+        "Machine Learning",
+        "Knowledge Discovery",
+        "Data Science",
+        "Human-in-the-loop AI",
+        "Time Series Forecasting",
+        "Clustering",
+        "Swarm Intelligence",
+        "Interdisciplinary Research"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.deepbionics.de/publications.html#webpage",
+      "url": "https://www.deepbionics.de/publications.html",
+      "name": "Publications | Michael C. Thrun",
+      "description": "Complete chronological publication list of Michael C. Thrun in decision support, explainable AI, machine learning, knowledge discovery and interdisciplinary data science.",
+      "isPartOf": {
+        "@id": "https://www.deepbionics.de/#website"
+      },
+      "about": {
+        "@id": "https://www.deepbionics.de/#michael-thrun"
+      },
+      "author": {
+        "@id": "https://www.deepbionics.de/#michael-thrun"
+      },
+      "inLanguage": "en",
+      "dateModified": "2026-08-01",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.deepbionics.de/assets/img/bg-masthead.jpg"
+      },
+      "mainEntity": {
+        "@id": "https://www.deepbionics.de/publications.html#publications"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.deepbionics.de/publications.html#publications",
+      "name": "Chronological publication list of Michael C. Thrun",
+      "numberOfItems": 74,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-1",
+            "name": "Thrun, M. C., Hoffman, J., Krause, S. W., Krawitz, P., Stier, Q., Neubauer, A., Brendel*, C. Ultsch*, A.: Self-explaining Artificial Intelligence for the Classification of B cell Non-Hodgkin Lymphoma: A diagnostic decision support study, PLoS Med, Vol 23(7), e1004889, DOI: 10.1371/journal.pmed.1004889 , *equal contributions, 2026.",
+            "url": "https://doi.org/10.1371/journal.pmed.1004889",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1371/journal.pmed.1004889"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-2",
+            "name": "Stier, Q.,Hoffmann, J. & Thrun, M. C.: Classifying with the Fine Structure of Distributions: Leveraging Distributional Information for Robust and Plausible Naïve Bayes, Machine Learning and Knowledge Extraction (MAKE), Vol. 8(1), 13, DOI: 10.3390/make8010013 , MDPI, 2026.",
+            "url": "https://doi.org/10.3390/make8010013",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/make8010013"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-3",
+            "name": "Thrun, M.C.& Märte, J. Memshare: Memory Sharing for Multicore Computation in R with an Application to Feature Selection by Mutual Information using PDE, The R Journal, Vol. 17(4), pp. 306-322, DOI: 10.32614/RJ-2025-043 , 2026.",
+            "url": "https://doi.org/10.32614/RJ-2025-043",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.32614/RJ-2025-043"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-4",
+            "name": "Thrun, M. C. & Hoffmann, J.: PDE-based naïve Bayes classifier for the distinction of Non- vs Oligo-, and Polymetastatic Cancer through Flow Cytometry, 19th conference of the International Federation of Classification Societies (IFCS), Milan, Italy, July 14-16, accepted, 2026.",
+            "url": "https://www.deepbionics.de/publications.html#publication-4",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-5",
+            "name": "Thrun, M. C. & Hoffmann, J.: Classifying the Fine Structure of Distributions of Flow Cytometry Data through a Flexible and Plausible Naïve Bayes, Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026.",
+            "url": "https://www.deepbionics.de/publications.html#publication-5",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-6",
+            "name": "Stier, Q .& Thrun, M. C.: Emergent Self-Organizing Swarm Intelligence using weak Nash-Equilibria for Pattern Classification, Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026.",
+            "url": "https://www.deepbionics.de/publications.html#publication-6",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-7",
+            "name": "Stier, Q. & Thrun, M. C.: An efficient multicore CPU implementation of the DatabionicSwarm, in: Trejos, J., Chadjipadelis, T., Grané, A., Villalobos, M. (eds) Data Science, Classification, and Artificial Intelligence for Modeling Decision Making, Studies in Classification, Data Analysis, and Knowledge Organization. Springer, Cham, 18th conference of the International Federation of Classification Societies (IFCS), San José, Costa Rica, July 14-19, DOI: 10.1007/978-3-031-85870-3_20 , 2025.",
+            "url": "https://doi.org/10.1007/978-3-031-85870-3_20",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/978-3-031-85870-3_20"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-8",
+            "name": "Hoffmann, J., Rheude, A. Neubauer, A. Brendel, C., & Thrun, M. C.: Development of an explainable AI System Using Routine Clinical Parameters for Rapid Differentiation of Inflammatory Conditions, Frontiers in Immunology, Vol. 15, pp. 1364954, DOI: 10.3389/fimmu.2024.1364954 , 2024.",
+            "url": "https://doi.org/10.3389/fimmu.2024.1364954",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3389/fimmu.2024.1364954"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-9",
+            "name": "Ultsch, A., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., & Thrun, M. C.: An Explainable AI System for the Diagnosis of High Dimensional Biomedical Data, BioMedInformatics, Vol. 4(1), pp. 197-218, DOI: 10.3390/biomedinformatics4010013 , 2024.",
+            "url": "https://doi.org/10.3390/biomedinformatics4010013",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/biomedinformatics4010013"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-10",
+            "name": "López-García, P., Argote, D. L., Torres-García, M. & Thrun, M. C.: Knowledge Discovery for Archaeological Materials, Cambridge Elements Series, Cambridge University Press, accepted, 2024.",
+            "url": "https://www.deepbionics.de/publications.html#publication-10",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-11",
+            "name": "López-García, P., Argote, D. L., Torres-García, M. & Thrun, M. C.: Machine Learning for Archaeological Applications in R, Cambridge Elements Series, Cambridge University Press, accepted, 2024.",
+            "url": "https://www.deepbionics.de/publications.html#publication-11",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-12",
+            "name": "Thrun, M. C., Märte, J., & Stier, Q.: Analyzing Quality Measurements for Dimensionality Reduction, Machine Learning and Knowledge Extraction (MAKE), Vol. 5(3), pp. 1076-1118, DOI: 10.3390/make5030056 , 2023.",
+            "url": "https://doi.org/10.3390/make5030056",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/make5030056"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-13",
+            "name": "Thrun, M. C. & Stier, Q..: Deriving homogeneous subsets from gene sets by exploiting the Gene Ontology, Informatica, Vol.34(2), pp. 357–386, DOI: 10.15388/23-INFOR517 , 2023.",
+            "url": "https://doi.org/10.15388/23-INFOR517",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.15388/23-INFOR517"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-14",
+            "name": "Thrun, M. C., Stier, Q., & Ultsch, A.: Interactive Toolbox for Two-Dimensional Gaussian Mixture Modeling, In: Amini M-R, Canu S, Fischer A, Guns T, Kralj Novak P, Tsoumakas G, editors, Machine Learning and Knowledge Discovery in Databases, Vol. 13718, DOI: 10.1007/978-3-031-26422-1_51 , Springer Nature Switzerland, Proc. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), 19th-23rd September 2022, Grenoble, France, pp. 658-661, 2023.",
+            "url": "https://doi.org/10.1007/978-3-031-26422-1_51",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/978-3-031-26422-1_51"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-15",
+            "name": "Hoffmann, J., Eminovic, S., Wilhelm, C., Krause, S. W., Neubauer, A., Thrun, M. C., . . . Brendel, C.: Prediction of clinical outcomes with explainable artificial intelligence in patients with chronic lymphocytic leukemia Current Oncology, Vol. 30(2), pp. 1903-1915, DOI: 10.3390/curroncol30020148 , 2023.",
+            "url": "https://doi.org/10.3390/curroncol30020148",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/curroncol30020148"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-16",
+            "name": "Hoffman, J., Rheude, A., & Thrun, M. C.: Explainable AI for Rapid and Simple Differential Diagnosis of Inflammatory Conditions Using Combined Myeloid Activation Test, Complete Blood Count, and CRP Analysis, Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.57, Antwerp, Belgium, July 5-7, 2023.",
+            "url": "https://www.deepbionics.de/publications.html#publication-16",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-17",
+            "name": "Brinkann, L., Stier, Q., & Thrun, M. C.: Computing Sensitive Color Transitions for the Identification of Two-Dimensional Structures, Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.109, Antwerp, Belgium, July 5-7, 2023.",
+            "url": "https://www.deepbionics.de/publications.html#publication-17",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-18",
+            "name": "Thrun, M. C., Stier, Q. & Ultsch, A. : Identification of meaningful groups in logarithmic returns of stocks with a human-in-the-loop using and R toolbox, Proc. 16th Professor Aleksander Zelias International Conference on Modelling and Forecasting of Socio-Economic Phenomena, Zakopane, Poland, p.52, 8-11 May, 2023.",
+            "url": "https://www.deepbionics.de/publications.html#publication-18",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-19",
+            "name": "Thrun, M. C.: Identification of explainable structures in data with a human-in-the-loop, German Journal of Artificial Intelligence (Künstl. Intell.), Vol. 36, pp. 297–301, DOI: 10.1007/s13218-022-00782-6 , Springer, 2022.",
+            "url": "https://doi.org/10.1007/s13218-022-00782-6",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/s13218-022-00782-6"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-20",
+            "name": "Thrun*, M. C., Mack*, E., Neubauer, A., Haferlach, T.,... & Brendel, C.: A Bioinformatics View on Acute Myeloid Leukaemia Surface Molecules by Combined Bayesian and ABC Analysis, Bioengineering, Vol.9(11), pp. 642, DOI: bioengineering9110642 , *equal contribution, 2022.",
+            "url": "https://doi.org/10.3390/bioengineering9110642",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/bioengineering9110642"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-21",
+            "name": "Thrun, M. C.: Exploiting Distance-Based Structures in Data Using an Explainable AI for Stock Picking, Information, Vol. 13(2), DOI: 10.3390/info13020051 , MDPI, 2022.",
+            "url": "https://doi.org/10.3390/info13020051",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/info13020051"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-22",
+            "name": "Hoffmann*, J., Thrun*, M. C., Röhnert, M., Von Bonin, M., Oelschlägel, U., Neubauer, A.,... & Brendel, C.: Identification of critical hemodilution by artificial intelligence in bone marrow assessed for minimal residual disease analysis in acute myeloid leukemia: the Cinderella method., Cytometry: Part A, in press, DOI: 10.1002/cyto.a.24686 , *equal contributions, 2022.",
+            "url": "https://doi.org/10.1002/cyto.a.24686",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1002/cyto.a.24686"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-23",
+            "name": "Thrun, M. C., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., & Ultsch, A.: Flow Cytometry datasets consisting of peripheral blood and bone marrow samples for the evaluation of explainable artificial intelligence methods, Data in Brief, Vol. 43, pp. 108382, DOI: 10.1016/j.dib.2022.108382 , 2022.",
+            "url": "https://doi.org/10.1016/j.dib.2022.108382",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1016/j.dib.2022.108382"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-24",
+            "name": "Thrun, M. C.: Knowledge-based Indentification of Homogenous Structures in Genes, 10th World Conference on Information Systems and Technologies (WorldCist’22), in: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies, Lecture Notes in Networks and Systems, Vol 468.,pp. 81-90, DOI: 10.1007/978-3-031-04826-5_9 , Budva, Montenegro, 12-14 April, 2022.",
+            "url": "https://doi.org/10.1007/978-3-031-04826-5_9",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/978-3-031-04826-5_9"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-25",
+            "name": "Stier, Q., & Thrun, M. C.: Exploiting Pareto Density Estimation for Nonparametric Naive Bayes Classifiers, Proc. International Federation of Classification Societies (IFCS), p.278, Porto, Portugal, 19-23. July, 2022.",
+            "url": "https://www.deepbionics.de/publications.html#publication-25",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-26",
+            "name": "Stier, Q., & Thrun, M. C.: Pitfalls of Automatic Optimization Procedures and Benchmarking in Cluster Analysis, Proc. International Federation of Classification Societies (IFCS), Cluster Benchmarking Challenge, p. 35, Porto, Portugal, 19-23. July, 2022.",
+            "url": "https://www.deepbionics.de/publications.html#publication-26",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-27",
+            "name": "Thrun, M. C. & Ultsch, A.: Selecting representative samples and identifying outliers by Tiles Mining in biomedical data, Proc. European Conference on Data Analysis (ECDA), Naples, Italy, July 14-16, 2022.",
+            "url": "https://www.deepbionics.de/publications.html#publication-27",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-28",
+            "name": "Thrun, M. C., Ultsch, A.: Swarm Intelligence for Self-Organized Clustering, Artificial Intelligence, Vol. 290, pp. 103237, DOI: 10.1016/j.artint.2020.103237 , Elsevier, 2021.",
+            "url": "https://doi.org/10.1016/j.artint.2020.103237",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1016/j.artint.2020.103237"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-29",
+            "name": "Thrun, M. C., Ultsch, A., & Breuer, L.: Explainable AI Framework for Multivariate Hydrochemical Time Series, Machine Learning and Knowledge Extraction (MAKE), Vol. 3(1), pp. 170-205, DOI: 10.3390/make3010009 , MDPI, 2021.",
+            "url": "https://doi.org/10.3390/make3010009",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/make3010009"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-30",
+            "name": "Thrun, M. C.: Distance-Based Clustering Challenges for Unbiased Benchmarking Studies, Nature Scientific Reports, Vol. 11, pp. 18988, DOI: 10.1038/s41598-021-98126-1 , 2021.",
+            "url": "https://doi.org/10.1038/s41598-021-98126-1",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1038/s41598-021-98126-1"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-31",
+            "name": "Thrun, M. C., Pape, F., & Ultsch, A.: Conventional Displays of Structures in Data Compared With Interactive Projection-Based Clustering (IPBC), International Journal of Data Science and Analytics, Vol. 12(3), pp. 249-271, DOI: 10.1007/s41060-021-00264-2 , Springer, 2021.",
+            "url": "https://doi.org/10.1007/s41060-021-00264-2",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/s41060-021-00264-2"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-32",
+            "name": "Thrun, M. C.: The Exploitation of Distance Distributions for Clustering, International Journal of Computational Intelligence and Applications, Vol. 20(3), pp. 2150016, DOI: 10.1142/S1469026821500164 , 2021.",
+            "url": "https://doi.org/10.1142/S1469026821500164",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1142/S1469026821500164"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-33",
+            "name": "Stier, Q., Gehlert, T., & Thrun, M. C.:: Multiresolution Forecasting for Industrial Applications, Processes, Vol. 9(10), pp. 1697, DOI: 10.3390/pr9101697 , 2021.",
+            "url": "https://doi.org/10.3390/pr9101697",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/pr9101697"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-34",
+            "name": "Thrun, M. C., & Stier, Q.: Fundamental Clustering Algorithms Suite, SoftwareX, Vol. 13(C), pp. 100642, DOI: 10.1016/j.softx.2020.100642 , Elsevier, 2021.",
+            "url": "https://doi.org/10.1016/j.softx.2020.100642",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1016/j.softx.2020.100642"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-35",
+            "name": "Thrun, M. C., & Ultsch, A.: Swarm Intelligence for Self-Organized Clustering (Extended Abstract), in Bessiere, C. (Ed.), 29th International Joint Conference on Artificial Intelligence (IJCAI), Vol. IJCAI-20, pp. 5125--5129, DOI 10.24963/ijcai.2020/720 , Yokohama, Japan, Jan., 2021.",
+            "url": "https://doi.org/10.24963/ijcai.2020/720",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.24963/ijcai.2020/720"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-36",
+            "name": "Thrun, M. C.: Human-in-the-loop Detection of Explainable Distance-based Structures in Data for Stock Picking, Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), Rotterdam, Netherlands, July 7-9, 2021.",
+            "url": "https://www.deepbionics.de/publications.html#publication-36",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-37",
+            "name": "Stier, Q., & Thrun, M. C.: Univariate Time Series Forecasting Method based on Wavelets in Comparison with Prophet and MAPA, Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), Rotterdam, Netherlands, July 7-9, 2021.",
+            "url": "https://www.deepbionics.de/publications.html#publication-37",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-38",
+            "name": "Ultsch, A., Hoffman, J., Brendel, C., & Thrun, M. C.: ALPODS an Explainable AI for the Diagnosis of B-cell Lymphoma, Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), Rotterdam, Netherlands, July 7-9, 2021.",
+            "url": "https://www.deepbionics.de/publications.html#publication-38",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-39",
+            "name": "Ultsch, A., Hoffman, J., Brendel, C., & Thrun, M. C.: Dunes and Spice: a Visualisation Method for Explainable Artificial Intelligence (XAI) in Flow Cytometry Diagnostics, Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), Rotterdam, Netherlands, July 7-9, 2021.",
+            "url": "https://www.deepbionics.de/publications.html#publication-39",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-40",
+            "name": "Thrun, M. C., & Ultsch, A. : Using Projection based Clustering to Find Distance and Density based Clusters in High-Dimensional Data, Journal of Classification, Vol. 38(2), pp. 280-312, DOI 10.1007/s00357-020-09373-2 , Springer, 2020.",
+            "url": "https://doi.org/10.1007/s00357-020-09373-2",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/s00357-020-09373-2"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-41",
+            "name": "Thrun, M. C., Gehlert, T. & Ultsch, A.: Analyzing the Fine Structure of Distributions, PLoS ONE, Vol. 15(10), pp. 1-66, DOI 10.1371/journal.pone.0238835 , 2020.",
+            "url": "https://doi.org/10.1371/journal.pone.0238835",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1371/journal.pone.0238835"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-42",
+            "name": "Thrun, M. C., & Ultsch, A.: Clustering Benchmark Datasets Exploiting the Fundamental Clustering Problems, Data in Brief,Vol. 30(C), pp. 105501, DOI 10.1016/j.dib.2020.105501 , 2020.",
+            "url": "https://doi.org/10.1016/j.dib.2020.105501",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1016/j.dib.2020.105501"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-43",
+            "name": "López-García, P., Argote, D. L., & Thrun, M. C.: Projection-based Classification of Chemical Groups and Provenance Analysis of Archaeological Materials, IEEE Access, Vol. 8, pp. 152439-152451, DOI 10.1109/ACCESS.2020.3016244 , 2020.",
+            "url": "https://doi.org/10.1109/ACCESS.2020.3016244",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1109/ACCESS.2020.3016244"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-44",
+            "name": "Thrun, M. C., & Ultsch, A.: Uncovering High-Dimensional Structures of Projections from Dimensionality Reduction Methods, MethodsX, Vol. 7, pp. 101093, DOI 10.1016/j.mex.2020.101093 , 2020.",
+            "url": "https://doi.org/10.1016/j.mex.2020.101093",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1016/j.mex.2020.101093"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-45",
+            "name": "Thrun, M. C., Pape, F., & Ultsch, A.: Interactive Machine Learning Tool for Clustering in Visual Analytics, 7th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2020), DOI 10.1109/DSAA49011.2020.00062 , pp. 672-680, Sydney, Australia, 2020.",
+            "url": "https://doi.org/10.1109/DSAA49011.2020.00062",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1109/DSAA49011.2020.00062"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-46",
+            "name": "Thrun, M. C.: Improving the Sensitivity of Statistical Testing for Clusterability with Mirrored-Density Plot, in Archambault, D., Nabney, I. & Peltonen, J. (eds.), Machine Learning Methods in Visualisation for Big Data, DOI 10.2312/mlvis.20201102 , The Eurographics Association, Norrköping , Sweden, 2020.",
+            "url": "https://doi.org/10.2312/mlvis.20201102",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.2312/mlvis.20201102"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-47",
+            "name": "Thrun, M. C., & Ultsch, A.: Swarm-based Cluster Analysis for Knowledge Discovery, in Schmid, U., Klügl, F. & Wolter, D. (eds.), Proc. 43rd German Conference on Artificial Intelligence (KI'2020) Vol. 12325, pp. 240-244, KI 2020: Advances in Artificial Intelligence, Lecture Notes in Computer Science, Springer, Bamberg, Germany September 21–25, DOI 10.1007/978-3-030-58285-2_18 , 2020.",
+            "url": "https://doi.org/10.1007/978-3-030-58285-2_18",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/978-3-030-58285-2_18"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-48",
+            "name": "Hoffmann, J., Rother, M., Kaiser, U., Thrun, M. C., Wilhelm, C., Gruen, A.,Niebergall, U., Meissauer, U., Neubauer, A. & Brendel, C.: Determination of CD43 and CD200 surface expression improves accuracy of B-cell lymphoma immunophenotyping, Cytometry Part B: Clinical Cytometry, Vol. 98(6), pp. 476-482, DOI 10.1002/cyto.b.21936 , 2020.",
+            "url": "https://doi.org/10.1002/cyto.b.21936",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1002/cyto.b.21936"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-49",
+            "name": "Thrun, M. C.: Cluster Analysis of Per Capita Gross Domestic Products, Entrepreneurial Business and Economics Review (EBER), Vol. 7(1), pp. 217-231, DOI 10.15678/EBER.2019.070113 , 2019.",
+            "url": "https://doi.org/10.15678/EBER.2019.070113",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.15678/EBER.2019.070113"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-50",
+            "name": "Thrun, M. C., : Knowledge Discovery in Quarterly Financial Data of Stocks Based on the Prime Standard using a Hybrid of a Swarm with SOM, in Verleysen, M. (Ed.), European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN), Vol. 27, pp. 397-402, Ciaco, ISBN: 978-287-587-065-0, Bruges, Belgium, 2019.",
+            "url": "https://www.deepbionics.de/publications.html#publication-50",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-51",
+            "name": "Thrun, M. C., Lippmann, C., & Ultsch, A. : Inverse Document Frequency as the Distance for Clustering Gene Sets, Proc. European Conference on Data Analysis (ECDA), pp. 15, Bayreuth, 2019.",
+            "url": "https://www.deepbionics.de/publications.html#publication-51",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-52",
+            "name": "Thrun, M. C., Märte, J., Böhme, P., & Gehlert, T. : Applying Two Theorems of Machine Learning to the Forecasting of Biweekly Arrivals at a Call Center, Proc. European Conference on Data Analysis (ECDA), DOI 10.13140/RG.2.2.11267.21286 , pp. 36, Bayreuth, 2019.",
+            "url": "https://www.deepbionics.de/publications.html#publication-52",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-53",
+            "name": "Thrun, M. C., & Ultsch, A. : Visualizing the Range of Clustering Results of Common Density-based Methods in an Unbiased Benchmark Study, Proc. 5th German-Polish Symposium on Data Analysis and Applications (GPSDA), pp. 9-10, Germany, 2019.",
+            "url": "https://www.deepbionics.de/publications.html#publication-53",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-54",
+            "name": "Thrun, M. C., & Ultsch, A. : Analyzing the Fine Structure of Distributions, Technical Report, 2019.",
+            "url": "https://www.deepbionics.de/publications.html#publication-54",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-55",
+            "name": "Thrun, M. C. : Projection-Based Clustering through Self-Organization and Swarm Intelligence, Springer, Heidelberg, ISBN: 978-3658205393, DOI: 10.1007/978-3-658-20540-9 , 2018.",
+            "url": "https://doi.org/10.1007/978-3-658-20540-9",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1007/978-3-658-20540-9"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-56",
+            "name": "Thrun, M. C. : Cluster Analysis of the World Gross-Domestic Product Based on Emergent Self-Organization of a Swarm, in Papież, M. & Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and Forecasting of Socio-Economic Phenomena, pp. 523-532, Foundation of the Cracow University of Economics, Cracow, Poland, 2018.",
+            "url": "https://www.deepbionics.de/publications.html#publication-56",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-57",
+            "name": "Thrun, M. C., & Ultsch, A. : Effects of the payout system of income taxes to municipalities in Germany, in Papież, M. & Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and Forecasting of Socio-Economic Phenomena, pp. 533-542, Cracow: Foundation of the Cracow University of Economics, Cracow, Poland, 2018.",
+            "url": "https://www.deepbionics.de/publications.html#publication-57",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-58",
+            "name": "Thrun, M. C., Breuer, L., & Ultsch, A. : Knowledge discovery from low-frequency stream nitrate concentrations: hydrology and biology contributions, Proc. European Conference on Data Analysis (ECDA), pp. 46-47, Paderborn, Germany, 2018.",
+            "url": "https://www.deepbionics.de/publications.html#publication-58",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-59",
+            "name": "Thrun, M. C., Pape, F., & Ultsch, A. : Benchmarking Cluster Analysis Methods using PDE-Optimized Violin Plots, Proc. European Conference on Data Analysis (ECDA) pp. 26, Paderborn, Germany, 2018.",
+            "url": "https://www.deepbionics.de/publications.html#publication-59",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-60",
+            "name": "Thrun, M. C., & Ultsch, A. : Investigating Quality measurements of projections for the Evaluation of Distance and Density-based Structures of High-Dimensional Data, Proc. European Conference on Data Analysis (ECDA), pp. 45-46, Paderborn, Germany, 2018.",
+            "url": "https://www.deepbionics.de/publications.html#publication-60",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-61",
+            "name": "Weyer-Menkhoff, I., Thrun, M. C., & Lötsch, J. : Machine-learned analysis of quantitative sensory testing responses to noxious cold stimulation in healthy subjects,European Journal of Pain, Vol. 22(5), pp. 862-874, DOI: 10.1002/ejp.1173 , 2018.",
+            "url": "https://doi.org/10.1002/ejp.1173",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1002/ejp.1173"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-62",
+            "name": "Kringel, D., Geisslinger, G., Resch, E., Oertel, B. G., Thrun, M. C., Heinemann, S., & Lötsch, J.: Machine-learned analysis of the association of next-generation sequencing based human TRPV1 and TRPA1 genotypes with the sensitivity to heat stimuli and topically applied capsaicin, Pain, Vol. 159(7), pp.1366-1381, 'DOI: 10.1097/j.pain.0000000000001222 , 2018",
+            "url": "https://doi.org/10.1097/j.pain.0000000000001222",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1097/j.pain.0000000000001222"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 63,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-63",
+            "name": "Ultsch, A., & Thrun, M. C. : Credible Visualizations for Planar Projections, in Cottrell, M. (Ed.), 12th International Workshop on Self-Organizing Maps and Learning Vector Quantization, Clustering and Data Visualization (WSOM), 10.1109/WSOM.2017.8020010 , pp. 1-5, IEEE, Nany, France, 2017.",
+            "url": "https://doi.org/10.1109/WSOM.2017.8020010",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1109/WSOM.2017.8020010"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 64,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-64",
+            "name": "Thrun, M. C., & Ultsch, A. : Projection based Clustering, Proc. International Federation of Classification Societies (IFCS), pp. 250-251, Japanese Classification Society (JCS), Tokyo, Japan, 2017.",
+            "url": "https://www.deepbionics.de/publications.html#publication-64",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 65,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-65",
+            "name": "Lötsch, J., Thrun, M. C., Lerch, F., Brunkhorst, R., Schiffmann, S., Thomas, D., . . . Ultsch, A.: Machine-learned data structures of lipid marker serum concentrations in multiple sclerosis patients differ from those in healthy subjects, International journal of molecular sciences, Vol. 18(6), pp. 1217. DOI: doi:10.3390/ijms18061217 , 2017.",
+            "url": "https://doi.org/doi:10.3390/ijms18061217",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/doi:10.3390/ijms18061217"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 66,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-66",
+            "name": "Aubert, A. H., Thrun, M. C., Breuer, L., & Ultsch, A. : Knowledge discovery from high-frequency stream nitrate concentrations: hydrology and biology contributions, Scientific reports, Nature, Vol. 6(31536), pp. DOI: 10.1038/srep31536 , 2016.",
+            "url": "https://doi.org/10.1038/srep31536",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1038/srep31536"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 67,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-67",
+            "name": "Thrun, M. C., Lerch, F., Lötsch, J., & Ultsch, A. : Visualization and 3D Printing of Multivariate Data of Biomarkers, in Skala, V. (Ed.), International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG), Vol. 24, Plzen, 2016.",
+            "url": "https://www.deepbionics.de/publications.html#publication-67",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 68,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-68",
+            "name": "Thrun, M. C., & Ultsch, A. : Models of Income Distributions for Knowledge Discovery, Proc. European Conference on Data Analysis (ECDA), DOI: 10.13140/RG.2.1.4463.0244 , pp. 136-137, Colchester, 2015.",
+            "url": "https://doi.org/10.13140/RG.2.1.4463.0244",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.13140/RG.2.1.4463.0244"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 69,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-69",
+            "name": "Ultsch, A., Thrun, M. C., Hansen-Goos, O., & Lötsch, J. : Identification of Molecular Fingerprints in Human Heat Pain Thresholds by Use of an Interactive Mixture Model R Toolbox (AdaptGauss), International journal of molecular sciences, Vol. 16(10), pp. 25897-25911, DOI: 10.3390/ijms161025897 , 2015.",
+            "url": "https://doi.org/10.3390/ijms161025897",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.3390/ijms161025897"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 70,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-70",
+            "name": "Stoll, J., Thrun, M. C., Nuthmann, A., & Einhäuser, W. : Overt attention in natural scenes: objects dominate features, Vision Research, Vol. 107, pp. 36-48, DOI: 10.1016/j.visres.2014.11.006 , 2015.",
+            "url": "https://doi.org/10.1016/j.visres.2014.11.006",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1016/j.visres.2014.11.006"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 71,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-71",
+            "name": "Marx, S., Hansen-Goos, O., Thrun, M. C., & Einhäuser, W. : Rapid serial processing of natural scenes: Color modulates detection but neither recognition nor the attentional blink, Journal of Vision, Vol. 14(14), DOI: 10.1167/14.14.4 , 2014.",
+            "url": "https://doi.org/10.1167/14.14.4",
+            "author": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "sameAs": "https://doi.org/10.1167/14.14.4"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 72,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-72",
+            "name": "Lötsch, J., Lerch, F., Djaldetti, R., Teqeder, I., Ultsch, A. : Identification of disease-distinct complex biomarker patterns by means of unsupervised machine-learning using an interactive R toolbox (Umatrix), BMC Big Data Analytics, pp. 1-17, 2018.",
+            "url": "https://www.deepbionics.de/publications.html#publication-72"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 73,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-73",
+            "name": "Ultsch, A., Lötsch, J. : Computed ABC analysis for rational selection of most informative variables in multivariate data, PloS one, Vol. 10(6), pp. 1-15, 2015.",
+            "url": "https://www.deepbionics.de/publications.html#publication-73"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 74,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.deepbionics.de/publications.html#publication-74",
+            "name": "Hart, B. M., Schmidt, H. C. E. F., Roth, C., & Einhauser, W. : Fixations on objects in natural scenes: dissociating importance from salience. Frontiers in psychology, 4(455), DOI: 10.3389/fpsyg.2013.00455 , 2013.",
+            "url": "https://doi.org/10.3389/fpsyg.2013.00455",
+            "sameAs": "https://doi.org/10.3389/fpsyg.2013.00455"
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<a class="sr-only sr-only-focusable" href="#main-content">
+   Skip to main content
+  </a>
+<nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<div class="container">
+<!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>-->
+<button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+     Menu
+     <i class="fas fa-bars">
+</i>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/">
+        Home
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/projects.html">
+        Projects
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/rpackages.html">
+        R Packages
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/lectures.html">
+        Lectures
+       </a>
+</li>
+<li class="nav-item">
+<a aria-current="page" class="nav-link js-scroll-trigger" href="/publications.html">
+        Publications
+       </a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/contactme.html">
+        Contact Me
+       </a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<main id="main-content">
+<!-- Markdown Part-->
+<!--
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
@@ -47,315 +1213,585 @@
                 </div>
             </div>myhead
         </header>-->
-        <header class="myhead">
-            
-        </header>        
-        <!-- Publications -->
-        <section class="projects-section bg-light" id="aboutPublications">
-            <section class="my-plain-text-section">
-			  <h1>
-                    2026:
-			   </h1>
-			   <ul>
-			   	<li>
-			    Thrun, M. C., Hoffman, J., Krause, S. W., Krawitz, P., Stier, Q., Neubauer, A., Brendel*, C. Ultsch*, A.:
+<header class="myhead">
+</header>
+<!-- Publications -->
+<section class="projects-section bg-light" id="aboutPublications">
+<section class="my-plain-text-section">
+<h1>
+      2026:
+     </h1>
+<ul>
+<li id="publication-1">
+       Thrun, M. C., Hoffman, J., Krause, S. W., Krawitz, P., Stier, Q., Neubauer, A., Brendel*, C. Ultsch*, A.:
 				Self-explaining Artificial Intelligence for the Classification of B cell Non-Hodgkin Lymphoma: 
-				A diagnostic decision support study, PLoS Med, Vol 23(7), e1004889, DOI: <a href="https://doi.org/10.1371/journal.pmed.1004889">10.1371/journal.pmed.1004889</a>,
+				A diagnostic decision support study, PLoS Med, Vol 23(7), e1004889, DOI:
+       <a href="https://doi.org/10.1371/journal.pmed.1004889">
+        10.1371/journal.pmed.1004889
+       </a>
+       ,
 				 *equal contributions, 2026.
-				</li>
-				
-			   <li>
-			   Stier, Q.,Hoffmann, J. & Thrun, M. C.: Classifying with the Fine Structure of Distributions: Leveraging Distributional Information for Robust and Plausible Naïve Bayes,
+      </li>
+<li id="publication-2">
+       Stier, Q.,Hoffmann, J. &amp; Thrun, M. C.: Classifying with the Fine Structure of Distributions: Leveraging Distributional Information for Robust and Plausible Naïve Bayes,
                         Machine Learning and Knowledge Extraction (MAKE), Vol. 8(1), 13, DOI:
-                        <a href="https://doi.org/10.3390/make8010013">10.3390/make8010013</a>, MDPI, 2026. 
-				</li>
-				<li>
-				Thrun, M.C.& Märte, J. Memshare: Memory Sharing for Multicore Computation in R with an Application 
+       <a href="https://doi.org/10.3390/make8010013">
+        10.3390/make8010013
+       </a>
+       , MDPI, 2026.
+      </li>
+<li id="publication-3">
+       Thrun, M.C.&amp; Märte, J. Memshare: Memory Sharing for Multicore Computation in R with an Application 
 					to Feature Selection by Mutual Information using PDE, The R Journal, Vol. 17(4), pp. 306-322,
-					DOI: <a href="https://doi.org/10.32614/RJ-2025-043">10.32614/RJ-2025-043</a>, 2026.
-				</li>
-				<li>
-				Thrun, M. C. & Hoffmann, J.: PDE-based naïve Bayes classifier for the distinction of Non- vs Oligo-, and Polymetastatic Cancer through Flow Cytometry, 19th conference of the International Federation of Classification Societies (IFCS),
+					DOI:
+       <a href="https://doi.org/10.32614/RJ-2025-043">
+        10.32614/RJ-2025-043
+       </a>
+       , 2026.
+      </li>
+<li id="publication-4">
+       Thrun, M. C. &amp; Hoffmann, J.: PDE-based naïve Bayes classifier for the distinction of Non- vs Oligo-, and Polymetastatic Cancer through Flow Cytometry, 19th conference of the International Federation of Classification Societies (IFCS),
 					Milan, Italy, July 14-16, accepted, 2026.
-				</li>
-				<li> Thrun, M. C. & Hoffmann, J.: Classifying the Fine Structure of Distributions of Flow Cytometry Data through a Flexible and Plausible Naïve Bayes,
-                        Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026. 
-				</li>
-				<li> Stier, Q .& Thrun, M. C.: Emergent Self-Organizing Swarm Intelligence using weak Nash-Equilibria for Pattern Classification,
-                        Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026. 
-				</li>
-					</ul>
-			  <h1>
-                    2025:
-			   </h1>
-			     <ul>
-			   	<li>
-				Stier, Q. & Thrun, M. C.: An efficient multicore CPU implementation of the DatabionicSwarm, in: Trejos, J., Chadjipadelis, T., Grané, A., Villalobos, M. (eds) Data Science, Classification, and Artificial Intelligence for Modeling Decision Making, Studies in Classification, Data Analysis, and Knowledge Organization. Springer, Cham, 18th conference of the International Federation of Classification Societies (IFCS), San José, Costa Rica, July 14-19,  DOI: <a href="https://doi.org/10.1007/978-3-031-85870-3_20">10.1007/978-3-031-85870-3_20</a>, 2025.
-				</li>
-				</ul>
-			  <h1>
-                    2024:
-			   </h1>
-			   <ul>
-			   		<li>
-						Hoffmann, J., Rheude, A. Neubauer, A. Brendel, C., & Thrun, M. C.: Development of an explainable AI System Using Routine Clinical Parameters for Rapid Differentiation of Inflammatory Conditions, Frontiers in Immunology, Vol. 15, pp. 1364954, DOI: <a href="https://doi.org/10.3389/fimmu.2024.1364954">10.3389/fimmu.2024.1364954</a>, 2024.
-					</li>
-			   		<li>
-						Ultsch, A., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., & Thrun, M. C.: An Explainable AI System for the Diagnosis of High Dimensional Biomedical Data, BioMedInformatics, Vol. 4(1), pp. 197-218, DOI: <a href="https://doi.org/10.3390/biomedinformatics4010013">10.3390/biomedinformatics4010013</a>, 2024.
-					</li>
-					<li>
-						López-García, P., Argote, D. L., Torres-García, M. & Thrun, M. C.: Knowledge Discovery for Archaeological Materials, Cambridge Elements Series, Cambridge University Press, accepted, 2024.
-					</li>
-					<li>
-						López-García, P., Argote, D. L., Torres-García, M. & Thrun, M. C.: Machine Learning for Archaeological Applications in R, Cambridge Elements Series, Cambridge University Press, accepted, 2024.
-					</li>
-
-			  </ul>	
-             
-
-			  <h1>
-                    2023:
-              </h1>
-			    <ul>
-					<li>
-				Thrun, M. C., Märte, J., & Stier, Q.: Analyzing Quality Measurements for Dimensionality Reduction, Machine Learning and Knowledge Extraction (MAKE), Vol. 5(3), pp. 1076-1118, DOI: <a href="https://doi.org/10.3390/make5030056">10.3390/make5030056</a>, 2023.
-					</li>
-					<li>
-						 Thrun, M. C. & Stier, Q..: Deriving homogeneous subsets from gene sets by exploiting the Gene Ontology, Informatica, Vol.34(2), pp. 357–386, DOI: <a href="https://doi.org/10.15388/23-INFOR517">10.15388/23-INFOR517</a>, 2023.
-					</li>
-					
-					<li>
-						 Thrun, M. C., Stier, Q., & Ultsch, A.: Interactive Toolbox for Two-Dimensional Gaussian Mixture Modeling, In: Amini M-R, Canu S, Fischer A, Guns T, Kralj Novak P, Tsoumakas G, editors, Machine Learning and Knowledge Discovery in Databases, Vol. 13718, DOI: <a href="https://doi.org/10.1007/978-3-031-26422-1_51">10.1007/978-3-031-26422-1_51</a>, Springer Nature Switzerland, Proc. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 
+      </li>
+<li id="publication-5">
+       Thrun, M. C. &amp; Hoffmann, J.: Classifying the Fine Structure of Distributions of Flow Cytometry Data through a Flexible and Plausible Naïve Bayes,
+                        Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026.
+      </li>
+<li id="publication-6">
+       Stier, Q .&amp; Thrun, M. C.: Emergent Self-Organizing Swarm Intelligence using weak Nash-Equilibria for Pattern Classification,
+                        Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026.
+      </li>
+</ul>
+<h1>
+      2025:
+     </h1>
+<ul>
+<li id="publication-7">
+       Stier, Q. &amp; Thrun, M. C.: An efficient multicore CPU implementation of the DatabionicSwarm, in: Trejos, J., Chadjipadelis, T., Grané, A., Villalobos, M. (eds) Data Science, Classification, and Artificial Intelligence for Modeling Decision Making, Studies in Classification, Data Analysis, and Knowledge Organization. Springer, Cham, 18th conference of the International Federation of Classification Societies (IFCS), San José, Costa Rica, July 14-19,  DOI:
+       <a href="https://doi.org/10.1007/978-3-031-85870-3_20">
+        10.1007/978-3-031-85870-3_20
+       </a>
+       , 2025.
+      </li>
+</ul>
+<h1>
+      2024:
+     </h1>
+<ul>
+<li id="publication-8">
+       Hoffmann, J., Rheude, A. Neubauer, A. Brendel, C., &amp; Thrun, M. C.: Development of an explainable AI System Using Routine Clinical Parameters for Rapid Differentiation of Inflammatory Conditions, Frontiers in Immunology, Vol. 15, pp. 1364954, DOI:
+       <a href="https://doi.org/10.3389/fimmu.2024.1364954">
+        10.3389/fimmu.2024.1364954
+       </a>
+       , 2024.
+      </li>
+<li id="publication-9">
+       Ultsch, A., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., &amp; Thrun, M. C.: An Explainable AI System for the Diagnosis of High Dimensional Biomedical Data, BioMedInformatics, Vol. 4(1), pp. 197-218, DOI:
+       <a href="https://doi.org/10.3390/biomedinformatics4010013">
+        10.3390/biomedinformatics4010013
+       </a>
+       , 2024.
+      </li>
+<li id="publication-10">
+       López-García, P., Argote, D. L., Torres-García, M. &amp; Thrun, M. C.: Knowledge Discovery for Archaeological Materials, Cambridge Elements Series, Cambridge University Press, accepted, 2024.
+      </li>
+<li id="publication-11">
+       López-García, P., Argote, D. L., Torres-García, M. &amp; Thrun, M. C.: Machine Learning for Archaeological Applications in R, Cambridge Elements Series, Cambridge University Press, accepted, 2024.
+      </li>
+</ul>
+<h1>
+      2023:
+     </h1>
+<ul>
+<li id="publication-12">
+       Thrun, M. C., Märte, J., &amp; Stier, Q.: Analyzing Quality Measurements for Dimensionality Reduction, Machine Learning and Knowledge Extraction (MAKE), Vol. 5(3), pp. 1076-1118, DOI:
+       <a href="https://doi.org/10.3390/make5030056">
+        10.3390/make5030056
+       </a>
+       , 2023.
+      </li>
+<li id="publication-13">
+       Thrun, M. C. &amp; Stier, Q..: Deriving homogeneous subsets from gene sets by exploiting the Gene Ontology, Informatica, Vol.34(2), pp. 357–386, DOI:
+       <a href="https://doi.org/10.15388/23-INFOR517">
+        10.15388/23-INFOR517
+       </a>
+       , 2023.
+      </li>
+<li id="publication-14">
+       Thrun, M. C., Stier, Q., &amp; Ultsch, A.: Interactive Toolbox for Two-Dimensional Gaussian Mixture Modeling, In: Amini M-R, Canu S, Fischer A, Guns T, Kralj Novak P, Tsoumakas G, editors, Machine Learning and Knowledge Discovery in Databases, Vol. 13718, DOI:
+       <a href="https://doi.org/10.1007/978-3-031-26422-1_51">
+        10.1007/978-3-031-26422-1_51
+       </a>
+       , Springer Nature Switzerland, Proc. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 
 						 (ECML PKDD), 19th-23rd September 2022, Grenoble, France, pp. 658-661, 2023.
-					</li>
-
-					 <li>
-					      Hoffmann, J., Eminovic, S., Wilhelm, C., Krause, S. W., Neubauer, A., Thrun, M. C., . . . Brendel, C.: Prediction of clinical outcomes with explainable artificial intelligence in patients with chronic lymphocytic leukemia  Current Oncology, Vol. 30(2), pp. 1903-1915, DOI: <a href="https://doi.org/10.3390/curroncol30020148">10.3390/curroncol30020148</a>, 2023.
-					  </li>
-					  
-					   <li> Hoffman, J., Rheude, A., & Thrun, M. C.: Explainable AI for Rapid and Simple Differential Diagnosis of Inflammatory Conditions Using Combined Myeloid Activation Test, Complete Blood Count, and CRP Analysis,
-                        Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.57, Antwerp, Belgium, July 5-7, 2023. 
-					  </li>
-					  <li> Brinkann, L., Stier, Q., & Thrun, M. C.: Computing Sensitive Color Transitions for the Identification of Two-Dimensional Structures,
-                        Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.109, Antwerp, Belgium, July 5-7, 2023. 
-					  </li>
-					  	<li> Thrun, M. C., Stier, Q. & Ultsch, A. : Identification of meaningful groups in logarithmic returns of stocks with a human-in-the-loop using and R toolbox,
+      </li>
+<li id="publication-15">
+       Hoffmann, J., Eminovic, S., Wilhelm, C., Krause, S. W., Neubauer, A., Thrun, M. C., . . . Brendel, C.: Prediction of clinical outcomes with explainable artificial intelligence in patients with chronic lymphocytic leukemia  Current Oncology, Vol. 30(2), pp. 1903-1915, DOI:
+       <a href="https://doi.org/10.3390/curroncol30020148">
+        10.3390/curroncol30020148
+       </a>
+       , 2023.
+      </li>
+<li id="publication-16">
+       Hoffman, J., Rheude, A., &amp; Thrun, M. C.: Explainable AI for Rapid and Simple Differential Diagnosis of Inflammatory Conditions Using Combined Myeloid Activation Test, Complete Blood Count, and CRP Analysis,
+                        Proc. Data Science, Statistics &amp; Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.57, Antwerp, Belgium, July 5-7, 2023.
+      </li>
+<li id="publication-17">
+       Brinkann, L., Stier, Q., &amp; Thrun, M. C.: Computing Sensitive Color Transitions for the Identification of Two-Dimensional Structures,
+                        Proc. Data Science, Statistics &amp; Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.109, Antwerp, Belgium, July 5-7, 2023.
+      </li>
+<li id="publication-18">
+       Thrun, M. C., Stier, Q. &amp; Ultsch, A. : Identification of meaningful groups in logarithmic returns of stocks with a human-in-the-loop using and R toolbox,
                         Proc. 16th Professor Aleksander Zelias International Conference on Modelling and
-                        Forecasting of Socio-Economic Phenomena, Zakopane, Poland, p.52, 8-11 May, 2023. 
-					  </li>
-						
-				</ul>
-			  <h1>
-                    2022:
-              </h1>
-                <ul>
-					 <li>
-					      Thrun, M. C.: Identification of explainable structures in data with a human-in-the-loop, German Journal of Artificial Intelligence (Künstl. Intell.), Vol. 36, pp. 297–301, DOI: <a href="https://doi.org/10.1007/s13218-022-00782-6">10.1007/s13218-022-00782-6</a>, Springer, 2022.</li>
-					 </li>
-					 <li>
-						  Thrun*, M. C., Mack*, E., Neubauer, A., Haferlach, T.,... & Brendel, C.: A Bioinformatics View on Acute Myeloid Leukaemia Surface Molecules by Combined Bayesian and ABC Analysis, Bioengineering, Vol.9(11), pp. 642, DOI: <a href="https://doi.org/10.3390/bioengineering9110642">bioengineering9110642</a>, *equal contribution, 2022.
-					</li>
-					 <li>
-						  Thrun, M. C.: Exploiting Distance-Based Structures in Data Using an Explainable AI for Stock Picking, Information, Vol. 13(2), DOI: <a href="https://doi.org/10.3390/info13020051">10.3390/info13020051</a>, MDPI, 2022.
-					</li>
-					<li>
-						  Hoffmann*, J., Thrun*, M. C., Röhnert, M., Von Bonin, M., Oelschlägel, U., Neubauer, A.,... & Brendel, C.: Identification of critical hemodilution by artificial intelligence in bone marrow assessed for minimal residual disease analysis in acute myeloid leukemia: the Cinderella method., Cytometry: Part A, in press, DOI: <a href="https://doi.org/10.1002/cyto.a.24686">10.1002/cyto.a.24686</a>, *equal contributions, 2022.
-					</li>
-					 <li>
-						  Thrun, M. C., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., & Ultsch, A.: Flow Cytometry datasets consisting of peripheral blood and bone marrow samples for the evaluation of explainable artificial intelligence methods, Data in Brief, Vol. 43, pp. 108382, DOI: <a href="https://doi.org/10.1016/j.dib.2022.108382">10.1016/j.dib.2022.108382</a>, 2022.
-					</li>
-					<li>
-						  Thrun, M. C.: Knowledge-based Indentification of Homogenous Structures in Genes, 10th World Conference on Information Systems and Technologies (WorldCist’22), in: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies, Lecture Notes in Networks and Systems, Vol 468.,pp. 81-90, DOI: <a href="https://doi.org/10.1007/978-3-031-04826-5_9">10.1007/978-3-031-04826-5_9</a>, Budva, Montenegro, 12-14 April, 2022.
-					</li>
-
-                    <li> Stier, Q., & Thrun, M. C.: Exploiting Pareto Density Estimation for Nonparametric Naive Bayes Classifiers, Proc. International Federation of Classification Societies (IFCS),
-                         p.278, Porto, Portugal, 19-23. July, 2022. 
-				    </li>
-					<li> Stier, Q., & Thrun, M. C.: Pitfalls of Automatic Optimization Procedures and Benchmarking in Cluster Analysis, Proc. International Federation of Classification Societies (IFCS), Cluster Benchmarking Challenge,
-                         p. 35, Porto, Portugal, 19-23. July, 2022. 
-				    </li>
-					<li> Thrun, M. C. & Ultsch, A.: Selecting representative samples and identifying outliers by Tiles Mining in biomedical data,
-                        Proc. European Conference on Data Analysis (ECDA), Naples, Italy, July 14-16, 2022. 
-					</li>
-				</ul>
-                <h1>
-                    2021:
-                </h1>
-                <ul>
-                    <li> Thrun, M. C., Ultsch, A.: Swarm Intelligence for Self-Organized Clustering, Artificial Intelligence, Vol. 290, pp. 103237, DOI: 
-                       <a href="https://doi.org/10.1016/j.artint.2020.103237">10.1016/j.artint.2020.103237</a>, Elsevier, 2021. </li>
-                    <li> Thrun, M. C., Ultsch, A., & Breuer, L.: Explainable AI Framework for Multivariate Hydrochemical Time Series,
+                        Forecasting of Socio-Economic Phenomena, Zakopane, Poland, p.52, 8-11 May, 2023.
+      </li>
+</ul>
+<h1>
+      2022:
+     </h1>
+<ul>
+<li id="publication-19">
+       Thrun, M. C.: Identification of explainable structures in data with a human-in-the-loop, German Journal of Artificial Intelligence (Künstl. Intell.), Vol. 36, pp. 297–301, DOI:
+       <a href="https://doi.org/10.1007/s13218-022-00782-6">
+        10.1007/s13218-022-00782-6
+       </a>
+       , Springer, 2022.
+      </li>
+<li id="publication-20">
+       Thrun*, M. C., Mack*, E., Neubauer, A., Haferlach, T.,... &amp; Brendel, C.: A Bioinformatics View on Acute Myeloid Leukaemia Surface Molecules by Combined Bayesian and ABC Analysis, Bioengineering, Vol.9(11), pp. 642, DOI:
+       <a href="https://doi.org/10.3390/bioengineering9110642">
+        bioengineering9110642
+       </a>
+       , *equal contribution, 2022.
+      </li>
+<li id="publication-21">
+       Thrun, M. C.: Exploiting Distance-Based Structures in Data Using an Explainable AI for Stock Picking, Information, Vol. 13(2), DOI:
+       <a href="https://doi.org/10.3390/info13020051">
+        10.3390/info13020051
+       </a>
+       , MDPI, 2022.
+      </li>
+<li id="publication-22">
+       Hoffmann*, J., Thrun*, M. C., Röhnert, M., Von Bonin, M., Oelschlägel, U., Neubauer, A.,... &amp; Brendel, C.: Identification of critical hemodilution by artificial intelligence in bone marrow assessed for minimal residual disease analysis in acute myeloid leukemia: the Cinderella method., Cytometry: Part A, in press, DOI:
+       <a href="https://doi.org/10.1002/cyto.a.24686">
+        10.1002/cyto.a.24686
+       </a>
+       , *equal contributions, 2022.
+      </li>
+<li id="publication-23">
+       Thrun, M. C., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., &amp; Ultsch, A.: Flow Cytometry datasets consisting of peripheral blood and bone marrow samples for the evaluation of explainable artificial intelligence methods, Data in Brief, Vol. 43, pp. 108382, DOI:
+       <a href="https://doi.org/10.1016/j.dib.2022.108382">
+        10.1016/j.dib.2022.108382
+       </a>
+       , 2022.
+      </li>
+<li id="publication-24">
+       Thrun, M. C.: Knowledge-based Indentification of Homogenous Structures in Genes, 10th World Conference on Information Systems and Technologies (WorldCist’22), in: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies, Lecture Notes in Networks and Systems, Vol 468.,pp. 81-90, DOI:
+       <a href="https://doi.org/10.1007/978-3-031-04826-5_9">
+        10.1007/978-3-031-04826-5_9
+       </a>
+       , Budva, Montenegro, 12-14 April, 2022.
+      </li>
+<li id="publication-25">
+       Stier, Q., &amp; Thrun, M. C.: Exploiting Pareto Density Estimation for Nonparametric Naive Bayes Classifiers, Proc. International Federation of Classification Societies (IFCS),
+                         p.278, Porto, Portugal, 19-23. July, 2022.
+      </li>
+<li id="publication-26">
+       Stier, Q., &amp; Thrun, M. C.: Pitfalls of Automatic Optimization Procedures and Benchmarking in Cluster Analysis, Proc. International Federation of Classification Societies (IFCS), Cluster Benchmarking Challenge,
+                         p. 35, Porto, Portugal, 19-23. July, 2022.
+      </li>
+<li id="publication-27">
+       Thrun, M. C. &amp; Ultsch, A.: Selecting representative samples and identifying outliers by Tiles Mining in biomedical data,
+                        Proc. European Conference on Data Analysis (ECDA), Naples, Italy, July 14-16, 2022.
+      </li>
+</ul>
+<h1>
+      2021:
+     </h1>
+<ul>
+<li id="publication-28">
+       Thrun, M. C., Ultsch, A.: Swarm Intelligence for Self-Organized Clustering, Artificial Intelligence, Vol. 290, pp. 103237, DOI:
+       <a href="https://doi.org/10.1016/j.artint.2020.103237">
+        10.1016/j.artint.2020.103237
+       </a>
+       , Elsevier, 2021.
+      </li>
+<li id="publication-29">
+       Thrun, M. C., Ultsch, A., &amp; Breuer, L.: Explainable AI Framework for Multivariate Hydrochemical Time Series,
                         Machine Learning and Knowledge Extraction (MAKE), Vol. 3(1), pp. 170-205, DOI:
-                        <a href="https://doi.org/10.3390/make3010009">10.3390/make3010009</a>, MDPI, 2021. </li>
-				    <li> Thrun, M. C.: Distance-Based Clustering Challenges for Unbiased Benchmarking Studies,
+       <a href="https://doi.org/10.3390/make3010009">
+        10.3390/make3010009
+       </a>
+       , MDPI, 2021.
+      </li>
+<li id="publication-30">
+       Thrun, M. C.: Distance-Based Clustering Challenges for Unbiased Benchmarking Studies,
                         Nature Scientific Reports, Vol. 11, pp. 18988, DOI:
-                        <a href="https://doi.org/10.1038/s41598-021-98126-1"> 10.1038/s41598-021-98126-1</a>, 2021. </li>
-                    <li> Thrun, M. C., Pape, F., & Ultsch, A.: Conventional Displays of Structures in Data Compared With Interactive Projection-Based Clustering (IPBC),
-                           International Journal of Data Science and Analytics, Vol. 12(3), pp. 249-271, DOI: <a href="https://doi.org/10.1007/s41060-021-00264-2">10.1007/s41060-021-00264-2</a>, Springer, 2021.</li>
-                    <li> Thrun, M. C.: The Exploitation of Distance Distributions for Clustering,
-                        International Journal of Computational Intelligence and Applications, Vol. 20(3), pp. 2150016, DOI: <a href="https://doi.org/10.1142/S1469026821500164">10.1142/S1469026821500164</a>, 2021.</li>
-                    <li> Stier, Q., Gehlert, T., & Thrun, M. C.:: Multiresolution Forecasting for Industrial Applications, Processes, Vol. 9(10), pp. 1697,
+       <a href="https://doi.org/10.1038/s41598-021-98126-1">
+        10.1038/s41598-021-98126-1
+       </a>
+       , 2021.
+      </li>
+<li id="publication-31">
+       Thrun, M. C., Pape, F., &amp; Ultsch, A.: Conventional Displays of Structures in Data Compared With Interactive Projection-Based Clustering (IPBC),
+                           International Journal of Data Science and Analytics, Vol. 12(3), pp. 249-271, DOI:
+       <a href="https://doi.org/10.1007/s41060-021-00264-2">
+        10.1007/s41060-021-00264-2
+       </a>
+       , Springer, 2021.
+      </li>
+<li id="publication-32">
+       Thrun, M. C.: The Exploitation of Distance Distributions for Clustering,
+                        International Journal of Computational Intelligence and Applications, Vol. 20(3), pp. 2150016, DOI:
+       <a href="https://doi.org/10.1142/S1469026821500164">
+        10.1142/S1469026821500164
+       </a>
+       , 2021.
+      </li>
+<li id="publication-33">
+       Stier, Q., Gehlert, T., &amp; Thrun, M. C.:: Multiresolution Forecasting for Industrial Applications, Processes, Vol. 9(10), pp. 1697,
                         DOI:
-                        <a href="https://doi.org/10.3390/pr9101697">10.3390/pr9101697 </a>, 2021. </li>
-					<li> Thrun, M. C., & Stier, Q.: Fundamental Clustering Algorithms Suite,
-                        SoftwareX, Vol. 13(C), pp. 100642, DOI: <a href="https://doi.org/10.1016/j.softx.2020.100642">10.1016/j.softx.2020.100642</a>,
-                        Elsevier, 2021. </li>
-                    <li> Thrun, M. C., & Ultsch, A.: Swarm Intelligence for Self-Organized Clustering (Extended Abstract),
+       <a href="https://doi.org/10.3390/pr9101697">
+        10.3390/pr9101697
+       </a>
+       , 2021.
+      </li>
+<li id="publication-34">
+       Thrun, M. C., &amp; Stier, Q.: Fundamental Clustering Algorithms Suite,
+                        SoftwareX, Vol. 13(C), pp. 100642, DOI:
+       <a href="https://doi.org/10.1016/j.softx.2020.100642">
+        10.1016/j.softx.2020.100642
+       </a>
+       ,
+                        Elsevier, 2021.
+      </li>
+<li id="publication-35">
+       Thrun, M. C., &amp; Ultsch, A.: Swarm Intelligence for Self-Organized Clustering (Extended Abstract),
                         in Bessiere, C. (Ed.), 29th International Joint Conference on Artificial Intelligence (IJCAI),
-                        Vol. IJCAI-20, pp. 5125--5129, DOI <a href="https://doi.org/10.24963/ijcai.2020/720">10.24963/ijcai.2020/720</a>,
-                        Yokohama, Japan, Jan., 2021. </li>
-                    <li> Thrun, M. C.: Human-in-the-loop Detection of Explainable Distance-based Structures in Data for Stock Picking,
-                        Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
-                        Rotterdam, Netherlands, July 7-9, 2021. </li>
-		    <li> Stier, Q., & Thrun, M. C.: Univariate Time Series Forecasting Method based on Wavelets in Comparison with Prophet and MAPA,
-                        Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
-                        Rotterdam, Netherlands, July 7-9, 2021. </li>
-                    <li> Ultsch, A., Hoffman, J., Brendel, C., & Thrun, M. C.: ALPODS an Explainable AI for the Diagnosis of B-cell Lymphoma,
-                        Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
-                        Rotterdam, Netherlands, July 7-9, 2021. </li>
-					<li> Ultsch, A., Hoffman, J., Brendel, C., & Thrun, M. C.: Dunes and Spice: a Visualisation Method for Explainable Artificial Intelligence (XAI) in Flow Cytometry Diagnostics,
-                        Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
-                        Rotterdam, Netherlands, July 7-9, 2021. </li>
-
-                </ul>
-                <h1>
-                    2020:
-                </h1>
-                <ul>
-                    <li> Thrun, M. C., & Ultsch, A. : Using Projection based Clustering to Find Distance and Density based Clusters in High-Dimensional Data,
-                        Journal of Classification, Vol. 38(2), pp. 280-312, DOI <a href="https://doi.org/10.1007/s00357-020-09373-2">10.1007/s00357-020-09373-2</a>,
-                        Springer, 2020. </li>
-                    <li> Thrun, M. C., Gehlert, T. & Ultsch, A.: Analyzing the Fine Structure of Distributions,
-                        PLoS ONE, Vol. 15(10), pp. 1-66, DOI <a href="https://doi.org/10.1371/journal.pone.0238835">10.1371/journal.pone.0238835</a>,
-                        2020. </li>
-                    <li> Thrun, M. C., & Ultsch, A.: Clustering Benchmark Datasets Exploiting the Fundamental Clustering Problems,
-                        Data in Brief,Vol. 30(C), pp. 105501, DOI <a href="https://doi.org/10.1016/j.dib.2020.105501">10.1016/j.dib.2020.105501</a>, 2020. </li>
-                    <li> López-García, P., Argote, D. L., & Thrun, M. C.: Projection-based Classification of Chemical Groups and Provenance Analysis of
+                        Vol. IJCAI-20, pp. 5125--5129, DOI
+       <a href="https://doi.org/10.24963/ijcai.2020/720">
+        10.24963/ijcai.2020/720
+       </a>
+       ,
+                        Yokohama, Japan, Jan., 2021.
+      </li>
+<li id="publication-36">
+       Thrun, M. C.: Human-in-the-loop Detection of Explainable Distance-based Structures in Data for Stock Picking,
+                        Proc. Data Science, Statistics &amp; Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+                        Rotterdam, Netherlands, July 7-9, 2021.
+      </li>
+<li id="publication-37">
+       Stier, Q., &amp; Thrun, M. C.: Univariate Time Series Forecasting Method based on Wavelets in Comparison with Prophet and MAPA,
+                        Proc. Data Science, Statistics &amp; Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+                        Rotterdam, Netherlands, July 7-9, 2021.
+      </li>
+<li id="publication-38">
+       Ultsch, A., Hoffman, J., Brendel, C., &amp; Thrun, M. C.: ALPODS an Explainable AI for the Diagnosis of B-cell Lymphoma,
+                        Proc. Data Science, Statistics &amp; Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+                        Rotterdam, Netherlands, July 7-9, 2021.
+      </li>
+<li id="publication-39">
+       Ultsch, A., Hoffman, J., Brendel, C., &amp; Thrun, M. C.: Dunes and Spice: a Visualisation Method for Explainable Artificial Intelligence (XAI) in Flow Cytometry Diagnostics,
+                        Proc. Data Science, Statistics &amp; Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+                        Rotterdam, Netherlands, July 7-9, 2021.
+      </li>
+</ul>
+<h1>
+      2020:
+     </h1>
+<ul>
+<li id="publication-40">
+       Thrun, M. C., &amp; Ultsch, A. : Using Projection based Clustering to Find Distance and Density based Clusters in High-Dimensional Data,
+                        Journal of Classification, Vol. 38(2), pp. 280-312, DOI
+       <a href="https://doi.org/10.1007/s00357-020-09373-2">
+        10.1007/s00357-020-09373-2
+       </a>
+       ,
+                        Springer, 2020.
+      </li>
+<li id="publication-41">
+       Thrun, M. C., Gehlert, T. &amp; Ultsch, A.: Analyzing the Fine Structure of Distributions,
+                        PLoS ONE, Vol. 15(10), pp. 1-66, DOI
+       <a href="https://doi.org/10.1371/journal.pone.0238835">
+        10.1371/journal.pone.0238835
+       </a>
+       ,
+                        2020.
+      </li>
+<li id="publication-42">
+       Thrun, M. C., &amp; Ultsch, A.: Clustering Benchmark Datasets Exploiting the Fundamental Clustering Problems,
+                        Data in Brief,Vol. 30(C), pp. 105501, DOI
+       <a href="https://doi.org/10.1016/j.dib.2020.105501">
+        10.1016/j.dib.2020.105501
+       </a>
+       , 2020.
+      </li>
+<li id="publication-43">
+       López-García, P., Argote, D. L., &amp; Thrun, M. C.: Projection-based Classification of Chemical Groups and Provenance Analysis of
                         Archaeological Materials, IEEE Access, Vol. 8, pp. 152439-152451,
-                        DOI <a href="https://doi.org/10.1109/ACCESS.2020.3016244">10.1109/ACCESS.2020.3016244</a>, 2020. </li>
-                    <li> Thrun, M. C., & Ultsch, A.: Uncovering High-Dimensional Structures of Projections from Dimensionality Reduction Methods,
-                        MethodsX, Vol. 7, pp. 101093, DOI <a href="https://doi.org/10.1016/j.mex.2020.101093">10.1016/j.mex.2020.101093</a>, 2020. </li>
-                    <li> Thrun, M. C., Pape, F., & Ultsch, A.: Interactive Machine Learning Tool for Clustering in Visual Analytics,
+                        DOI
+       <a href="https://doi.org/10.1109/ACCESS.2020.3016244">
+        10.1109/ACCESS.2020.3016244
+       </a>
+       , 2020.
+      </li>
+<li id="publication-44">
+       Thrun, M. C., &amp; Ultsch, A.: Uncovering High-Dimensional Structures of Projections from Dimensionality Reduction Methods,
+                        MethodsX, Vol. 7, pp. 101093, DOI
+       <a href="https://doi.org/10.1016/j.mex.2020.101093">
+        10.1016/j.mex.2020.101093
+       </a>
+       , 2020.
+      </li>
+<li id="publication-45">
+       Thrun, M. C., Pape, F., &amp; Ultsch, A.: Interactive Machine Learning Tool for Clustering in Visual Analytics,
                         7th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2020),
-                        DOI <a href="https://doi.org/10.1109/DSAA49011.2020.00062">10.1109/DSAA49011.2020.00062</a>, pp. 672-680, Sydney, Australia, 2020. </li>
-                    <li> Thrun, M. C.: Improving the Sensitivity of Statistical Testing for Clusterability with Mirrored-Density Plot,
-                        in Archambault, D., Nabney, I. & Peltonen, J. (eds.), Machine Learning Methods in Visualisation for Big Data,
-                        DOI <a href="https://doi.org/10.2312/mlvis.20201102">10.2312/mlvis.20201102</a>, The Eurographics Association, Norrköping , Sweden, 2020. </li>
-                    <li> Thrun, M. C., & Ultsch, A.: Swarm-based Cluster Analysis for Knowledge Discovery,
-                        in Schmid, U., Klügl, F. & Wolter, D. (eds.), Proc. 43rd German Conference on Artificial Intelligence (KI'2020) Vol. 12325,
+                        DOI
+       <a href="https://doi.org/10.1109/DSAA49011.2020.00062">
+        10.1109/DSAA49011.2020.00062
+       </a>
+       , pp. 672-680, Sydney, Australia, 2020.
+      </li>
+<li id="publication-46">
+       Thrun, M. C.: Improving the Sensitivity of Statistical Testing for Clusterability with Mirrored-Density Plot,
+                        in Archambault, D., Nabney, I. &amp; Peltonen, J. (eds.), Machine Learning Methods in Visualisation for Big Data,
+                        DOI
+       <a href="https://doi.org/10.2312/mlvis.20201102">
+        10.2312/mlvis.20201102
+       </a>
+       , The Eurographics Association, Norrköping , Sweden, 2020.
+      </li>
+<li id="publication-47">
+       Thrun, M. C., &amp; Ultsch, A.: Swarm-based Cluster Analysis for Knowledge Discovery,
+                        in Schmid, U., Klügl, F. &amp; Wolter, D. (eds.), Proc. 43rd German Conference on Artificial Intelligence (KI'2020) Vol. 12325,
                         pp. 240-244, KI 2020: Advances in Artificial Intelligence, Lecture Notes in Computer Science,
-                        Springer, Bamberg, Germany September 21–25, DOI <a href="https://doi.org/10.1007/978-3-030-58285-2_18">10.1007/978-3-030-58285-2_18</a>,
-                        2020. </li>
-                    <li> Hoffmann, J., Rother, M., Kaiser, U., Thrun, M. C., Wilhelm, C., Gruen, A.,Niebergall, U., Meissauer, U.,
-                        Neubauer, A. & Brendel, C.: Determination of CD43 and CD200 surface expression improves accuracy of B-cell lymphoma immunophenotyping,
-                        Cytometry Part B: Clinical Cytometry, Vol. 98(6), pp. 476-482, DOI <a href="https://doi.org/10.1002/cyto.b.21936">10.1002/cyto.b.21936</a>,
-                        2020. </li>
-                </ul>
-                <h1>
-                    2019:
-                </h1>
-                <ul>
-                    <li> Thrun, M. C.: Cluster Analysis of Per Capita Gross Domestic Products,
+                        Springer, Bamberg, Germany September 21–25, DOI
+       <a href="https://doi.org/10.1007/978-3-030-58285-2_18">
+        10.1007/978-3-030-58285-2_18
+       </a>
+       ,
+                        2020.
+      </li>
+<li id="publication-48">
+       Hoffmann, J., Rother, M., Kaiser, U., Thrun, M. C., Wilhelm, C., Gruen, A.,Niebergall, U., Meissauer, U.,
+                        Neubauer, A. &amp; Brendel, C.: Determination of CD43 and CD200 surface expression improves accuracy of B-cell lymphoma immunophenotyping,
+                        Cytometry Part B: Clinical Cytometry, Vol. 98(6), pp. 476-482, DOI
+       <a href="https://doi.org/10.1002/cyto.b.21936">
+        10.1002/cyto.b.21936
+       </a>
+       ,
+                        2020.
+      </li>
+</ul>
+<h1>
+      2019:
+     </h1>
+<ul>
+<li id="publication-49">
+       Thrun, M. C.: Cluster Analysis of Per Capita Gross Domestic Products,
                         Entrepreneurial Business and Economics Review (EBER), Vol. 7(1), pp. 217-231,
-                        DOI <a href="https://doi.org/10.15678/EBER.2019.070113">10.15678/EBER.2019.070113</a>, 2019. </li>
-                    <li> Thrun, M. C., : Knowledge Discovery in Quarterly Financial Data of Stocks Based on the Prime Standard using a Hybrid of a Swarm with SOM,
+                        DOI
+       <a href="https://doi.org/10.15678/EBER.2019.070113">
+        10.15678/EBER.2019.070113
+       </a>
+       , 2019.
+      </li>
+<li id="publication-50">
+       Thrun, M. C., : Knowledge Discovery in Quarterly Financial Data of Stocks Based on the Prime Standard using a Hybrid of a Swarm with SOM,
                         in Verleysen, M. (Ed.), European Symposium on Artificial Neural Networks,
                         Computational Intelligence and Machine Learning (ESANN), Vol. 27, pp. 397-402, Ciaco,
-                        ISBN: 978-287-587-065-0, Bruges, Belgium, 2019. </li>
-                    <li> Thrun, M. C., Lippmann, C., & Ultsch, A. : Inverse Document Frequency as the Distance for Clustering Gene Sets,
-                        Proc. European Conference on Data Analysis (ECDA), pp. 15, Bayreuth, 2019. </li>
-                    <li> Thrun, M. C., Märte, J., Böhme, P., & Gehlert, T. : Applying Two Theorems of Machine Learning to the Forecasting of
-                        Biweekly Arrivals at a Call Center, Proc. European Conference on Data Analysis (ECDA), DOI <a href="http://dx.doi.org/10.13140/RG.2.2.11267.21286">10.13140/RG.2.2.11267.21286</a>, pp. 36, Bayreuth, 2019. </li>
-                    <li> Thrun, M. C., & Ultsch, A. : Visualizing the Range of Clustering Results of Common Density-based Methods in an
-                        Unbiased Benchmark Study, Proc. 5th German-Polish Symposium on Data Analysis and Applications (GPSDA), pp. 9-10, Germany, 2019. </li>
-                    <li> Thrun, M. C., & Ultsch, A. : Analyzing the Fine Structure of Distributions, Technical Report, 2019. </li>
-                </ul>
-                <h1>
-                    2018:
-                </h1>
-                <ul>
-                    <li> Thrun, M. C. : Projection-Based Clustering through Self-Organization and Swarm Intelligence,
-                        Springer, Heidelberg, ISBN: 978-3658205393, DOI: <a href="https://doi.org/10.1007/978-3-658-20540-9">10.1007/978-3-658-20540-9</a>, 2018. </li>
-                    <li> Thrun, M. C. : Cluster Analysis of the World Gross-Domestic Product Based on Emergent Self-Organization of a Swarm,
-                        in Papież, M. & Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and
-                        Forecasting of Socio-Economic Phenomena, pp. 523-532, Foundation of the Cracow University of Economics, Cracow, Poland, 2018. </li>
-                    <li> Thrun, M. C., & Ultsch, A. : Effects of the payout system of income taxes to municipalities in Germany,
-                        in Papież, M. & Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and
+                        ISBN: 978-287-587-065-0, Bruges, Belgium, 2019.
+      </li>
+<li id="publication-51">
+       Thrun, M. C., Lippmann, C., &amp; Ultsch, A. : Inverse Document Frequency as the Distance for Clustering Gene Sets,
+                        Proc. European Conference on Data Analysis (ECDA), pp. 15, Bayreuth, 2019.
+      </li>
+<li id="publication-52">
+       Thrun, M. C., Märte, J., Böhme, P., &amp; Gehlert, T. : Applying Two Theorems of Machine Learning to the Forecasting of
+                        Biweekly Arrivals at a Call Center, Proc. European Conference on Data Analysis (ECDA), DOI
+       <a href="https://dx.doi.org/10.13140/RG.2.2.11267.21286">
+        10.13140/RG.2.2.11267.21286
+       </a>
+       , pp. 36, Bayreuth, 2019.
+      </li>
+<li id="publication-53">
+       Thrun, M. C., &amp; Ultsch, A. : Visualizing the Range of Clustering Results of Common Density-based Methods in an
+                        Unbiased Benchmark Study, Proc. 5th German-Polish Symposium on Data Analysis and Applications (GPSDA), pp. 9-10, Germany, 2019.
+      </li>
+<li id="publication-54">
+       Thrun, M. C., &amp; Ultsch, A. : Analyzing the Fine Structure of Distributions, Technical Report, 2019.
+      </li>
+</ul>
+<h1>
+      2018:
+     </h1>
+<ul>
+<li id="publication-55">
+       Thrun, M. C. : Projection-Based Clustering through Self-Organization and Swarm Intelligence,
+                        Springer, Heidelberg, ISBN: 978-3658205393, DOI:
+       <a href="https://doi.org/10.1007/978-3-658-20540-9">
+        10.1007/978-3-658-20540-9
+       </a>
+       , 2018.
+      </li>
+<li id="publication-56">
+       Thrun, M. C. : Cluster Analysis of the World Gross-Domestic Product Based on Emergent Self-Organization of a Swarm,
+                        in Papież, M. &amp; Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and
+                        Forecasting of Socio-Economic Phenomena, pp. 523-532, Foundation of the Cracow University of Economics, Cracow, Poland, 2018.
+      </li>
+<li id="publication-57">
+       Thrun, M. C., &amp; Ultsch, A. : Effects of the payout system of income taxes to municipalities in Germany,
+                        in Papież, M. &amp; Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and
                         Forecasting of Socio-Economic Phenomena, pp. 533-542, Cracow: Foundation of the Cracow University of Economics,
-                        Cracow, Poland, 2018. </li>
-                    <li> Thrun, M. C., Breuer, L., & Ultsch, A. : Knowledge discovery from low-frequency stream nitrate concentrations:
-                        hydrology and biology contributions, Proc. European Conference on Data Analysis (ECDA), pp. 46-47, Paderborn, Germany, 2018. </li>
-                    <li> Thrun, M. C., Pape, F., & Ultsch, A. : Benchmarking Cluster Analysis Methods using PDE-Optimized Violin Plots,
-                        Proc. European Conference on Data Analysis (ECDA) pp. 26, Paderborn, Germany, 2018. </li>
-                    <li> Thrun, M. C., & Ultsch, A. : Investigating Quality measurements of projections for the Evaluation of Distance and Density-based
-                        Structures of High-Dimensional Data, Proc. European Conference on Data Analysis (ECDA), pp. 45-46, Paderborn, Germany, 2018. </li>
-                    <li> Weyer-Menkhoff, I., Thrun, M. C., & Lötsch, J. : Machine-learned analysis of quantitative sensory testing responses to noxious
-                        cold stimulation in healthy subjects,European Journal of Pain, Vol. 22(5), pp. 862-874, DOI: <a href="https://doi.org/10.1002/ejp.1173">10.1002/ejp.1173</a>, 2018. </li>
-                    <li> Kringel, D., Geisslinger, G., Resch, E., Oertel, B. G., Thrun, M. C., Heinemann, S., & Lötsch, J.:
+                        Cracow, Poland, 2018.
+      </li>
+<li id="publication-58">
+       Thrun, M. C., Breuer, L., &amp; Ultsch, A. : Knowledge discovery from low-frequency stream nitrate concentrations:
+                        hydrology and biology contributions, Proc. European Conference on Data Analysis (ECDA), pp. 46-47, Paderborn, Germany, 2018.
+      </li>
+<li id="publication-59">
+       Thrun, M. C., Pape, F., &amp; Ultsch, A. : Benchmarking Cluster Analysis Methods using PDE-Optimized Violin Plots,
+                        Proc. European Conference on Data Analysis (ECDA) pp. 26, Paderborn, Germany, 2018.
+      </li>
+<li id="publication-60">
+       Thrun, M. C., &amp; Ultsch, A. : Investigating Quality measurements of projections for the Evaluation of Distance and Density-based
+                        Structures of High-Dimensional Data, Proc. European Conference on Data Analysis (ECDA), pp. 45-46, Paderborn, Germany, 2018.
+      </li>
+<li id="publication-61">
+       Weyer-Menkhoff, I., Thrun, M. C., &amp; Lötsch, J. : Machine-learned analysis of quantitative sensory testing responses to noxious
+                        cold stimulation in healthy subjects,European Journal of Pain, Vol. 22(5), pp. 862-874, DOI:
+       <a href="https://doi.org/10.1002/ejp.1173">
+        10.1002/ejp.1173
+       </a>
+       , 2018.
+      </li>
+<li id="publication-62">
+       Kringel, D., Geisslinger, G., Resch, E., Oertel, B. G., Thrun, M. C., Heinemann, S., &amp; Lötsch, J.:
                         Machine-learned analysis of the association of next-generation sequencing based human TRPV1 and TRPA1 genotypes with the sensitivity
                         to heat stimuli and topically applied capsaicin, Pain, Vol. 159(7), pp.1366-1381,
-                        'DOI: <a href="https://doi.org/10.1097/j.pain.0000000000001222">10.1097/j.pain.0000000000001222</a>, 2018 </li>
-                </ul>
-                <h1>
-                    2017:
-                </h1>
-                <ul>
-                    <li> Ultsch, A., & Thrun, M. C. : Credible Visualizations for Planar Projections, in Cottrell, M. (Ed.),
+                        'DOI:
+       <a href="https://doi.org/10.1097/j.pain.0000000000001222">
+        10.1097/j.pain.0000000000001222
+       </a>
+       , 2018
+      </li>
+</ul>
+<h1>
+      2017:
+     </h1>
+<ul>
+<li id="publication-63">
+       Ultsch, A., &amp; Thrun, M. C. : Credible Visualizations for Planar Projections, in Cottrell, M. (Ed.),
                         12th International Workshop on Self-Organizing Maps and Learning Vector Quantization, Clustering and Data Visualization (WSOM),
-                        <a href="https://doi.org/10.1109/WSOM.2017.8020010">10.1109/WSOM.2017.8020010</a>, pp. 1-5, IEEE, Nany, France, 2017. </li>
-                    <li> Thrun, M. C., & Ultsch, A. : Projection based Clustering, Proc. International Federation of Classification Societies (IFCS),
-                        pp. 250-251, Japanese Classification Society (JCS), Tokyo, Japan, 2017. </li>
-                    <li> Lötsch, J., Thrun, M. C., Lerch, F., Brunkhorst, R., Schiffmann, S., Thomas, D., . . . Ultsch, A.:
+       <a href="https://doi.org/10.1109/WSOM.2017.8020010">
+        10.1109/WSOM.2017.8020010
+       </a>
+       , pp. 1-5, IEEE, Nany, France, 2017.
+      </li>
+<li id="publication-64">
+       Thrun, M. C., &amp; Ultsch, A. : Projection based Clustering, Proc. International Federation of Classification Societies (IFCS),
+                        pp. 250-251, Japanese Classification Society (JCS), Tokyo, Japan, 2017.
+      </li>
+<li id="publication-65">
+       Lötsch, J., Thrun, M. C., Lerch, F., Brunkhorst, R., Schiffmann, S., Thomas, D., . . . Ultsch, A.:
                         Machine-learned data structures of lipid marker serum concentrations in multiple sclerosis patients differ from those in
                         healthy subjects, International journal of molecular sciences, Vol. 18(6), pp. 1217.
-                        DOI: <a href="https://doi.org/doi:10.3390/ijms18061217">doi:10.3390/ijms18061217</a>, 2017. </li>
-                </ul>
-                <h1>
-                    2016:
-                </h1>
-                <ul>
-                    <li> Aubert, A. H., Thrun, M. C., Breuer, L., & Ultsch, A. : Knowledge discovery from high-frequency stream nitrate concentrations:
+                        DOI:
+       <a href="https://doi.org/doi:10.3390/ijms18061217">
+        doi:10.3390/ijms18061217
+       </a>
+       , 2017.
+      </li>
+</ul>
+<h1>
+      2016:
+     </h1>
+<ul>
+<li id="publication-66">
+       Aubert, A. H., Thrun, M. C., Breuer, L., &amp; Ultsch, A. : Knowledge discovery from high-frequency stream nitrate concentrations:
                         hydrology and biology contributions, Scientific reports, Nature, Vol. 6(31536), pp.
-                        DOI: <a href="https://doi.org/10.1038/srep31536">10.1038/srep31536</a>, 2016. </li>
-                    <li> Thrun, M. C., Lerch, F., Lötsch, J., & Ultsch, A. : Visualization and 3D Printing of Multivariate Data of Biomarkers,
+                        DOI:
+       <a href="https://doi.org/10.1038/srep31536">
+        10.1038/srep31536
+       </a>
+       , 2016.
+      </li>
+<li id="publication-67">
+       Thrun, M. C., Lerch, F., Lötsch, J., &amp; Ultsch, A. : Visualization and 3D Printing of Multivariate Data of Biomarkers,
                         in Skala, V. (Ed.), International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG),
-                        Vol. 24, Plzen, 2016. </li>
-                </ul>
-                <h1>
-                    2014-2015:
-                </h1>
-                <ul>
-                    <li> Thrun, M. C., & Ultsch, A. : Models of Income Distributions for Knowledge Discovery,
-                        Proc. European Conference on Data Analysis (ECDA), DOI: <a href="https://doi.org/10.13140/RG.2.1.4463.0244">10.13140/RG.2.1.4463.0244</a>,
-                        pp. 136-137, Colchester, 2015. </li>
-                    <li> Ultsch, A., Thrun, M. C., Hansen-Goos, O., & Lötsch, J. : Identification of Molecular Fingerprints in Human Heat Pain Thresholds
+                        Vol. 24, Plzen, 2016.
+      </li>
+</ul>
+<h1>
+      2014-2015:
+     </h1>
+<ul>
+<li id="publication-68">
+       Thrun, M. C., &amp; Ultsch, A. : Models of Income Distributions for Knowledge Discovery,
+                        Proc. European Conference on Data Analysis (ECDA), DOI:
+       <a href="https://doi.org/10.13140/RG.2.1.4463.0244">
+        10.13140/RG.2.1.4463.0244
+       </a>
+       ,
+                        pp. 136-137, Colchester, 2015.
+      </li>
+<li id="publication-69">
+       Ultsch, A., Thrun, M. C., Hansen-Goos, O., &amp; Lötsch, J. : Identification of Molecular Fingerprints in Human Heat Pain Thresholds
                         by Use of an Interactive Mixture Model R Toolbox (AdaptGauss), International journal of molecular sciences,
-                        Vol. 16(10), pp. 25897-25911, DOI: <a href="https://doi.org/10.3390/ijms161025897">10.3390/ijms161025897</a>, 2015. </li>
-                    <li> Stoll, J., Thrun, M. C., Nuthmann, A., & Einhäuser, W. : Overt attention in natural scenes: objects dominate features,
-                        Vision Research, Vol. 107, pp. 36-48, DOI: <a href="https://doi.org/10.1016/j.visres.2014.11.006">10.1016/j.visres.2014.11.006</a>, 2015. </li>
-                    <li> Marx, S., Hansen-Goos, O., Thrun, M. C., & Einhäuser, W. : Rapid serial processing of natural scenes:
+                        Vol. 16(10), pp. 25897-25911, DOI:
+       <a href="https://doi.org/10.3390/ijms161025897">
+        10.3390/ijms161025897
+       </a>
+       , 2015.
+      </li>
+<li id="publication-70">
+       Stoll, J., Thrun, M. C., Nuthmann, A., &amp; Einhäuser, W. : Overt attention in natural scenes: objects dominate features,
+                        Vision Research, Vol. 107, pp. 36-48, DOI:
+       <a href="https://doi.org/10.1016/j.visres.2014.11.006">
+        10.1016/j.visres.2014.11.006
+       </a>
+       , 2015.
+      </li>
+<li id="publication-71">
+       Marx, S., Hansen-Goos, O., Thrun, M. C., &amp; Einhäuser, W. : Rapid serial processing of natural scenes:
                         Color modulates detection but neither recognition nor the attentional blink, Journal of Vision,
-                        Vol. 14(14), DOI: <a href="https://doi.org/10.1167/14.14.4">10.1167/14.14.4</a>, 2014. </li>
-                </ul>
-                <h1>
-                    Acknowledgements:
-                </h1>
-                <ul>
-                    <li> Lötsch, J., Lerch, F., Djaldetti, R., Teqeder, I., Ultsch, A. : Identification of disease-distinct complex biomarker
+                        Vol. 14(14), DOI:
+       <a href="https://doi.org/10.1167/14.14.4">
+        10.1167/14.14.4
+       </a>
+       , 2014.
+      </li>
+</ul>
+<h1>
+      Acknowledgements:
+     </h1>
+<ul>
+<li id="publication-72">
+       Lötsch, J., Lerch, F., Djaldetti, R., Teqeder, I., Ultsch, A. : Identification of disease-distinct complex biomarker
                         patterns by means of unsupervised machine-learning using an interactive R toolbox (Umatrix),
-                        BMC Big Data Analytics, pp. 1-17, 2018. </li>
-                    <li> Ultsch, A., Lötsch, J. : Computed ABC analysis for rational selection of most informative variables in multivariate data,
-                        PloS one, Vol. 10(6), pp. 1-15, 2015. </li>
-                    <li> Hart, B. M., Schmidt, H. C. E. F., Roth, C., & Einhauser, W. : Fixations on objects in natural scenes:
+                        BMC Big Data Analytics, pp. 1-17, 2018.
+      </li>
+<li id="publication-73">
+       Ultsch, A., Lötsch, J. : Computed ABC analysis for rational selection of most informative variables in multivariate data,
+                        PloS one, Vol. 10(6), pp. 1-15, 2015.
+      </li>
+<li id="publication-74">
+       Hart, B. M., Schmidt, H. C. E. F., Roth, C., &amp; Einhauser, W. : Fixations on objects in natural scenes:
                         dissociating importance from salience. Frontiers in psychology, 4(455),
-                        DOI: <a href="https://doi.org/10.3389/fpsyg.2013.00455">10.3389/fpsyg.2013.00455</a>, 2013. </li>
-                </ul>
-            </section>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container">
-                <!--
+                        DOI:
+       <a href="https://doi.org/10.3389/fpsyg.2013.00455">
+        10.3389/fpsyg.2013.00455
+       </a>
+       , 2013.
+      </li>
+</ul>
+</section>
+</section>
+<!-- Contact-->
+</main>
+<section class="contact-section bg-black">
+<div class="container">
+<!--
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
@@ -388,24 +1824,53 @@
                         </div>
                     </div>
                 </div>-->
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://github.com/Mthrun"><i class="fab fa-github"></i></a>
-                    <a class="mx-2" href="https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503"><i class="fab fa-researchgate"></i></a>
-                    <a class="mx-2" href="https://scholar.google.de/citations?hl=de&user=LyA4BVEAAAAJ"><i class="fab fa-google"></i></a>
-                    <a class="mx-2" href="mailto:info@deepbionics.org"><i class="fas fa-envelope"></i></a>
-                    <a class="mx-2" href="mailto:info@deepbionics.org"><i class="fab fa-linkedin"></i></a>
-                    <a class="mx-2" href="https://www.xing.com/profile/Michael_Thrun"><i class="fab fa-xing"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Deepbionics 2018 <a href="impressum">Impressum</a> </div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<div class="social d-flex justify-content-center">
+<a aria-label="GitHub" class="mx-2" href="https://github.com/Mthrun" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-github">
+</i>
+</a>
+<a aria-label="ResearchGate" class="mx-2" href="https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-researchgate">
+</i>
+</a>
+<a aria-label="Google Scholar" class="mx-2" href="https://scholar.google.de/citations?hl=de&amp;user=LyA4BVEAAAAJ" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-google">
+</i>
+</a>
+<a aria-label="Email" class="mx-2" href="mailto:info@deepbionics.org">
+<i class="fas fa-envelope">
+</i>
+</a>
+<a aria-label="LinkedIn" class="mx-2" href="https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-linkedin-in">
+</i>
+</a>
+<a aria-label="Xing" class="mx-2" href="https://www.xing.com/profile/Michael_Thrun" rel="me noopener noreferrer" target="_blank">
+<i class="fab fa-xing">
+</i>
+</a>
+</div>
+</div>
+</section>
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50">
+<div class="container">
+    Copyright © Deepbionics 2018
+    <a href="/impressum.html">
+     Impressum
+    </a>
+</div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js">
+</script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js">
+</script>
+<!-- Core theme JS-->
+<script src="js/scripts.js">
+</script>
+</body>
 </html>

@@ -1,0 +1,30 @@
+# Deepbionics — Extended Machine-Readable Overview
+
+## Identity
+
+Prof. Dr. Michael C. Thrun is Honorary Professor of Artificial Intelligence at Philipps-Universität Marburg, a researcher, university lecturer and managing director of IAP-GmbH. His profile combines decision support systems, explainable AI, machine learning, knowledge discovery and interdisciplinary data science.
+
+## Research profile
+
+The research focuses on identifying meaningful structures in complex and high-dimensional data and translating them into transparent, reproducible and practically useful support for human experts. Methods include interpretable and self-assessing models, human-in-the-loop analysis, clustering, visualization, classification, distribution analysis, time-series forecasting, swarm intelligence and self-organization.
+
+## Interdisciplinary applications
+
+Applications span medicine and life sciences, environmental science, archaeology, finance, supply-chain and industrial analytics. The project page documents decision-support systems, explainable biomedical AI, knowledge-discovery methods, forecasting, visualization, clustering and open research software.
+
+## Software and teaching
+
+The site provides open-source R packages for visualization, density analysis, clustering, dimensionality reduction, classification, forecasting and parallel computation. University teaching covers Artificial Intelligence, Machine Learning, Knowledge Discovery and Temporal Data Mining, with reproducible R-based examples and critical evaluation of model assumptions and limitations.
+
+## Canonical resources
+
+- Home: https://www.deepbionics.de/
+- Projects: https://www.deepbionics.de/projects.html
+- Software: https://www.deepbionics.de/rpackages.html
+- Teaching: https://www.deepbionics.de/lectures.html
+- Publications: https://www.deepbionics.de/publications.html
+- Contact: https://www.deepbionics.de/contactme.html
+- ORCID: https://orcid.org/0000-0001-9542-5543
+- University profile: https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/
+- Google Scholar: https://scholar.google.de/citations?hl=en&user=LyA4BVEAAAAJ
+- DBLP: https://dblp.org/pid/205/4239
