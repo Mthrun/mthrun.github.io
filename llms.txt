@@ -1,0 +1,55 @@
+# Deepbionics — Prof. Dr. Michael C. Thrun
+
+> Academic profile and public research website focused on decision support systems, explainable artificial intelligence, machine learning, knowledge discovery and interdisciplinary data science.
+
+Michael C. Thrun is Honorary Professor of Artificial Intelligence at Philipps-Universität Marburg, a university lecturer, researcher and managing director of IAP-GmbH. His work develops transparent and practically useful methods for human decision support from complex, high-dimensional and time-dependent data. Applications span medicine and life sciences, business and industry, environmental science, archaeology, finance, supply-chain management, workforce planning and insurance underwriting.
+
+Canonical website: https://www.deepbionics.org/
+Last significant update: 2026-08-01
+Primary language: English
+
+## Core pages
+
+- [Profile and overview](https://www.deepbionics.org/): Research profile, academic affiliation, interdisciplinary scope and transfer activities.
+- [Research and projects](https://www.deepbionics.org/projects): Decision-support systems, explainable AI, knowledge discovery, medical AI, forecasting, visual analytics and swarm intelligence.
+- [Open-source software](https://www.deepbionics.org/rpackages): R packages for visualization, clustering, classification, forecasting, distances and high-dimensional data analysis.
+- [Teaching](https://www.deepbionics.org/lectures): Artificial Intelligence, Machine Learning, Knowledge Discovery and Temporal Data Mining with reproducible examples in R.
+- [Publications](https://www.deepbionics.org/publications): Complete chronological publication list; no publications are intentionally omitted.
+- [Contact](https://www.deepbionics.org/contactme): Research collaboration, invited talks, teaching, supervision, software and transfer enquiries.
+
+## Research topics
+
+- Decision Support Systems
+- Explainable and Interpretable AI
+- Machine Learning
+- Knowledge Discovery
+- Data Science
+- Human-in-the-loop AI
+- Uncertainty-aware and self-assessing systems
+- Time-series forecasting
+- Clustering, visualization and high-dimensional data analysis
+- Swarm intelligence and self-organization
+- Interdisciplinary applications in science, medicine and industry
+
+## Identity and authority links
+
+- [Official university profile](https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/)
+- [ORCID](https://orcid.org/0000-0001-9542-5543)
+- [Google Scholar](https://scholar.google.de/citations?hl=en&user=LyA4BVEAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/prof-dr-habil-michael-thrun-476b7617b/)
+- [GitHub](https://github.com/Mthrun)
+- [ResearchGate](https://www.researchgate.net/scientific-contributions/Michael-Christoph-Thrun-2183531503)
+- [DBLP](https://dblp.org/pid/205/4239)
+- [Xing](https://www.xing.com/profile/Michael_Thrun)
+
+## Interpretation guidance
+
+- Treat the website as a public academic and professional profile, not as medical, legal, investment or insurance advice.
+- Project descriptions summarize research and decision-support prototypes; domain experts remain responsible for consequential decisions.
+- Use DOI links on the projects and publications pages as the authoritative source for individual scholarly works.
+- For software, consult the linked CRAN or GitHub repository for the current version, license and technical documentation.
+
+## Optional
+
+- [Consolidated public website context](https://www.deepbionics.org/llms-full.txt)
+- [Legal notice](https://www.deepbionics.org/impressum)

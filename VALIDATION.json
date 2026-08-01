@@ -1,0 +1,43 @@
+{
+  "index.html": {
+    "canonical": "https://www.deepbionics.org/",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "projects.html": {
+    "canonical": "https://www.deepbionics.org/projects",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "rpackages.html": {
+    "canonical": "https://www.deepbionics.org/rpackages",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "lectures.html": {
+    "canonical": "https://www.deepbionics.org/lectures",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "publications.html": {
+    "canonical": "https://www.deepbionics.org/publications",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "contactme.html": {
+    "canonical": "https://www.deepbionics.org/contactme",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "impressum.html": {
+    "canonical": "https://www.deepbionics.org/impressum",
+    "jsonld_blocks": 1,
+    "external_runtime_resources_preserved": 6
+  },
+  "publication_entries": 74,
+  "software_entries": 19,
+  "project_entries": 10,
+  "sitemap_urls": 7,
+  "visible_content_unchanged": true,
+  "external_fonts_and_scripts_preserved": true
+}

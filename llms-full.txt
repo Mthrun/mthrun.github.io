@@ -1,0 +1,807 @@
+# Deepbionics — Full Public Website Context
+
+> Consolidated text from the public Deepbionics website for convenient machine reading. The canonical HTML pages remain authoritative.
+
+Last significant update: 2026-08-01
+
+## Profile and Overview
+
+Source: https://www.deepbionics.org/
+Last updated: 2026-08-01
+
+# Deepbionics
+
+## Decision support systems, explainable AI, machine learning, knowledge discovery and interdisciplinary data science.
+
+[Learn More](#about)
+
+![Visualization of complex structures in data](assets/img/bg-masthead.jpg)
+
+#### Prof. Dr. habil. Michael C. Thrun
+
+**Honorary Professor of Artificial Intelligence at
+[Philipps-Universität Marburg](https://www.uni-marburg.de/de/fb12/fachbereich/personen/honorarprofessuren-und-emeriti/)**
+  
+Researcher, university lecturer and managing director of IAP-GmbH
+
+I research, develop and teach methods at the intersection of
+**decision support systems, explainable AI, machine learning, knowledge discovery and data science**
+. My work focuses on identifying meaningful structures in complex, high-dimensional data and translating them into transparent and practically useful support for human experts. I combine interpretable and self-assessing models, human-in-the-loop analysis, clustering, visualization, classification and time-series forecasting. The research is strongly interdisciplinary, with applications in medicine and life sciences, environmental science, archaeology, finance, supply chain management and industrial analytics.
+
+![Research and teaching in artificial intelligence and data science](assets/img/demo-image-01.jpg)
+
+#### Research & Teaching
+
+This website presents my
+<publications>
+, interdisciplinary
+[research projects](projects)
+, university teaching and open-source
+[software](rpackages)
+. A unifying goal is to make machine-learning results reproducible, understandable and useful for real decisions rather than treating predictive accuracy as the only objective. My teaching covers Artificial Intelligence, Machine Learning, Knowledge Discovery and Temporal Data Mining and connects methodological foundations with reproducible applications.
+
+---
+
+![Applied research and technology transfer](assets/img/demo-image-02.jpg)
+
+#### Applied Research & Transfer
+
+Through
+[IAP-GmbH](https://www.iap-gmbh.de/)
+, I translate research into prototypes and decision-support systems with partners in medicine and industry. Projects range from diagnostic support and sales or supply-chain forecasting to workforce planning, financial and energy analytics, and insurance underwriting. The transfer is bidirectional: practical decision problems motivate new research questions, while methodological advances are evaluated in real-world settings.
+
+---
+
+## Research and Projects
+
+Source: https://www.deepbionics.org/projects
+Last updated: 2026-08-01
+
+# Research & Projects
+
+## Decision support, explainable AI, machine learning and knowledge discovery across disciplines.
+
+[Explore Projects](#about)
+
+## Research Profile
+
+My research connects five closely related areas:
+**decision support systems, explainable AI, machine learning, knowledge discovery and data science**
+. Across these areas, the goal is to transform complex data into transparent and useful support for human decisions. Methods are developed in an interdisciplinary setting and evaluated together with domain experts in medicine and life sciences, environmental research, archaeology, finance, logistics and industrial analytics.
+
+Recurring methodological themes include human-in-the-loop analysis, case-level self-assessment, structure discovery in high-dimensional data, classification, clustering, visualization and time-series forecasting. The selected projects below illustrate both methodological research and its transfer into practical decision-support systems.
+
+![Explainable artificial intelligence and human-centered knowledge discovery](assets/img/XAI.jpg)
+
+#### Explainable AI and Human-Centered Knowledge Discovery
+
+Explainable AI should do more than attach a generic explanation to a black-box prediction. My research starts from structures in the data and develops models whose evidence, rules and limitations can be inspected by domain experts. The work combines unsupervised structure discovery, interpretable classifiers, visual analytics and human-in-the-loop interaction. A central design principle is that explanations must be relevant to the actual decision task and expressed in a form that domain experts can examine. This approach has been applied to
+[hydrochemical time series](https://doi.org/10.3390/make3010009)
+,
+[financial data](https://doi.org/10.15678/EBER.2019.070113)
+and
+[high-dimensional biomedical measurements](https://doi.org/10.3390/biomedinformatics4010013)
+.
+
+---
+
+![Decision support system combining data, models and expert interaction](assets/img/decisionSupportSystem.jpeg)
+
+#### Decision Support Systems
+
+My decision-support research and development connects data integration, machine learning, uncertainty handling and interactive user interfaces. Systems have been developed for medical diagnostics, sales and supply-chain forecasting, workforce and capacity planning, energy and financial time series, and insurance underwriting and pricing. One project supports daily decisions in WTI crude oil futures trading by combining web analytics and market data, selective abstention when the available information is insufficient, daily model retraining to address concept drift, and simulated position management for risk assessment. Depending on the application, the systems provide case-level self-assessment, abstain when the available information is insufficient, adapt to concept drift, or translate statistical quality measures into domain-specific risk, cost and performance indicators. The aim is not to replace accountable experts, but to provide transparent and practically usable support for complex decisions.
+
+---
+
+![Knowledge discovery across interdisciplinary data domains](assets/img/ExplotingPatterns.jpg)
+
+#### Knowledge Discovery
+
+My knowledge-discovery research investigates how meaningful structures, subgroups and atypical cases can be identified in complex, high-dimensional data and translated into domain-relevant knowledge. Applications include tumor transcriptomics, biomedical measurements, environmental data, finance and archaeology, using self-organizing methods, clustering, classification and visual analytics in close collaboration with domain experts. In archaeology, the study
+[*Projection-based Classification of Chemical Groups and Provenance Analysis of Archaeological Materials*](https://doi.org/10.1109/ACCESS.2020.3016244)
+used chemical measurements to identify material groups and investigate provenance; the work was also presented in
+[Wissenschaft.de](https://www.wissenschaft.de/geschichte-archaeologie/archaeologie-mit-kuenstlicher-intelligenz/)
+. Across these domains, expert review remains central to interpreting discovered structures and assessing their scientific or practical relevance.
+
+---
+
+## Selected Interdisciplinary Projects
+
+![Inflame.AI for explainable differentiation of inflammatory conditions](assets/img/InflameMess.png)
+
+#### Inflame.AI: Explainable Differentiation of Inflammatory Conditions
+
+Inflame.AI investigates whether rapidly available clinical parameters can support the differentiation of bacterial infections, viral infections, autoimmune diseases and controls. The system combines blood-count parameters, C-reactive protein and flow-cytometry measurements with interpretable machine-learning models. The resulting decision rules allow clinicians to inspect which variables contributed to an individual classification. The
+[published study](https://doi.org/10.3389/fimmu.2024.1364954)
+demonstrates the potential of explainable AI for rapid differential support, while also showing that larger and prospective validation is needed before clinical deployment. The project was communicated through
+[university and national media](https://idw-online.de/de/news832372)
+.
+
+---
+
+![FlowXAI and PLAIT for explainable lymphoma decision support](assets/img/PLAIT.png)
+
+#### FlowXAI / PLAIT: Self-Explaining Lymphoma Decision Support
+
+FlowXAI is a self-explaining decision-support system for classifying B-cell non-Hodgkin lymphoma from multiparameter flow-cytometry data. It combines unsupervised sample-quality assessment, interpretable identification of diagnostically relevant cell populations and a hierarchical classification workflow aligned with clinical practice. Each prediction is assigned a case-level trustworthiness category—confident, probable or challenging—so that experts can focus attention on uncertain or atypical cases. The system was evaluated on 19,493 peripheral-blood samples and an external dataset from a second diagnostic center, achieving performance comparable to a deep-learning reference with substantially fewer training samples. FlowXAI is designed for decision support and training, not as a replacement for integrated clinical diagnosis.
+[Publication](https://doi.org/10.1371/journal.pmed.1004889)
+·
+[Interactive platform](https://plait.mathematik.uni-marburg.de/)
+·
+[University press release](https://www.uni-marburg.de/de/aktuelles/news/2026/ki-erkennt-krebszellen-und-bewertet-die-sicherheit-ihrer-diagnose)
+.
+
+---
+
+![Interactive projection-based clustering and visual analytics](assets/img/InteractiveDisplay.jpg)
+
+#### Interactive Projection-Based Clustering
+
+Interactive Projection-Based Clustering (IPBC) supports the exploration of cluster structures in high-dimensional data. It combines dimensionality reduction, topographic visualization and user-guided analysis so that alternative groupings can be inspected rather than accepted as a single opaque result. The open-source tool can be used interactively or in an automated workflow and is intended for both methodological research and interdisciplinary knowledge discovery.
+[Read the associated publication](https://doi.org/10.1007/s41060-021-00264-2)
+.
+
+---
+
+![Mirrored density plot for distribution analysis](assets/img/MDplot.png)
+
+#### Mirrored Density Plot (MD Plot)
+
+The Mirrored Density Plot (MD plot) is a parameter-free visualization for exploring empirical distributions. It helps reveal skewness, multimodality, clipping and heterogeneous subgroups without requiring users to tune kernel-density bandwidths. The method supports transparent pre-model analysis, quality control and communication of distributional structure and is implemented in the open-source
+[DataVisualizations](https://CRAN.R-project.org/package=DataVisualizations)
+package.
+[Publication](https://doi.org/10.1371/journal.pone.0238835)
+·
+[Documentation](https://md-plot.readthedocs.io/en/latest/index.html)
+.
+
+---
+
+![Databionic Swarm for self-organized clustering](assets/img/SwarmIntelligence.jpg)
+
+#### Databionic Swarm
+
+Databionic Swarm is a self-organizing approach to projection and clustering of high-dimensional data. Interacting agents adapt to distance- and density-based structures without relying on a single global clustering objective. The resulting topographic map supports the visual assessment of clusters, separating structures and outliers, and can indicate when the data do not support a meaningful partition. The method connects swarm intelligence, emergence, game-theoretic ideas and knowledge discovery and is available as open-source R software.
+[Publication](https://doi.org/10.1016/j.artint.2020.103237)
+·
+[Software](https://CRAN.R-project.org/package=DatabionicSwarm)
+.
+
+---
+
+![Explainable machine learning for stock selection](assets/img/StockPicking.jpg)
+
+#### Explainable AI for Stock Selection
+
+This project studies how quarterly fundamental company data can be converted into inspectable rules for stock selection. Distance-based structures guide the construction of interpretable decision trees, and the resulting subsets and rules are reviewed by a human analyst. The work is a methodological case study in explainable decision support under small-sample, high-dimensional conditions. It is not investment advice and does not replace independent financial assessment.
+[Read the publication](https://doi.org/10.3390/info13020051)
+.
+
+---
+
+![Time-series forecasting for workforce and capacity planning](assets/img/Forecast.png)
+
+#### Decision-Oriented Forecasting for Workforce Management
+
+Call-center forecasting is useful only when it supports the staffing decision. This project therefore aligned model development and evaluation with service-level and capacity-planning objectives instead of relying solely on symmetric forecast-error measures. Five years of historical call and weather data were modeled using an ensemble of additive decomposition and random-forest regression with a 14-day forecast horizon. The project illustrates a general principle of decision support: data representation, loss functions and evaluation criteria should reflect the operational consequences of over- and under-forecasting. Related methodological work is presented in
+[*Multiresolution Forecasting for Industrial Applications*](https://doi.org/10.3390/pr9101697)
+(Processes, 2021), and its practical relevance is discussed in a
+[Research Outreach feature](https://researchoutreach.org/articles/multiresolution-forecasting-commercial-processes/)
+.
+
+---
+
+## Open-Source Software
+
+Source: https://www.deepbionics.org/rpackages
+Last updated: 2026-08-01
+
+# Open-Source Software
+
+## R packages for knowledge discovery, machine learning, visualization, clustering, classification and time-series analysis.
+
+[View Software](#aboutRPackages)
+
+# Research Software on CRAN and GitHub
+
+These open-source packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub.
+
+For reproducible use, please consult the package documentation and cite both the software and the associated methodological publication where applicable.
+
+| Package and Purpose | License | Repository | Authors / Maintainers |
+| --- | --- | --- | --- |
+| Visualization and Distribution Analysis | | | |
+| --- | --- | --- | --- |
+| DataVisualizations: Pareto Density Estimation and MD Plot | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=DataVisualizations) | Michael Thrun, Felix Pape, Onno Hansen-Goos, Quirin Stier, Hamza Tayyab, Luca Brinkmann, Dirk Eddelbuettel, Winston Chan, Craig Varrichio, Alfred Ultsch |
+| AdaptGauss: Gaussian Mixture Models | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=AdaptGauss) | Michael Thrun, Onno Hansen-Goos, Rabea Griese, Catharina Lippmann, Florian Lerch, Jörn Lötsch, Alfred Ultsch |
+| AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/AdaptGauss2D) | Quirin Stier, Michael Thrun |
+| Structure Discovery, Clustering and Dimensionality Reduction | | | |
+| DatabionicSwarm | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=DatabionicSwarm) | Michael Thrun |
+| ProjectionBasedClustering | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=ProjectionBasedClustering) | Michael Thrun, Florian Lerch, Felix Pape, Kristian Nybo, Jarkko Venna |
+| GeneralizedUmatrix | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=GeneralizedUmatrix) | Michael Thrun, Alfred Ultsch |
+| Umatrix | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=Umatrix) | Michael Thrun, Alfred Ultsch |
+| FCPS: Fundamental Clustering Problems Suite | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=FCPS) | Michael Thrun, Peter Nahrgang, Felix Pape, Vasyl Pihur, Guy Brock, Susmita Datta, Somnath Datta, Luis Winckelmann, Alfred Ultsch, Quirin Stier |
+| Classification, Feature Selection and Distances | | | |
+| ABCanalysis | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=ABCanalysis) | Michael Thrun, Florian Lerch, Jörn Lötsch, Alfred Ultsch |
+| BIDistances: Bioinformatic Distances | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=BIDistances) | Quirin Stier, Luca Brinkmann, Michael Thrun |
+| PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/PDEbayes) | Michael Thrun, Quirin Stier |
+| Classifiers | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/Classifiers) | Michael Thrun, Rabea Griese, Alfred Ultsch |
+| Distances | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/Distances) | Raphael Paebst, Felix Pape, Michael Thrun |
+| Time Series and Computation | | | |
+| Multiresolution Forecasting Using Wavelets (mrf) | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=mrf) | Quirin Stier, Michael Thrun |
+| TimeSeries | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/TSAT) | Michael Thrun |
+| Hidden Markov Models (RHmm) | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/RHmm) | Ollivier Taramsco, Sebastian Bauer; maintainer: Michael Thrun |
+| memshare: Shared-Memory Multithreading | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [CRAN](https://CRAN.R-project.org/package=memshare) | Julian Märte, Michael Thrun |
+| Data Handling and Applied Utilities | | | |
+| DataIO | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/dbt.DataIO) | Michael Thrun, Florian Lerch, Catharina Lippmann, Felix Pape, Onno Hansen-Goos, Quirin Stier, Sabine Herda |
+| ImageProcessing | [GPL-3](https://cran.r-project.org/web/licenses/GPL-3) | [GitHub](https://github.com/Mthrun/ImageProcessing) | Michael Thrun |
+
+If you use these packages in scientific work, please cite them accordingly. For bug reports, please include a minimal reproducible example, the package version and the output of
+`sessionInfo()`
+.
+
+## Teaching
+
+Source: https://www.deepbionics.org/lectures
+Last updated: 2026-08-01
+
+# Lectures
+
+## Given in the Philipps University of Marburg with examples in R.
+
+[Details](#aboutLectures)
+
+> Science is the belief in the ignorance of experts.
+>
+> — Richard Feynman, “What Is Science?”, 1966.
+
+I have taught
+**Artificial Intelligence, Machine Learning, Knowledge Discovery and Temporal Data Mining**
+continuously since 2019 in bachelor’s and master’s programmes. My courses combine theoretical foundations with reproducible implementations in R, version-controlled software, case studies and project-based learning. They address not only how algorithms work, but also the assumptions under which they are valid, how their performance should be evaluated, when they can fail, and how uncertainty and limitations should be communicated.
+
+A recurring objective is to connect statistical and machine-learning methods with understandable knowledge and practical decision support. Course materials therefore integrate data visualization, clustering, classification, time-series analysis, explainable AI, human-in-the-loop methods, self-organization and interdisciplinary applications. The archived materials below document selected courses, lectures and conference presentations.
+
+**Note:**
+Materials are provided for academic teaching and personal study. Please cite the corresponding
+<publications>
+or software packages when reusing methodological content.
+
+## Knowledge Discovery for Heterogeneous Data II:
+
+### Chapter 4: Multivariate Structures in Data
+
+- Methods of dimensionality reduction
+- Graph theory with applications of neighborhood graphs
+- Focusing projection methods
+- Quality assesment is based on Graph theory
+
+### Chapter 5: Unsupervised Machine Learning
+
+- Emergent self-organizing maps and the U-matrix
+- Conventional cluster analysis
+- Combining dimensionality reduction with cluster analysis
+- Quality measurement and Benchmarking of Algorithms
+
+### Chapter 6: Classification
+
+- Subsymbolic classifiers: KNN and Naiv Bayes
+- Subsymbolic classifiers: Support Vector Machines and Neural Networks
+- Estimation of generalization ability
+- Benchmarking
+
+### Chapter 7: Knowledge
+
+- Knowledge and Knowledge Bases
+- Understandability and Post-hoc-Explainers of subsymbolic classifiers
+- Symbolic Classifiers
+- Building data-driven explainable Artificial Intelligence Systemss
+
+## Knowledge Discovery for Heterogeneous Data I:
+
+### Chapter 1: Pattern of Thought in Knowledge Discovery
+
+- The circular process of KD
+- The difference to statistics
+
+### Chapter 2: Basic Exploration
+
+- Scales, Types of Errors in Measurement
+- Statistical Descriptions of Variables
+
+### Chapter 3: Univariate Structures in Data
+
+- Transformations
+- Bayesian Theorem and its Applications
+- Multimodal Distributions and Gaussian Mixture Models
+- Skewed Distributions
+- Relative Differences
+
+### Chapter 4: Multivariate Structures in Data
+
+- Handling Missing Values
+- Correlations and Distances
+- Challenges of High-dimensionality
+
+## Databionic Methods for Artificial Intelligence:
+
+Databionics means the transfer of algorithms for data processing from nature.
+One major part of databionicsis artificial intelligence (AI).
+In this context, AI is restricted to seeking, explaining and emulating intelligentbehavior in the form of a computational processes.
+
+### Chapter 1: Databionics and Randomness
+
+- [Introduction into Databionics](Lectures/Databionics_Lecture1.rar)
+- [Chance - The Prerequesite for Emergence](Lectures/Databionics_Lecture1.rar)
+
+### Chapter 2: Introduction into Supervised Artificial Neural Networks
+
+- [Perceptron Algorithm](Lectures/Databionics_Lecture2updated.rar)
+- [Multilayer Perceptron Network with Backpropagation](Lectures/Databionics_Lecture2updated.rar)
+- [Building a Classifier with MLP-BP](Lectures/Databionics_Lecture2updated.rar)
+- [Outlining Pitfalls and Challenges using ML Theory](Lectures/Databionics_Lecture3.rar)
+- [Application: Forecasting with Supervised Artificial Neural Networks](Lectures/Databionics_Lecture3.rar)
+
+### Chapter 3: Unsupervised Learning Focused on Neural Networks and Emergence
+
+- [Types of Self-Organizing Maps (SOM)](Lectures/Databionics_Lecture4.rar)
+- [Excurs: Exploring the Brain Using Neuroscience](Lectures/Databionics_Lecture4.rar)
+- [Clustering with Online Self-Organizing Maps (SOM)](Lectures/Databionics_Lecture4.rar)
+- [Projection and Visualization with Emergent SOM (ESOM)](Lectures/Databionics_Lecture4.rar)
+- [The Curse of Dimensionality in High-Dimensional Data and Quality Assesment Of Projections](Lectures/Databionics_Lecture5.rar)
+- [Simplified ESOM and Generalized U-matrix for Projections](Lectures/Databionics_Lecture6.rar)
+- [Emergence Theory](Lectures/Databionics_Lecture7.rar)
+
+### Chapter 4: Behavior-Based Systems
+
+- [Artificial Life and Conway's Game of Life](Lectures/Databionics_Lecture7.rar)
+- [Principles of Collective Behavior and Swarm Intelligencen](Lectures/Databionics_Lecture8.rar)
+- [Agents, Self-Organization and Schelling's Model](Lectures/Databionics_Lecture8.rar)
+- [Ant-based Systems: Ant Colony Optimization and Ant-based Clustering](Lectures/Databionics_Lecture9.rar)
+- [Particle Swarm Optimization](Lectures/Databionics_Lecture9.rar)
+- [Exploiting Swarm Intelligence using of Game Theory](Lectures/Databionics_Lecture10.rar)
+- [Databionic Swarm: Swarm-based Projection and Cluster Analysis of Complex Use Cases](Lectures/Databionics_Lecture10.rar)
+
+### Chapter 5: Evolutionary (EA) and Genetic Algorithms (GA)
+
+- [Biological Foundations](Lectures/Databionics_Lecture11.rar)
+- [Strategies for EA](Lectures/Databionics_Lecture11.rar)
+- [Mutation & Recombination in the Context of GA](Lectures/Databionics_Lecture11.rar)
+- [Applying GA and EA to Optimization Problems](Lectures/Databionics_Lecture11.rar)
+- [Distribution Optimization: Outperforming Expectation Maximization Algorithm in Case Of Gaussian Mixtures](Lectures/Databionics_Lecture11.rar)
+
+### Chapter 6: Knowledge Discovery in Genes and Their Products
+
+- [From DNA to Proteins: Process and Measurement Approaches](Lectures/Databionics_Lecture12updated.rar)
+- [Methods for Analyzing Gen Expressions](Lectures/Databionics_Lecture12updated.rar)
+- [Excurs: Gen Self-Regulation and Epigenetics](Lectures/Databionics_Lecture12updated.rar)
+- [Introduction of Biological Databases](Lectures/Databionics_Lecture13updated.rar)
+  and
+  [Ontologies (Gene Ontology)](http://geneontology.org/)
+- [Overrepresentation Analysis and Functional Abstraction](Lectures/Databionics_Lecture13updated.rar)
+- [Excurs: Exploiting a Concept of Information Retrieval for the Clustering of Genes](Lectures/Databionics_Lecture13updated.rar)
+
+## Temporal Data Mining:
+
+### Chapter 1:
+
+- [Time is Relative](Lectures/Lecture1.rar)
+
+### Chapter 2:
+
+- [Decomposition Model](Lectures/Lecture2.rar)
+
+### Chapter 3:
+
+- [Time Series as Stochastic Process](Lectures/Lecture4.rar)
+- [Box Jenkins Methodology](Lectures/Lecture5.rar)
+
+### Chapter 4:
+
+- [Approaches for Calculating Differences](Lectures/Lecture6.rar)
+- [Introducing Risk Measures: Volatility and Beta](Lectures/Lecture6.rar)
+- [ARCH/GARCH](Lectures/Lecture7.rar)
+
+### Chapter 5:
+
+- [Introduction into Time Series Forecasting](Lectures/Lecture7.rar)
+- [Forecasting with Decomposition Model of Facebook's Prophet](Lectures/Lecture8.rar)
+- [Forecasting Evaluation Using Machine Learning Theory](Lectures/Lecture8.rar)
+- [Forecasting with Machine Learning Ensemble](Lectures/Lecture8.rar)
+
+### Chapter 6:
+
+- [Markov Chains](Lectures/Lecture9.pdf)
+- [Hidden Markov Model](Lectures/Lecture9.rar)
+- [Explaining Baum-Welch and Viterbi Algorithm on the Example of Sunspots](Lectures/Lecture9.rar)
+
+### Chapter 7:
+
+- [Introduction into Fourier Analysis](Lectures/Lecture10.rar)
+- [Applying Fourier Analysis to Sunspots](Lectures/Lecture10.rar)
+- [Windowing Effect](Lectures/Lecture10.rar)
+- [DFT Spectrum of Common Cases](Lectures/Lecture10.rar)
+- [Filtering with DFT](Lectures/Lecture11.rar)
+- [Low-pass Fourier Filtering on the example of High-Frequency Hydrobiologial Data](Lectures/Lecture11.rar)
+- [Short-Time Fourier Analysis and Heisenberg's Uncertainty](Lectures/Lecture11.rar)
+- [Gabor Transformation](Lectures/Lecture11.rar)
+
+### Chapter 8:
+
+- [Introduction into Wavelet Analysis](Lectures/Lecture12.rar)
+- [Comparison of Time Series Representations to Wavelet Analysis](Lectures/Lecture12.rar)
+
+### Chapter 9:
+
+- [Introduction into Time Series Classification](Lectures/Lecture13.rar)
+- [Swarm-based Cluster Analysis using Dynamic Time Warping](Lectures/Lecture13.rar)
+
+### Chapter 10:
+
+- [Temporal Knowledge Discovery by Non-Temporal Inference](Lectures/Lecture14.rar)
+- [Temporal Inference: Pattern Evolution, Episodes, Sequential Pattern Mining and Association Rules](Lectures/Lecture14.rar)
+- [Temporal Reasoning: From Allen's Interval Logic to Unification-based Temporal Grammars](Lectures/Lecture14.rar)
+
+### [Supplementary Introduction into R](Lectures/Lecture3_SI.rar)
+
+Following are some of the lectures and talks I gave during my teachings under the tutelage of Prof. A. Ultsch or in conferences.
+More general lectures on data science:
+
+- [Approaches to Distribution Analysis](Lectures/18ThrunUltsch_ModelingAndForecasting_EffectsPayoutSystemIncomeTaxes.pdf)
+- [Temporal Knowledge Discovery in Big Data Time Series](Lectures/CompoundModelinHydrology.pdf)
+- [Models of Income Distributions for Knowledge Discovery](https://www.researchgate.net/publication/281524728_Models_of_Income_Distributions_for_Knowledge_Discovery)
+- [Introduction in the Concept of Swarms](Lectures/01IntroductionIntoSwarm.pdf)
+
+Cluster Analysis and Visualization of such results:
+
+- [Projection based Clustering](https://www.researchgate.net/publication/319006501_Projection_Based_Clustering)
+- [Knowledge discovery from low-frequency stream nitrate concentrations: hydrology and biology contributions](https://www.researchgate.net/publication/326247165_Knowledge_discovery_from_low-frequency_stream_nitrate_concentrations_hydrology_and_biology_contributions)
+- [Cluster Analysis of the World Gross-Domestic Product Based on the Emergent Self-Organization of a Swarm](Lectures/18Thrun_DBSwithWorldGDP.pdf)
+- [DataBionicSwarm (DBS)](Lectures/09DataBionicSwarmDBSV2.pdf)
+- [Visualization and 3D Printing of Multivariate Data of Biomarkers](Lectures/3DdruckConferencePresentation.pdf)
+- [Benchmarking Cluster Analysis Methods using PDE-Optimized Violin Plots](Lectures/18ThrunEtAl_PDEviolinplotsBenchmarkingClustering.pdf)
+
+Methods of Dimensionality Reduction and their Evaluation approaches:
+
+- [Investigating Quality Measures of Projections for the Evaluation of Distance and Density-based Structures of High-Dimensional Data](https://www.researchgate.net/publication/326413234_Investigating_Quality_Measures_of_Projections_for_the_Evaluation_of_Distance_and_Density-based_Structures_of_High-Dimensional_Data)
+- [Quality Measures of Projections](Lectures/64QualityAssesmentOfProjectionV2.pdf)
+- [Neighbor Retrieval Visualizer - NeRV](Lectures/53NeRV.pdf)
+
+Two brief summaries on knowledge discovery and temporal data mining and basics about high-dimensional data in German:
+
+- [Summary - Knowledge Discovery (KD)](Lectures/knowledgediscovery.pdf)
+- [Summary - Temporal Data Mining and KD](Lectures/tDM.pdf)
+- [Hochdimensionale Daten](Lectures/61HochdimDatenMT.pdf)
+
+## Publications
+
+Source: https://www.deepbionics.org/publications
+Last updated: 2026-08-01
+
+# 2026:
+
+- Thrun, M. C., Hoffman, J., Krause, S. W., Krawitz, P., Stier, Q., Neubauer, A., Brendel\*, C. Ultsch\*, A.:
+  Self-explaining Artificial Intelligence for the Classification of B cell Non-Hodgkin Lymphoma:
+  A diagnostic decision support study, PLoS Med, Vol 23(7), e1004889, DOI:
+  [10.1371/journal.pmed.1004889](https://doi.org/10.1371/journal.pmed.1004889)
+  ,
+  \*equal contributions, 2026.
+- Stier, Q.,Hoffmann, J. & Thrun, M. C.: Classifying with the Fine Structure of Distributions: Leveraging Distributional Information for Robust and Plausible Naïve Bayes,
+  Machine Learning and Knowledge Extraction (MAKE), Vol. 8(1), 13, DOI:
+  [10.3390/make8010013](https://doi.org/10.3390/make8010013)
+  , MDPI, 2026.
+- Thrun, M.C.& Märte, J. Memshare: Memory Sharing for Multicore Computation in R with an Application
+  to Feature Selection by Mutual Information using PDE, The R Journal, Vol. 17(4), pp. 306-322,
+  DOI:
+  [10.32614/RJ-2025-043](https://doi.org/10.32614/RJ-2025-043)
+  , 2026.
+- Thrun, M. C. & Hoffmann, J.: PDE-based naïve Bayes classifier for the distinction of Non- vs Oligo-, and Polymetastatic Cancer through Flow Cytometry, 19th conference of the International Federation of Classification Societies (IFCS),
+  Milan, Italy, July 14-16, accepted, 2026.
+- Thrun, M. C. & Hoffmann, J.: Classifying the Fine Structure of Distributions of Flow Cytometry Data through a Flexible and Plausible Naïve Bayes,
+  Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026.
+- Stier, Q .& Thrun, M. C.: Emergent Self-Organizing Swarm Intelligence using weak Nash-Equilibria for Pattern Classification,
+  Proc. European Conference on Data Analysis (ECDA), Stralsund, Germany, accepted, 2026.
+
+# 2025:
+
+- Stier, Q. & Thrun, M. C.: An efficient multicore CPU implementation of the DatabionicSwarm, in: Trejos, J., Chadjipadelis, T., Grané, A., Villalobos, M. (eds) Data Science, Classification, and Artificial Intelligence for Modeling Decision Making, Studies in Classification, Data Analysis, and Knowledge Organization. Springer, Cham, 18th conference of the International Federation of Classification Societies (IFCS), San José, Costa Rica, July 14-19, DOI:
+  [10.1007/978-3-031-85870-3\_20](https://doi.org/10.1007/978-3-031-85870-3_20)
+  , 2025.
+
+# 2024:
+
+- Hoffmann, J., Rheude, A. Neubauer, A. Brendel, C., & Thrun, M. C.: Development of an explainable AI System Using Routine Clinical Parameters for Rapid Differentiation of Inflammatory Conditions, Frontiers in Immunology, Vol. 15, pp. 1364954, DOI:
+  [10.3389/fimmu.2024.1364954](https://doi.org/10.3389/fimmu.2024.1364954)
+  , 2024.
+- Ultsch, A., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., & Thrun, M. C.: An Explainable AI System for the Diagnosis of High Dimensional Biomedical Data, BioMedInformatics, Vol. 4(1), pp. 197-218, DOI:
+  [10.3390/biomedinformatics4010013](https://doi.org/10.3390/biomedinformatics4010013)
+  , 2024.
+- López-García, P., Argote, D. L., Torres-García, M. & Thrun, M. C.: Knowledge Discovery for Archaeological Materials, Cambridge Elements Series, Cambridge University Press, accepted, 2024.
+- López-García, P., Argote, D. L., Torres-García, M. & Thrun, M. C.: Machine Learning for Archaeological Applications in R, Cambridge Elements Series, Cambridge University Press, accepted, 2024.
+
+# 2023:
+
+- Thrun, M. C., Märte, J., & Stier, Q.: Analyzing Quality Measurements for Dimensionality Reduction, Machine Learning and Knowledge Extraction (MAKE), Vol. 5(3), pp. 1076-1118, DOI:
+  [10.3390/make5030056](https://doi.org/10.3390/make5030056)
+  , 2023.
+- Thrun, M. C. & Stier, Q..: Deriving homogeneous subsets from gene sets by exploiting the Gene Ontology, Informatica, Vol.34(2), pp. 357–386, DOI:
+  [10.15388/23-INFOR517](https://doi.org/10.15388/23-INFOR517)
+  , 2023.
+- Thrun, M. C., Stier, Q., & Ultsch, A.: Interactive Toolbox for Two-Dimensional Gaussian Mixture Modeling, In: Amini M-R, Canu S, Fischer A, Guns T, Kralj Novak P, Tsoumakas G, editors, Machine Learning and Knowledge Discovery in Databases, Vol. 13718, DOI:
+  [10.1007/978-3-031-26422-1\_51](https://doi.org/10.1007/978-3-031-26422-1_51)
+  , Springer Nature Switzerland, Proc. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  (ECML PKDD), 19th-23rd September 2022, Grenoble, France, pp. 658-661, 2023.
+- Hoffmann, J., Eminovic, S., Wilhelm, C., Krause, S. W., Neubauer, A., Thrun, M. C., . . . Brendel, C.: Prediction of clinical outcomes with explainable artificial intelligence in patients with chronic lymphocytic leukemia Current Oncology, Vol. 30(2), pp. 1903-1915, DOI:
+  [10.3390/curroncol30020148](https://doi.org/10.3390/curroncol30020148)
+  , 2023.
+- Hoffman, J., Rheude, A., & Thrun, M. C.: Explainable AI for Rapid and Simple Differential Diagnosis of Inflammatory Conditions Using Combined Myeloid Activation Test, Complete Blood Count, and CRP Analysis,
+  Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.57, Antwerp, Belgium, July 5-7, 2023.
+- Brinkann, L., Stier, Q., & Thrun, M. C.: Computing Sensitive Color Transitions for the Identification of Two-Dimensional Structures,
+  Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA), p.109, Antwerp, Belgium, July 5-7, 2023.
+- Thrun, M. C., Stier, Q. & Ultsch, A. : Identification of meaningful groups in logarithmic returns of stocks with a human-in-the-loop using and R toolbox,
+  Proc. 16th Professor Aleksander Zelias International Conference on Modelling and
+  Forecasting of Socio-Economic Phenomena, Zakopane, Poland, p.52, 8-11 May, 2023.
+
+# 2022:
+
+- Thrun, M. C.: Identification of explainable structures in data with a human-in-the-loop, German Journal of Artificial Intelligence (Künstl. Intell.), Vol. 36, pp. 297–301, DOI:
+  [10.1007/s13218-022-00782-6](https://doi.org/10.1007/s13218-022-00782-6)
+  , Springer, 2022.
+- Thrun\*, M. C., Mack\*, E., Neubauer, A., Haferlach, T.,... & Brendel, C.: A Bioinformatics View on Acute Myeloid Leukaemia Surface Molecules by Combined Bayesian and ABC Analysis, Bioengineering, Vol.9(11), pp. 642, DOI:
+  [bioengineering9110642](https://doi.org/10.3390/bioengineering9110642)
+  , \*equal contribution, 2022.
+- Thrun, M. C.: Exploiting Distance-Based Structures in Data Using an Explainable AI for Stock Picking, Information, Vol. 13(2), DOI:
+  [10.3390/info13020051](https://doi.org/10.3390/info13020051)
+  , MDPI, 2022.
+- Hoffmann\*, J., Thrun\*, M. C., Röhnert, M., Von Bonin, M., Oelschlägel, U., Neubauer, A.,... & Brendel, C.: Identification of critical hemodilution by artificial intelligence in bone marrow assessed for minimal residual disease analysis in acute myeloid leukemia: the Cinderella method., Cytometry: Part A, in press, DOI:
+  [10.1002/cyto.a.24686](https://doi.org/10.1002/cyto.a.24686)
+  , \*equal contributions, 2022.
+- Thrun, M. C., Hoffman, J., Röhnert, M., Von Bonin, M., Oelschlägel, U., Brendel, C., & Ultsch, A.: Flow Cytometry datasets consisting of peripheral blood and bone marrow samples for the evaluation of explainable artificial intelligence methods, Data in Brief, Vol. 43, pp. 108382, DOI:
+  [10.1016/j.dib.2022.108382](https://doi.org/10.1016/j.dib.2022.108382)
+  , 2022.
+- Thrun, M. C.: Knowledge-based Indentification of Homogenous Structures in Genes, 10th World Conference on Information Systems and Technologies (WorldCist’22), in: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies, Lecture Notes in Networks and Systems, Vol 468.,pp. 81-90, DOI:
+  [10.1007/978-3-031-04826-5\_9](https://doi.org/10.1007/978-3-031-04826-5_9)
+  , Budva, Montenegro, 12-14 April, 2022.
+- Stier, Q., & Thrun, M. C.: Exploiting Pareto Density Estimation for Nonparametric Naive Bayes Classifiers, Proc. International Federation of Classification Societies (IFCS),
+  p.278, Porto, Portugal, 19-23. July, 2022.
+- Stier, Q., & Thrun, M. C.: Pitfalls of Automatic Optimization Procedures and Benchmarking in Cluster Analysis, Proc. International Federation of Classification Societies (IFCS), Cluster Benchmarking Challenge,
+  p. 35, Porto, Portugal, 19-23. July, 2022.
+- Thrun, M. C. & Ultsch, A.: Selecting representative samples and identifying outliers by Tiles Mining in biomedical data,
+  Proc. European Conference on Data Analysis (ECDA), Naples, Italy, July 14-16, 2022.
+
+# 2021:
+
+- Thrun, M. C., Ultsch, A.: Swarm Intelligence for Self-Organized Clustering, Artificial Intelligence, Vol. 290, pp. 103237, DOI:
+  [10.1016/j.artint.2020.103237](https://doi.org/10.1016/j.artint.2020.103237)
+  , Elsevier, 2021.
+- Thrun, M. C., Ultsch, A., & Breuer, L.: Explainable AI Framework for Multivariate Hydrochemical Time Series,
+  Machine Learning and Knowledge Extraction (MAKE), Vol. 3(1), pp. 170-205, DOI:
+  [10.3390/make3010009](https://doi.org/10.3390/make3010009)
+  , MDPI, 2021.
+- Thrun, M. C.: Distance-Based Clustering Challenges for Unbiased Benchmarking Studies,
+  Nature Scientific Reports, Vol. 11, pp. 18988, DOI:
+  [10.1038/s41598-021-98126-1](https://doi.org/10.1038/s41598-021-98126-1)
+  , 2021.
+- Thrun, M. C., Pape, F., & Ultsch, A.: Conventional Displays of Structures in Data Compared With Interactive Projection-Based Clustering (IPBC),
+  International Journal of Data Science and Analytics, Vol. 12(3), pp. 249-271, DOI:
+  [10.1007/s41060-021-00264-2](https://doi.org/10.1007/s41060-021-00264-2)
+  , Springer, 2021.
+- Thrun, M. C.: The Exploitation of Distance Distributions for Clustering,
+  International Journal of Computational Intelligence and Applications, Vol. 20(3), pp. 2150016, DOI:
+  [10.1142/S1469026821500164](https://doi.org/10.1142/S1469026821500164)
+  , 2021.
+- Stier, Q., Gehlert, T., & Thrun, M. C.:: Multiresolution Forecasting for Industrial Applications, Processes, Vol. 9(10), pp. 1697,
+  DOI:
+  [10.3390/pr9101697](https://doi.org/10.3390/pr9101697)
+  , 2021.
+- Thrun, M. C., & Stier, Q.: Fundamental Clustering Algorithms Suite,
+  SoftwareX, Vol. 13(C), pp. 100642, DOI:
+  [10.1016/j.softx.2020.100642](https://doi.org/10.1016/j.softx.2020.100642)
+  ,
+  Elsevier, 2021.
+- Thrun, M. C., & Ultsch, A.: Swarm Intelligence for Self-Organized Clustering (Extended Abstract),
+  in Bessiere, C. (Ed.), 29th International Joint Conference on Artificial Intelligence (IJCAI),
+  Vol. IJCAI-20, pp. 5125--5129, DOI
+  [10.24963/ijcai.2020/720](https://doi.org/10.24963/ijcai.2020/720)
+  ,
+  Yokohama, Japan, Jan., 2021.
+- Thrun, M. C.: Human-in-the-loop Detection of Explainable Distance-based Structures in Data for Stock Picking,
+  Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+  Rotterdam, Netherlands, July 7-9, 2021.
+- Stier, Q., & Thrun, M. C.: Univariate Time Series Forecasting Method based on Wavelets in Comparison with Prophet and MAPA,
+  Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+  Rotterdam, Netherlands, July 7-9, 2021.
+- Ultsch, A., Hoffman, J., Brendel, C., & Thrun, M. C.: ALPODS an Explainable AI for the Diagnosis of B-cell Lymphoma,
+  Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+  Rotterdam, Netherlands, July 7-9, 2021.
+- Ultsch, A., Hoffman, J., Brendel, C., & Thrun, M. C.: Dunes and Spice: a Visualisation Method for Explainable Artificial Intelligence (XAI) in Flow Cytometry Diagnostics,
+  Proc. Data Science, Statistics & Visualisation (DSSV) and the European Conference on Data Analysis (ECDA),
+  Rotterdam, Netherlands, July 7-9, 2021.
+
+# 2020:
+
+- Thrun, M. C., & Ultsch, A. : Using Projection based Clustering to Find Distance and Density based Clusters in High-Dimensional Data,
+  Journal of Classification, Vol. 38(2), pp. 280-312, DOI
+  [10.1007/s00357-020-09373-2](https://doi.org/10.1007/s00357-020-09373-2)
+  ,
+  Springer, 2020.
+- Thrun, M. C., Gehlert, T. & Ultsch, A.: Analyzing the Fine Structure of Distributions,
+  PLoS ONE, Vol. 15(10), pp. 1-66, DOI
+  [10.1371/journal.pone.0238835](https://doi.org/10.1371/journal.pone.0238835)
+  ,
+  2020.
+- Thrun, M. C., & Ultsch, A.: Clustering Benchmark Datasets Exploiting the Fundamental Clustering Problems,
+  Data in Brief,Vol. 30(C), pp. 105501, DOI
+  [10.1016/j.dib.2020.105501](https://doi.org/10.1016/j.dib.2020.105501)
+  , 2020.
+- López-García, P., Argote, D. L., & Thrun, M. C.: Projection-based Classification of Chemical Groups and Provenance Analysis of
+  Archaeological Materials, IEEE Access, Vol. 8, pp. 152439-152451,
+  DOI
+  [10.1109/ACCESS.2020.3016244](https://doi.org/10.1109/ACCESS.2020.3016244)
+  , 2020.
+- Thrun, M. C., & Ultsch, A.: Uncovering High-Dimensional Structures of Projections from Dimensionality Reduction Methods,
+  MethodsX, Vol. 7, pp. 101093, DOI
+  [10.1016/j.mex.2020.101093](https://doi.org/10.1016/j.mex.2020.101093)
+  , 2020.
+- Thrun, M. C., Pape, F., & Ultsch, A.: Interactive Machine Learning Tool for Clustering in Visual Analytics,
+  7th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2020),
+  DOI
+  [10.1109/DSAA49011.2020.00062](https://doi.org/10.1109/DSAA49011.2020.00062)
+  , pp. 672-680, Sydney, Australia, 2020.
+- Thrun, M. C.: Improving the Sensitivity of Statistical Testing for Clusterability with Mirrored-Density Plot,
+  in Archambault, D., Nabney, I. & Peltonen, J. (eds.), Machine Learning Methods in Visualisation for Big Data,
+  DOI
+  [10.2312/mlvis.20201102](https://doi.org/10.2312/mlvis.20201102)
+  , The Eurographics Association, Norrköping , Sweden, 2020.
+- Thrun, M. C., & Ultsch, A.: Swarm-based Cluster Analysis for Knowledge Discovery,
+  in Schmid, U., Klügl, F. & Wolter, D. (eds.), Proc. 43rd German Conference on Artificial Intelligence (KI'2020) Vol. 12325,
+  pp. 240-244, KI 2020: Advances in Artificial Intelligence, Lecture Notes in Computer Science,
+  Springer, Bamberg, Germany September 21–25, DOI
+  [10.1007/978-3-030-58285-2\_18](https://doi.org/10.1007/978-3-030-58285-2_18)
+  ,
+  2020.
+- Hoffmann, J., Rother, M., Kaiser, U., Thrun, M. C., Wilhelm, C., Gruen, A.,Niebergall, U., Meissauer, U.,
+  Neubauer, A. & Brendel, C.: Determination of CD43 and CD200 surface expression improves accuracy of B-cell lymphoma immunophenotyping,
+  Cytometry Part B: Clinical Cytometry, Vol. 98(6), pp. 476-482, DOI
+  [10.1002/cyto.b.21936](https://doi.org/10.1002/cyto.b.21936)
+  ,
+  2020.
+
+# 2019:
+
+- Thrun, M. C.: Cluster Analysis of Per Capita Gross Domestic Products,
+  Entrepreneurial Business and Economics Review (EBER), Vol. 7(1), pp. 217-231,
+  DOI
+  [10.15678/EBER.2019.070113](https://doi.org/10.15678/EBER.2019.070113)
+  , 2019.
+- Thrun, M. C., : Knowledge Discovery in Quarterly Financial Data of Stocks Based on the Prime Standard using a Hybrid of a Swarm with SOM,
+  in Verleysen, M. (Ed.), European Symposium on Artificial Neural Networks,
+  Computational Intelligence and Machine Learning (ESANN), Vol. 27, pp. 397-402, Ciaco,
+  ISBN: 978-287-587-065-0, Bruges, Belgium, 2019.
+- Thrun, M. C., Lippmann, C., & Ultsch, A. : Inverse Document Frequency as the Distance for Clustering Gene Sets,
+  Proc. European Conference on Data Analysis (ECDA), pp. 15, Bayreuth, 2019.
+- Thrun, M. C., Märte, J., Böhme, P., & Gehlert, T. : Applying Two Theorems of Machine Learning to the Forecasting of
+  Biweekly Arrivals at a Call Center, Proc. European Conference on Data Analysis (ECDA), DOI
+  [10.13140/RG.2.2.11267.21286](https://dx.doi.org/10.13140/RG.2.2.11267.21286)
+  , pp. 36, Bayreuth, 2019.
+- Thrun, M. C., & Ultsch, A. : Visualizing the Range of Clustering Results of Common Density-based Methods in an
+  Unbiased Benchmark Study, Proc. 5th German-Polish Symposium on Data Analysis and Applications (GPSDA), pp. 9-10, Germany, 2019.
+- Thrun, M. C., & Ultsch, A. : Analyzing the Fine Structure of Distributions, Technical Report, 2019.
+
+# 2018:
+
+- Thrun, M. C. : Projection-Based Clustering through Self-Organization and Swarm Intelligence,
+  Springer, Heidelberg, ISBN: 978-3658205393, DOI:
+  [10.1007/978-3-658-20540-9](https://doi.org/10.1007/978-3-658-20540-9)
+  , 2018.
+- Thrun, M. C. : Cluster Analysis of the World Gross-Domestic Product Based on Emergent Self-Organization of a Swarm,
+  in Papież, M. & Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and
+  Forecasting of Socio-Economic Phenomena, pp. 523-532, Foundation of the Cracow University of Economics, Cracow, Poland, 2018.
+- Thrun, M. C., & Ultsch, A. : Effects of the payout system of income taxes to municipalities in Germany,
+  in Papież, M. & Śmiech, S. (eds.), Proc. 12th Professor Aleksander Zelias International Conference on Modelling and
+  Forecasting of Socio-Economic Phenomena, pp. 533-542, Cracow: Foundation of the Cracow University of Economics,
+  Cracow, Poland, 2018.
+- Thrun, M. C., Breuer, L., & Ultsch, A. : Knowledge discovery from low-frequency stream nitrate concentrations:
+  hydrology and biology contributions, Proc. European Conference on Data Analysis (ECDA), pp. 46-47, Paderborn, Germany, 2018.
+- Thrun, M. C., Pape, F., & Ultsch, A. : Benchmarking Cluster Analysis Methods using PDE-Optimized Violin Plots,
+  Proc. European Conference on Data Analysis (ECDA) pp. 26, Paderborn, Germany, 2018.
+- Thrun, M. C., & Ultsch, A. : Investigating Quality measurements of projections for the Evaluation of Distance and Density-based
+  Structures of High-Dimensional Data, Proc. European Conference on Data Analysis (ECDA), pp. 45-46, Paderborn, Germany, 2018.
+- Weyer-Menkhoff, I., Thrun, M. C., & Lötsch, J. : Machine-learned analysis of quantitative sensory testing responses to noxious
+  cold stimulation in healthy subjects,European Journal of Pain, Vol. 22(5), pp. 862-874, DOI:
+  [10.1002/ejp.1173](https://doi.org/10.1002/ejp.1173)
+  , 2018.
+- Kringel, D., Geisslinger, G., Resch, E., Oertel, B. G., Thrun, M. C., Heinemann, S., & Lötsch, J.:
+  Machine-learned analysis of the association of next-generation sequencing based human TRPV1 and TRPA1 genotypes with the sensitivity
+  to heat stimuli and topically applied capsaicin, Pain, Vol. 159(7), pp.1366-1381,
+  'DOI:
+  [10.1097/j.pain.0000000000001222](https://doi.org/10.1097/j.pain.0000000000001222)
+  , 2018
+
+# 2017:
+
+- Ultsch, A., & Thrun, M. C. : Credible Visualizations for Planar Projections, in Cottrell, M. (Ed.),
+  12th International Workshop on Self-Organizing Maps and Learning Vector Quantization, Clustering and Data Visualization (WSOM),
+  [10.1109/WSOM.2017.8020010](https://doi.org/10.1109/WSOM.2017.8020010)
+  , pp. 1-5, IEEE, Nany, France, 2017.
+- Thrun, M. C., & Ultsch, A. : Projection based Clustering, Proc. International Federation of Classification Societies (IFCS),
+  pp. 250-251, Japanese Classification Society (JCS), Tokyo, Japan, 2017.
+- Lötsch, J., Thrun, M. C., Lerch, F., Brunkhorst, R., Schiffmann, S., Thomas, D., . . . Ultsch, A.:
+  Machine-learned data structures of lipid marker serum concentrations in multiple sclerosis patients differ from those in
+  healthy subjects, International journal of molecular sciences, Vol. 18(6), pp. 1217.
+  DOI:
+  [doi:10.3390/ijms18061217](https://doi.org/doi:10.3390/ijms18061217)
+  , 2017.
+
+# 2016:
+
+- Aubert, A. H., Thrun, M. C., Breuer, L., & Ultsch, A. : Knowledge discovery from high-frequency stream nitrate concentrations:
+  hydrology and biology contributions, Scientific reports, Nature, Vol. 6(31536), pp.
+  DOI:
+  [10.1038/srep31536](https://doi.org/10.1038/srep31536)
+  , 2016.
+- Thrun, M. C., Lerch, F., Lötsch, J., & Ultsch, A. : Visualization and 3D Printing of Multivariate Data of Biomarkers,
+  in Skala, V. (Ed.), International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG),
+  Vol. 24, Plzen, 2016.
+
+# 2014-2015:
+
+- Thrun, M. C., & Ultsch, A. : Models of Income Distributions for Knowledge Discovery,
+  Proc. European Conference on Data Analysis (ECDA), DOI:
+  [10.13140/RG.2.1.4463.0244](https://doi.org/10.13140/RG.2.1.4463.0244)
+  ,
+  pp. 136-137, Colchester, 2015.
+- Ultsch, A., Thrun, M. C., Hansen-Goos, O., & Lötsch, J. : Identification of Molecular Fingerprints in Human Heat Pain Thresholds
+  by Use of an Interactive Mixture Model R Toolbox (AdaptGauss), International journal of molecular sciences,
+  Vol. 16(10), pp. 25897-25911, DOI:
+  [10.3390/ijms161025897](https://doi.org/10.3390/ijms161025897)
+  , 2015.
+- Stoll, J., Thrun, M. C., Nuthmann, A., & Einhäuser, W. : Overt attention in natural scenes: objects dominate features,
+  Vision Research, Vol. 107, pp. 36-48, DOI:
+  [10.1016/j.visres.2014.11.006](https://doi.org/10.1016/j.visres.2014.11.006)
+  , 2015.
+- Marx, S., Hansen-Goos, O., Thrun, M. C., & Einhäuser, W. : Rapid serial processing of natural scenes:
+  Color modulates detection but neither recognition nor the attentional blink, Journal of Vision,
+  Vol. 14(14), DOI:
+  [10.1167/14.14.4](https://doi.org/10.1167/14.14.4)
+  , 2014.
+
+# Acknowledgements:
+
+- Lötsch, J., Lerch, F., Djaldetti, R., Teqeder, I., Ultsch, A. : Identification of disease-distinct complex biomarker
+  patterns by means of unsupervised machine-learning using an interactive R toolbox (Umatrix),
+  BMC Big Data Analytics, pp. 1-17, 2018.
+- Ultsch, A., Lötsch, J. : Computed ABC analysis for rational selection of most informative variables in multivariate data,
+  PloS one, Vol. 10(6), pp. 1-15, 2015.
+- Hart, B. M., Schmidt, H. C. E. F., Roth, C., & Einhauser, W. : Fixations on objects in natural scenes:
+  dissociating importance from salience. Frontiers in psychology, 4(455),
+  DOI:
+  [10.3389/fpsyg.2013.00455](https://doi.org/10.3389/fpsyg.2013.00455)
+  , 2013.
+
+## Contact
+
+Source: https://www.deepbionics.org/contactme
+Last updated: 2026-08-01
+
+# Contact
+
+## Research collaborations, interdisciplinary projects, invited talks, teaching, open-source software and research transfer.
+
+[Send an Email](mailto:info@deepbionics.org)
+
+# Get in Touch
+
+I welcome enquiries regarding interdisciplinary research collaborations, decision-support and data-science projects, invited talks and workshops, university teaching, academic supervision, and open-source research software.
+
+## Research and Academic Enquiries
+
+My academic work focuses on decision support systems, explainable AI, machine learning, knowledge discovery and data science, with applications across medicine and life sciences, business and industry, environmental research, archaeology, finance and insurance.
+
+## Applied Research and Transfer
+
+For applied research, prototyping and technology-transfer projects, please include a short description of the decision problem, available data, intended users and expected form of collaboration. Further information on industrial transfer is available through
+[IAP-GmbH Intelligent Analytics Projects](https://www.iap-gmbh.de/)
+.
+
+**Email:**
+[info@deepbionics.org](mailto:info@deepbionics.org)
