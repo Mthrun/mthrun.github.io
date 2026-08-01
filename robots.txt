@@ -1,23 +1,10 @@
-# Deepbionics public research website
-# Public search, citation, retrieval and crawling are allowed.
+# Deepbionics is a public academic website. Crawling, indexing, citation and user-initiated retrieval are allowed.
 
 User-agent: *
 Allow: /
 
-# Keep the consolidated duplicate-text file out of ordinary Google Search indexing.
-User-agent: Googlebot
-Allow: /
-Disallow: /llms-full.txt
-
-# Google Gemini / Vertex AI control token
-User-agent: Google-Extended
-Allow: /
-
-# OpenAI search, user retrieval, advertising validation and model-development crawlers
+# OpenAI / ChatGPT
 User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: OAI-AdsBot
 Allow: /
 
 User-agent: ChatGPT-User
@@ -26,7 +13,18 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
-# Anthropic crawlers and user-triggered retrieval
+# Google Search and Gemini
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Bing / Copilot
+User-agent: Bingbot
+Allow: /
+
+# Anthropic Claude
 User-agent: Claude-SearchBot
 Allow: /
 
@@ -36,11 +34,11 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-# Perplexity search and user-triggered retrieval
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
 User-agent: Perplexity-User
 Allow: /
 
-Sitemap: https://www.deepbionics.org/sitemap.xml
+Sitemap: https://mthrun.github.io/sitemap.xml
