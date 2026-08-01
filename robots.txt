@@ -1,44 +1,4 @@
-# Deepbionics is a public academic website. Crawling, indexing, citation and user-initiated retrieval are allowed.
+User-Agent: Googlebot
+Disallow:
 
-User-agent: *
-Allow: /
-
-# OpenAI / ChatGPT
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-# Google Search and Gemini
-User-agent: Googlebot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-# Microsoft Bing / Copilot
-User-agent: Bingbot
-Allow: /
-
-# Anthropic Claude
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-# Perplexity
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-Sitemap: https://mthrun.github.io/sitemap.xml
+Sitemap: https://github.com/Mthrun/mthrun.github.io/blob/master/sitemapORG.xml
