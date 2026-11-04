@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-<meta content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." name="description"/>
+<meta content="Research software and R packages developed or maintained by Michael C. Thrun and collaborators for knowledge discovery, clustering, visualization, classification, forecasting and data science." name="description"/>
 <meta content="Michael C. Thrun" name="author"/>
 <title>
    Open-Source Software | Michael C. Thrun
@@ -31,16 +31,16 @@
 <link href="https://dblp.org/pid/205/4239" rel="me"/>
 <link href="https://www.xing.com/profile/Michael_Thrun" rel="me"/>
 <meta content="Deepbionics" property="og:site_name"/>
-<meta content="Open-Source Software | Michael C. Thrun" property="og:title"/>
-<meta content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." property="og:description"/>
+<meta content="Research Software and R Packages | Michael C. Thrun" property="og:title"/>
+<meta content="Research software and R packages developed or maintained by Michael C. Thrun and collaborators for knowledge discovery, clustering, visualization, classification, forecasting and data science." property="og:description"/>
 <meta content="https://www.deepbionics.de/rpackages.html" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="en_US" property="og:locale"/>
 <meta content="https://www.deepbionics.de/assets/img/bg-masthead.jpg" property="og:image"/>
 <meta content="Topographic visualization of complex structures in data" property="og:image:alt"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Open-Source Software | Michael C. Thrun" name="twitter:title"/>
-<meta content="Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science." name="twitter:description"/>
+<meta content="Research Software and R Packages | Michael C. Thrun" name="twitter:title"/>
+<meta content="Research software and R packages developed or maintained by Michael C. Thrun and collaborators for knowledge discovery, clustering, visualization, classification, forecasting and data science." name="twitter:description"/>
 <meta content="https://www.deepbionics.de/assets/img/bg-masthead.jpg" name="twitter:image"/>
 <script data-deepbionics="structured-data" type="application/ld+json">{
   "@context": "https://schema.org",
@@ -122,8 +122,8 @@
       "@type": "CollectionPage",
       "@id": "https://www.deepbionics.de/rpackages.html#webpage",
       "url": "https://www.deepbionics.de/rpackages.html",
-      "name": "Open-Source Software | Michael C. Thrun",
-      "description": "Open-source R packages by Michael C. Thrun for knowledge discovery, clustering, visualization, classification, forecasting and data science.",
+      "name": "Research Software and R Packages | Michael C. Thrun",
+      "description": "Research software and R packages developed or maintained by Michael C. Thrun and collaborators for knowledge discovery, clustering, visualization, classification, forecasting and data science.",
       "isPartOf": {
         "@id": "https://www.deepbionics.de/#website"
       },
@@ -134,7 +134,7 @@
         "@id": "https://www.deepbionics.de/#michael-thrun"
       },
       "inLanguage": "en",
-      "dateModified": "2026-10-22",
+      "dateModified": "2026-11-03",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://www.deepbionics.de/assets/img/bg-masthead.jpg"
@@ -146,8 +146,8 @@
     {
       "@type": "ItemList",
       "@id": "https://www.deepbionics.de/rpackages.html#software",
-      "name": "Open-source R packages and research software",
-      "numberOfItems": 19,
+      "name": "Research software and R packages",
+      "numberOfItems": 21,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -157,15 +157,61 @@
             "@id": "https://www.deepbionics.de/rpackages.html#datavisualizations-pareto-density-estimation-and-md-plot",
             "name": "DataVisualizations: Pareto Density Estimation and MD Plot",
             "url": "https://CRAN.R-project.org/package=DataVisualizations",
-            "codeRepository": "https://CRAN.R-project.org/package=DataVisualizations",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: DataVisualizations: Pareto Density Estimation and MD Plot."
+            "description": "R package: DataVisualizations: Pareto Density Estimation and MD Plot.",
+            "codeRepository": "https://github.com/Mthrun/DataVisualizations",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Onno Hansen-Goos"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Hamza Tayyab"
+              },
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              },
+              {
+                "@type": "Person",
+                "name": "Dirk Eddelbuettel"
+              },
+              {
+                "@type": "Person",
+                "name": "Winston Chang"
+              },
+              {
+                "@type": "Person",
+                "name": "Craig Varrichio"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -176,15 +222,58 @@
             "@id": "https://www.deepbionics.de/rpackages.html#adaptgauss-gaussian-mixture-models",
             "name": "AdaptGauss: Gaussian Mixture Models",
             "url": "https://CRAN.R-project.org/package=AdaptGauss",
-            "codeRepository": "https://CRAN.R-project.org/package=AdaptGauss",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Onno Hansen-Goos"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: AdaptGauss: Gaussian Mixture Models."
+            "description": "R package: AdaptGauss: Gaussian Mixture Models.",
+            "codeRepository": "https://github.com/Mthrun/AdaptGauss",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Rabea Griese"
+              },
+              {
+                "@type": "Person",
+                "name": "Catharina Lippmann"
+              },
+              {
+                "@type": "Person",
+                "name": "Florian Lerch"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Jörn Lötsch"
+              },
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ]
           }
         },
         {
@@ -195,15 +284,34 @@
             "@id": "https://www.deepbionics.de/rpackages.html#adaptgauss2d-interactive-gaussian-mixture-modeling-in-2d",
             "name": "AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D",
             "url": "https://github.com/Mthrun/AdaptGauss2D",
-            "codeRepository": "https://github.com/Mthrun/AdaptGauss2D",
             "programmingLanguage": "R",
-            "author": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              }
+            ],
+            "maintainer": {
+              "@type": "Person",
+              "name": "Quirin Stier"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D."
+            "description": "R package: AdaptGauss2D: Interactive Gaussian Mixture Modeling in 2D.",
+            "codeRepository": "https://github.com/Mthrun/AdaptGauss2D",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -211,18 +319,38 @@
           "position": 4,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#databionicswarm",
-            "name": "DatabionicSwarm",
-            "url": "https://CRAN.R-project.org/package=DatabionicSwarm",
-            "codeRepository": "https://CRAN.R-project.org/package=DatabionicSwarm",
+            "@id": "https://www.deepbionics.de/rpackages.html#scatterdensity",
+            "name": "ScatterDensity: Density Estimation and Visualization of 2D Scatter Plots",
+            "url": "https://CRAN.R-project.org/package=ScatterDensity",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              },
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: DatabionicSwarm."
+            "description": "R package: ScatterDensity: Density Estimation and Visualization of 2D Scatter Plots.",
+            "codeRepository": "https://github.com/Mthrun/ScatterDensity",
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -230,18 +358,30 @@
           "position": 5,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#projectionbasedclustering",
-            "name": "ProjectionBasedClustering",
-            "url": "https://CRAN.R-project.org/package=ProjectionBasedClustering",
-            "codeRepository": "https://CRAN.R-project.org/package=ProjectionBasedClustering",
+            "@id": "https://www.deepbionics.de/rpackages.html#databionicswarm",
+            "name": "DatabionicSwarm",
+            "url": "https://CRAN.R-project.org/package=DatabionicSwarm",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: ProjectionBasedClustering."
+            "description": "R package: DatabionicSwarm.",
+            "codeRepository": "https://github.com/Mthrun/DatabionicSwarm",
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -249,18 +389,64 @@
           "position": 6,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#generalizedumatrix",
-            "name": "GeneralizedUmatrix",
-            "url": "https://CRAN.R-project.org/package=GeneralizedUmatrix",
-            "codeRepository": "https://CRAN.R-project.org/package=GeneralizedUmatrix",
+            "@id": "https://www.deepbionics.de/rpackages.html#projectionbasedclustering",
+            "name": "ProjectionBasedClustering",
+            "url": "https://CRAN.R-project.org/package=ProjectionBasedClustering",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Florian Lerch"
+              },
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              },
+              {
+                "@type": "Person",
+                "name": "Tim Schreier"
+              },
+              {
+                "@type": "Person",
+                "name": "Luis Winckelmann"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: GeneralizedUmatrix."
+            "description": "R package: ProjectionBasedClustering.",
+            "codeRepository": "https://github.com/Mthrun/ProjectionBasedClustering",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Kristian Nybo"
+              },
+              {
+                "@type": "Person",
+                "name": "Jarkko Venna"
+              },
+              {
+                "@type": "Person",
+                "name": "Laurens van der Maaten"
+              }
+            ]
           }
         },
         {
@@ -268,18 +454,48 @@
           "position": 7,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#umatrix",
-            "name": "Umatrix",
-            "url": "https://CRAN.R-project.org/package=Umatrix",
-            "codeRepository": "https://CRAN.R-project.org/package=Umatrix",
+            "@id": "https://www.deepbionics.de/rpackages.html#generalizedumatrix",
+            "name": "GeneralizedUmatrix",
+            "url": "https://CRAN.R-project.org/package=GeneralizedUmatrix",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: Umatrix."
+            "description": "R package: GeneralizedUmatrix.",
+            "codeRepository": "https://github.com/Mthrun/GeneralizedUmatrix",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              },
+              {
+                "@type": "Person",
+                "name": "Tim Schreier"
+              },
+              {
+                "@type": "Person",
+                "name": "Luis Winckelmann"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -287,18 +503,34 @@
           "position": 8,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#fcps-fundamental-clustering-problems-suite",
-            "name": "FCPS: Fundamental Clustering Problems Suite",
-            "url": "https://CRAN.R-project.org/package=FCPS",
-            "codeRepository": "https://CRAN.R-project.org/package=FCPS",
+            "@id": "https://www.deepbionics.de/rpackages.html#generalizedumatrixgpu",
+            "name": "GeneralizedUmatrixGPU: GPU-Accelerated Topographic Maps",
+            "url": "https://CRAN.R-project.org/package=GeneralizedUmatrixGPU",
             "programmingLanguage": "R",
-            "author": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
+              "@type": "Person",
+              "name": "Quirin Stier"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: FCPS: Fundamental Clustering Problems Suite."
+            "description": "R package: GeneralizedUmatrixGPU: GPU-Accelerated Topographic Maps.",
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Organization",
+                "name": "The Khronos Group Inc."
+              }
+            ]
           }
         },
         {
@@ -306,18 +538,43 @@
           "position": 9,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#abcanalysis",
-            "name": "ABCanalysis",
-            "url": "https://CRAN.R-project.org/package=ABCanalysis",
-            "codeRepository": "https://CRAN.R-project.org/package=ABCanalysis",
+            "@id": "https://www.deepbionics.de/rpackages.html#umatrix",
+            "name": "Umatrix",
+            "url": "https://CRAN.R-project.org/package=Umatrix",
             "programmingLanguage": "R",
-            "author": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Florian Lerch"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Jörn Lötsch"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ],
+            "maintainer": {
+              "@type": "Person",
+              "name": "Jörn Lötsch"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: ABCanalysis."
+            "description": "R package: Umatrix.",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              },
+              {
+                "@type": "Person",
+                "name": "Raphael Paebst"
+              }
+            ]
           }
         },
         {
@@ -325,18 +582,64 @@
           "position": 10,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#bidistances-bioinformatic-distances",
-            "name": "BIDistances: Bioinformatic Distances",
-            "url": "https://CRAN.R-project.org/package=BIDistances",
-            "codeRepository": "https://CRAN.R-project.org/package=BIDistances",
+            "@id": "https://www.deepbionics.de/rpackages.html#fcps-fundamental-clustering-problems-suite",
+            "name": "FCPS: Fundamental Clustering Problems Suite",
+            "url": "https://CRAN.R-project.org/package=FCPS",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: BIDistances: Bioinformatic Distances."
+            "description": "R package: FCPS: Fundamental Clustering Problems Suite.",
+            "codeRepository": "https://github.com/Mthrun/FCPS",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Peter Nahrgang"
+              },
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              },
+              {
+                "@type": "Person",
+                "name": "Vasyl Pihur"
+              },
+              {
+                "@type": "Person",
+                "name": "Guy Brock"
+              },
+              {
+                "@type": "Person",
+                "name": "Susmita Datta"
+              },
+              {
+                "@type": "Person",
+                "name": "Somnath Datta"
+              },
+              {
+                "@type": "Person",
+                "name": "Luis Winckelmann"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -344,18 +647,48 @@
           "position": 11,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#pdenaivebayes-plausible-na-ve-bayes-classifier-using-pareto-density-estimation",
-            "name": "PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation",
-            "url": "https://github.com/Mthrun/PDEbayes",
-            "codeRepository": "https://github.com/Mthrun/PDEbayes",
+            "@id": "https://www.deepbionics.de/rpackages.html#drquality",
+            "name": "DRquality: Quality Measurements for Dimensionality Reduction",
+            "url": "https://CRAN.R-project.org/package=DRquality",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Julian Märte"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation."
+            "description": "R package: DRquality: Quality Measurements for Dimensionality Reduction.",
+            "codeRepository": "https://github.com/Mthrun/DRquality",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Florian Lerch"
+              },
+              {
+                "@type": "Person",
+                "name": "Hermann Tafo"
+              },
+              {
+                "@type": "Person",
+                "name": "Laukert Schlichting"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -363,18 +696,30 @@
           "position": 12,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#classifiers",
-            "name": "Classifiers",
-            "url": "https://github.com/Mthrun/Classifiers",
-            "codeRepository": "https://github.com/Mthrun/Classifiers",
+            "@id": "https://www.deepbionics.de/rpackages.html#abcanalysis",
+            "name": "ABCanalysis",
+            "url": "https://CRAN.R-project.org/package=ABCanalysis",
             "programmingLanguage": "R",
-            "author": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Jörn Lötsch"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ],
+            "maintainer": {
+              "@type": "Person",
+              "name": "Florian Lerch"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: Classifiers."
+            "description": "R package: ABCanalysis.",
+            "codeRepository": "https://github.com/Mthrun/ABCanalysis"
           }
         },
         {
@@ -382,18 +727,31 @@
           "position": 13,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#distances",
-            "name": "Distances",
-            "url": "https://github.com/Mthrun/Distances",
-            "codeRepository": "https://github.com/Mthrun/Distances",
+            "@id": "https://www.deepbionics.de/rpackages.html#bidistances-bioinformatic-distances",
+            "name": "BIDistances: Bioinformatic Distances",
+            "url": "https://CRAN.R-project.org/package=BIDistances",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: Distances."
+            "description": "R package: BIDistances: Bioinformatic Distances.",
+            "codeRepository": "https://github.com/Mthrun/BIDistances",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              }
+            ]
           }
         },
         {
@@ -401,18 +759,36 @@
           "position": 14,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#multiresolution-forecasting-using-wavelets-mrf",
-            "name": "Multiresolution Forecasting Using Wavelets (mrf)",
-            "url": "https://CRAN.R-project.org/package=mrf",
-            "codeRepository": "https://CRAN.R-project.org/package=mrf",
+            "@id": "https://www.deepbionics.de/rpackages.html#pdenaivebayes-plausible-na-ve-bayes-classifier-using-pareto-density-estimation",
+            "name": "PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation",
+            "url": "https://CRAN.R-project.org/package=PDEnaiveBayes",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: Multiresolution Forecasting Using Wavelets (mrf)."
+            "description": "R package: PDEnaiveBayes: Plausible Naïve Bayes Classifier Using Pareto Density Estimation.",
+            "codeRepository": "https://github.com/Mthrun/PDEbayes",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Tim Robin Neldner"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -420,18 +796,44 @@
           "position": 15,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#timeseries",
-            "name": "TimeSeries",
-            "url": "https://github.com/Mthrun/TSAT",
-            "codeRepository": "https://github.com/Mthrun/TSAT",
+            "@id": "https://www.deepbionics.de/rpackages.html#classifiers",
+            "name": "Classifiers",
+            "url": "https://github.com/Mthrun/Classifiers",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Alfred Ultsch"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: TimeSeries."
+            "description": "R package: Classifiers.",
+            "codeRepository": "https://github.com/Mthrun/Classifiers",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Rabea Griese"
+              },
+              {
+                "@type": "Person",
+                "name": "Murray Efford"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -439,18 +841,33 @@
           "position": 16,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#hidden-markov-models-rhmm",
-            "name": "Hidden Markov Models (RHmm)",
-            "url": "https://github.com/Mthrun/RHmm",
-            "codeRepository": "https://github.com/Mthrun/RHmm",
+            "@id": "https://www.deepbionics.de/rpackages.html#multiresolution-forecasting-using-wavelets-mrf",
+            "name": "Multiresolution Forecasting Using Wavelets (mrf)",
+            "url": "https://CRAN.R-project.org/package=mrf",
             "programmingLanguage": "R",
-            "author": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              }
+            ],
+            "maintainer": {
+              "@type": "Person",
+              "name": "Quirin Stier"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: Hidden Markov Models (RHmm)."
+            "description": "R package: Multiresolution Forecasting Using Wavelets (mrf).",
+            "codeRepository": "https://github.com/Quirinms/MRFR",
+            "contributor": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -458,18 +875,36 @@
           "position": 17,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#memshare-shared-memory-multithreading",
-            "name": "memshare: Shared-Memory Multithreading",
-            "url": "https://CRAN.R-project.org/package=memshare",
-            "codeRepository": "https://CRAN.R-project.org/package=memshare",
+            "@id": "https://www.deepbionics.de/rpackages.html#timeseries",
+            "name": "TSAT: Time Series Analysis Tools",
+            "url": "https://github.com/Mthrun/TSAT",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: memshare: Shared-Memory Multithreading."
+            "description": "R package: TSAT: Time Series Analysis Tools.",
+            "codeRepository": "https://github.com/Mthrun/TSAT",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Hamza Tayyab"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         },
         {
@@ -477,18 +912,41 @@
           "position": 18,
           "item": {
             "@type": "SoftwareSourceCode",
-            "@id": "https://www.deepbionics.de/rpackages.html#dataio",
-            "name": "DataIO",
-            "url": "https://github.com/Mthrun/dbt.DataIO",
-            "codeRepository": "https://github.com/Mthrun/dbt.DataIO",
+            "@id": "https://www.deepbionics.de/rpackages.html#hidden-markov-models-rhmm",
+            "name": "Hidden Markov Models (RHmm)",
+            "url": "https://github.com/Mthrun/RHmm",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Ollivier Taramasco"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: DataIO."
+            "description": "R package: Hidden Markov Models (RHmm).",
+            "codeRepository": "https://github.com/Mthrun/RHmm",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Sebastian Bauer"
+              },
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@type": "Person",
+                "name": "Ollivier Taramasco"
+              }
+            ]
           }
         },
         {
@@ -496,18 +954,101 @@
           "position": 19,
           "item": {
             "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#memshare-shared-memory-multithreading",
+            "name": "memshare: Shared-Memory Multithreading",
+            "url": "https://CRAN.R-project.org/package=memshare",
+            "programmingLanguage": "R",
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Julian Märte"
+              },
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "R package: memshare: Shared-Memory Multithreading.",
+            "codeRepository": "https://github.com/Mthrun/memshare",
+            "contributor": [
+              {
+                "@type": "Person",
+                "name": "Romain Francois"
+              }
+            ],
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://www.deepbionics.de/rpackages.html#dataio",
+            "name": "dbt.DataIO: Data Input and Output",
+            "url": "https://github.com/Mthrun/dbt.DataIO",
+            "programmingLanguage": "R",
+            "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              },
+              {
+                "@type": "Person",
+                "name": "Felix Pape"
+              },
+              {
+                "@type": "Person",
+                "name": "Florian Lerch"
+              },
+              {
+                "@type": "Person",
+                "name": "Quirin Stier"
+              },
+              {
+                "@type": "Person",
+                "name": "Tim Schneider"
+              }
+            ],
+            "maintainer": {
+              "@id": "https://www.deepbionics.de/#michael-thrun"
+            },
+            "description": "R package: dbt.DataIO: Data Input and Output.",
+            "codeRepository": "https://github.com/Mthrun/dbt.DataIO"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "SoftwareSourceCode",
             "@id": "https://www.deepbionics.de/rpackages.html#imageprocessing",
             "name": "ImageProcessing",
             "url": "https://github.com/Mthrun/ImageProcessing",
-            "codeRepository": "https://github.com/Mthrun/ImageProcessing",
             "programmingLanguage": "R",
-            "author": {
+            "license": "https://cran.r-project.org/web/licenses/GPL-3",
+            "author": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ],
+            "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "creator": {
-              "@id": "https://www.deepbionics.de/#michael-thrun"
-            },
-            "description": "Open-source R software package: ImageProcessing."
+            "description": "R package: ImageProcessing.",
+            "codeRepository": "https://github.com/Mthrun/ImageProcessing",
+            "copyrightHolder": [
+              {
+                "@id": "https://www.deepbionics.de/#michael-thrun"
+              }
+            ]
           }
         }
       ]
@@ -569,7 +1110,7 @@
 <div class="container d-flex h-100 align-items-center">
 <div class="mx-auto text-center">
 <h1 class="mx-auto my-0 text-uppercase">
-       Open-Source Software
+       Research Software and R Packages
       </h1>
 <h2 class="text-white-50 mx-auto mt-2 mb-5">
        R packages for knowledge discovery, machine learning, visualization, clustering, classification and time-series analysis.
@@ -586,7 +1127,7 @@
       Research Software on CRAN and GitHub
      </h1>
 <p>
-      These open-source packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub.
+      These R packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub. Each package has its own license; some GitHub packages are restricted to noncommercial use.
      </p>
 <p>
       For company-specific applications, I develop and integrate AI methods through
@@ -611,7 +1152,7 @@
           Repository
          </th>
 <th scope="col">
-          Authors / Maintainers
+          Authors / Contributors / Maintainers
          </th>
 </tr>
 </thead>
@@ -633,11 +1174,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=DataVisualizations" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/DataVisualizations" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun, Felix Pape, Onno Hansen-Goos, Quirin Stier, Hamza Tayyab, Luca Brinkmann, Dirk Eddelbuettel, Winston Chan, Craig Varrichio, Alfred Ultsch
-         </td>
+          Michael Thrun, Felix Pape, Onno Hansen-Goos, Quirin Stier, Hamza Tayyab, Luca Brinkmann, Dirk Eddelbuettel, Winston Chang, Craig Varrichio, Alfred Ultsch
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="adaptgauss-gaussian-mixture-models">
 <td>
@@ -651,11 +1197,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=AdaptGauss" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/AdaptGauss" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun, Onno Hansen-Goos, Rabea Griese, Catharina Lippmann, Florian Lerch, Jörn Lötsch, Alfred Ultsch
-         </td>
+          Michael Thrun, Onno Hansen-Goos, Rabea Griese, Catharina Lippmann, Florian Lerch, Quirin Stier, Jörn Lötsch, Luca Brinkmann, Alfred Ultsch
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="adaptgauss2d-interactive-gaussian-mixture-modeling-in-2d">
 <td>
@@ -672,8 +1223,33 @@
           </a>
 </td>
 <td>
-          Quirin Stier, Michael Thrun
+          Quirin Stier, Alfred Ultsch, Michael Thrun
+<br/>
+<small>Maintainer: Quirin Stier</small>
+</td>
+</tr>
+<tr id="scatterdensity">
+<td>
+          ScatterDensity: Density Estimation and Visualization of 2D Scatter Plots
          </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=ScatterDensity" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/ScatterDensity" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Michael Thrun, Felix Pape, Luca Brinkmann, Quirin Stier
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr class="table-secondary">
 <th colspan="4" scope="colgroup">
@@ -692,11 +1268,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=DatabionicSwarm" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/DatabionicSwarm" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun
-         </td>
+          Michael Thrun, Quirin Stier
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="projectionbasedclustering">
 <td>
@@ -710,11 +1291,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=ProjectionBasedClustering" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/ProjectionBasedClustering" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun, Florian Lerch, Felix Pape, Kristian Nybo, Jarkko Venna
-         </td>
+          Michael Thrun, Quirin Stier, Luca Brinkmann, Florian Lerch, Felix Pape, Tim Schreier, Luis Winckelmann, Kristian Nybo, Jarkko Venna, Laurens van der Maaten
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="generalizedumatrix">
 <td>
@@ -728,11 +1314,36 @@
 <td>
 <a href="https://CRAN.R-project.org/package=GeneralizedUmatrix" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/GeneralizedUmatrix" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun, Alfred Ultsch
+          Michael Thrun, Felix Pape, Tim Schreier, Luis Winckelmann, Quirin Stier, Alfred Ultsch
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
+</tr>
+<tr id="generalizedumatrixgpu">
+<td>
+          GeneralizedUmatrixGPU: GPU-Accelerated Topographic Maps
          </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=GeneralizedUmatrixGPU" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a>
+</td>
+<td>
+          Quirin Stier, Michael Thrun, The Khronos Group Inc.
+<br/>
+<small>Maintainer: Quirin Stier</small>
+</td>
 </tr>
 <tr id="umatrix">
 <td>
@@ -749,8 +1360,10 @@
           </a>
 </td>
 <td>
-          Michael Thrun, Alfred Ultsch
-         </td>
+          Florian Lerch, Michael Thrun, Felix Pape, Jörn Lötsch, Raphael Paebst, Alfred Ultsch
+<br/>
+<small>Maintainer: Jörn Lötsch</small>
+</td>
 </tr>
 <tr id="fcps-fundamental-clustering-problems-suite">
 <td>
@@ -764,11 +1377,39 @@
 <td>
 <a href="https://CRAN.R-project.org/package=FCPS" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/FCPS" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
           Michael Thrun, Peter Nahrgang, Felix Pape, Vasyl Pihur, Guy Brock, Susmita Datta, Somnath Datta, Luis Winckelmann, Alfred Ultsch, Quirin Stier
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
+</tr>
+<tr id="drquality">
+<td>
+          DRquality: Quality Measurements for Dimensionality Reduction
          </td>
+<td>
+<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
+           GPL-3
+          </a>
+</td>
+<td>
+<a href="https://CRAN.R-project.org/package=DRquality" rel="noopener noreferrer" target="_blank">
+           CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/DRquality" rel="noopener noreferrer" target="_blank">
+           GitHub
+          </a>
+</td>
+<td>
+          Quirin Stier, Florian Lerch, Julian Märte, Hermann Tafo, Laukert Schlichting, Michael Thrun
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr class="table-secondary">
 <th colspan="4" scope="colgroup">
@@ -787,11 +1428,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=ABCanalysis" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/ABCanalysis" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun, Florian Lerch, Jörn Lötsch, Alfred Ultsch
-         </td>
+          Michael Thrun, Jörn Lötsch, Alfred Ultsch
+<br/>
+<small>Maintainer: Florian Lerch</small>
+</td>
 </tr>
 <tr id="bidistances-bioinformatic-distances">
 <td>
@@ -805,11 +1451,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=BIDistances" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/BIDistances" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Quirin Stier, Luca Brinkmann, Michael Thrun
-         </td>
+          Quirin Stier, Michael Thrun, Luca Brinkmann
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="pdenaivebayes-plausible-na-ve-bayes-classifier-using-pareto-density-estimation">
 <td>
@@ -821,21 +1472,26 @@
           </a>
 </td>
 <td>
-<a href="https://cran.r-project.org/package=PDEnaiveBayes" rel="noopener noreferrer" target="_blank">
+<a href="https://CRAN.R-project.org/package=PDEnaiveBayes" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/PDEbayes" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Michael Thrun, Quirin Stier
-         </td>
+          Michael Thrun, Quirin Stier, Tim Robin Neldner
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="classifiers">
 <td>
           Classifiers
          </td>
 <td>
-<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
-           GPL-3
+<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener noreferrer" target="_blank">
+           CC BY-NC 4.0
           </a>
 </td>
 <td>
@@ -844,8 +1500,10 @@
           </a>
 </td>
 <td>
-          Michael Thrun, Rabea Griese, Alfred Ultsch
-         </td>
+          Michael Thrun, Rabea Griese, Murray Efford, Quirin Stier, Alfred Ultsch
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr class="table-secondary">
 <th colspan="4" scope="colgroup">
@@ -864,19 +1522,24 @@
 <td>
 <a href="https://CRAN.R-project.org/package=mrf" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Quirinms/MRFR" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
           Quirin Stier, Michael Thrun
-         </td>
+<br/>
+<small>Maintainer: Quirin Stier</small>
+</td>
 </tr>
 <tr id="timeseries">
 <td>
-          Time Series Analysis Tools
+          TSAT: Time Series Analysis Tools
          </td>
 <td>
-<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
-           GPL-3
+<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener noreferrer" target="_blank">
+           CC BY-NC 4.0
           </a>
 </td>
 <td>
@@ -885,26 +1548,35 @@
           </a>
 </td>
 <td>
-          Michael Thrun
-         </td>
+          Michael Thrun, Quirin Stier, Hamza Tayyab
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="hidden-markov-models-rhmm">
 <td>
           Hidden Markov Models (RHmm)
          </td>
 <td>
-<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
-           GPL-3
+<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="noopener noreferrer" target="_blank">
+           GPL (≥ 2)
           </a>
 </td>
 <td>
 <a href="https://github.com/Mthrun/RHmm" rel="noopener noreferrer" target="_blank">
            GitHub
+          </a><br/>
+<a href="https://CRAN.R-project.org/package=RHmm" rel="noopener noreferrer" target="_blank">
+           CRAN archive
           </a>
+<br/>
+<small>Archived on CRAN since 2014-08-30.</small>
 </td>
 <td>
-          Ollivier Taramsco, Sebastian Bauer; maintainer: Michael Thrun
-         </td>
+          Ollivier Taramasco, Sebastian Bauer, Luca Brinkmann, Michael Thrun
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="memshare-shared-memory-multithreading">
 <td>
@@ -918,11 +1590,16 @@
 <td>
 <a href="https://CRAN.R-project.org/package=memshare" rel="noopener noreferrer" target="_blank">
            CRAN
+          </a><br/>
+<a href="https://github.com/Mthrun/memshare" rel="noopener noreferrer" target="_blank">
+           GitHub
           </a>
 </td>
 <td>
-          Julian Märte, Michael Thrun
-         </td>
+          Julian Märte, Romain Francois, Michael Thrun
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr class="table-secondary">
 <th colspan="4" scope="colgroup">
@@ -931,11 +1608,11 @@
 </tr>
 <tr id="dataio">
 <td>
-          DataIO
+          dbt.DataIO: Data Input and Output
          </td>
 <td>
-<a href="https://cran.r-project.org/web/licenses/GPL-3" rel="noopener noreferrer" target="_blank">
-           GPL-3
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer" target="_blank">
+           CC BY-NC-SA 4.0
           </a>
 </td>
 <td>
@@ -944,8 +1621,10 @@
           </a>
 </td>
 <td>
-          Michael Thrun, Florian Lerch, Catharina Lippmann, Felix Pape, Onno Hansen-Goos, Quirin Stier, Sabine Herda
-         </td>
+          Michael Thrun, Felix Pape, Florian Lerch, Quirin Stier, Tim Schneider
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 <tr id="imageprocessing">
 <td>
@@ -963,7 +1642,9 @@
 </td>
 <td>
           Michael Thrun
-         </td>
+<br/>
+<small>Maintainer: Michael Thrun</small>
+</td>
 </tr>
 </tbody>
 </table>
