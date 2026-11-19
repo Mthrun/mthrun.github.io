@@ -134,7 +134,7 @@
         "@id": "https://www.deepbionics.de/#michael-thrun"
       },
       "inLanguage": "en",
-      "dateModified": "2026-11-03",
+      "dateModified": "2026-11-19",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://www.deepbionics.de/assets/img/bg-masthead.jpg"
@@ -992,10 +992,19 @@
           "item": {
             "@type": "SoftwareSourceCode",
             "@id": "https://www.deepbionics.de/rpackages.html#dataio",
-            "name": "dbt.DataIO: Data Input and Output",
-            "url": "https://github.com/Mthrun/dbt.DataIO",
-            "programmingLanguage": "R",
-            "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "name": "DataBionicIO: Data Input and Output",
+            "url": "https://github.com/Mthrun/DataBionicIO",
+            "programmingLanguage": [
+              "C++",
+              "R",
+              "Python",
+              "MATLAB",
+              "Julia"
+            ],
+            "license": [
+              "https://github.com/Mthrun/DataBionicIO/blob/c1.0.0/LICENSE",
+              "https://github.com/Mthrun/DataBionicIO/blob/c1.0.0/MATLAB-EXCEPTION.txt"
+            ],
             "author": [
               {
                 "@id": "https://www.deepbionics.de/#michael-thrun"
@@ -1015,13 +1024,33 @@
               {
                 "@type": "Person",
                 "name": "Tim Schneider"
+              },
+              {
+                "@type": "Person",
+                "name": "Julian Märte"
+              },
+              {
+                "@type": "Person",
+                "name": "Luca Brinkmann"
+              },
+              {
+                "@type": "Person",
+                "name": "Oleksander Doskaliuk"
               }
             ],
             "maintainer": {
               "@id": "https://www.deepbionics.de/#michael-thrun"
             },
-            "description": "R package: dbt.DataIO: Data Input and Output.",
-            "codeRepository": "https://github.com/Mthrun/dbt.DataIO"
+            "description": "Readers and writers for scientific data files. R, Python, MATLAB and Julia interfaces use a shared C++ core for LRN, CLS, NAMES and DATES.",
+            "codeRepository": "https://github.com/Mthrun/DataBionicIO",
+            "softwareVersion": "1.0.0",
+            "downloadUrl": "https://github.com/Mthrun/DataBionicIO/releases/tag/c1.0.0",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.5281/zenodo.24334546",
+              "url": "https://doi.org/10.5281/zenodo.24334546"
+            }
           }
         },
         {
@@ -1113,7 +1142,7 @@
        Research Software and R Packages
       </h1>
 <h2 class="text-white-50 mx-auto mt-2 mb-5">
-       R packages for knowledge discovery, machine learning, visualization, clustering, classification and time-series analysis.
+       Software for knowledge discovery, machine learning, visualization, clustering, classification and time-series analysis.
       </h2>
 <a class="btn btn-primary js-scroll-trigger" href="#aboutRPackages">
        View Software
@@ -1127,7 +1156,7 @@
       Research Software on CRAN and GitHub
      </h1>
 <p>
-      These R packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub. Each package has its own license; some GitHub packages are restricted to noncommercial use.
+      These packages translate methodological research and interdisciplinary collaborations into reusable software. They support structure discovery and clustering, distribution analysis and visualization, classification and feature selection, time-series forecasting, and computational workflows. Most packages are available on CRAN; development versions and specialized tools are hosted on GitHub. Each package has its own license; some GitHub packages are restricted to noncommercial use.
      </p>
 <p>
       For company-specific applications, I develop and integrate AI methods through
@@ -1608,20 +1637,36 @@
 </tr>
 <tr id="dataio">
 <td>
-          dbt.DataIO: Data Input and Output
-         </td>
-<td>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer" target="_blank">
-           CC BY-NC-SA 4.0
-          </a>
+          DataBionicIO: Data Input and Output
+<br/>
+<small>C++ core with interfaces for R, Python, MATLAB and Julia.</small>
+<br/>
+<small>R package: <code>cdbt.DataIO</code>; Python package: <code>pyDataIO</code>.</small>
 </td>
 <td>
-<a href="https://github.com/Mthrun/dbt.DataIO" rel="noopener noreferrer" target="_blank">
+<a href="https://github.com/Mthrun/DataBionicIO/blob/c1.0.0/LICENSE" rel="noopener noreferrer" target="_blank">
+           AGPL-3.0-only
+          </a>
+<br/>
+<small>With a <a href="https://github.com/Mthrun/DataBionicIO/blob/c1.0.0/MATLAB-EXCEPTION.txt" rel="noopener noreferrer" target="_blank">MATLAB linking exception</a>.</small>
+<br/>
+<small><a href="https://github.com/Mthrun/DataBionicIO/blob/c1.0.0/COMMERCIAL-LICENSE.txt" rel="noopener noreferrer" target="_blank">Alternative commercial licenses</a> are available from IAP-GmbH Intelligent Analytics Projects.</small>
+</td>
+<td>
+<a href="https://github.com/Mthrun/DataBionicIO" rel="noopener noreferrer" target="_blank">
            GitHub
           </a>
+<br/>
+<a href="https://github.com/Mthrun/DataBionicIO/releases/tag/c1.0.0" rel="noopener noreferrer" target="_blank">
+           Downloads (1.0.0)
+          </a>
+<br/>
+<a href="https://doi.org/10.5281/zenodo.24334546" rel="noopener noreferrer" target="_blank">
+           DOI: 10.5281/zenodo.24334546
+          </a>
 </td>
 <td>
-          Michael Thrun, Felix Pape, Florian Lerch, Quirin Stier, Tim Schneider
+          Michael Thrun, Felix Pape, Florian Lerch, Quirin Stier, Tim Schneider, Julian Märte, Luca Brinkmann, Oleksander Doskaliuk
 <br/>
 <small>Maintainer: Michael Thrun</small>
 </td>
